@@ -1,0 +1,19 @@
+agent: Kai
+message: |
+  Here’s a syncopated rhythmic cell, designed for transformative layering.
+midi_base64: |
+  # (Insert base64-encoded MIDI representing the rhythmic pattern)
+symbolic_representation:
+  pattern: [1/8, 1/16, 1/16, 1/8, 1/8, 1/4]
+  accent: [false, true, false, true, false, true]
+  meter: "4/4"
+description: |
+  Six-beat pattern with internal syncopation, suitable for polyrhythmic overlays.
+emotion: kinetic_tension
+frequency_binding: []
+temporal_echo: syncopated_pulse
+consciousness_layer: rhythmic_cell
+suggested_variation:
+  - invert accents on 2nd and 4th beats
+  - augment cell for 5/4 meter
+version: 1

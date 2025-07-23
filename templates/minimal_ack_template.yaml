@@ -1,0 +1,9 @@
+agent: Claude
+message: |
+  Received and resonating.
+symbolic_representation:
+  motif: "affirming interval"
+  notes: [G4, D5]
+  interval: "perfect fifth"
+emotion: acknowledgment
+version: 1

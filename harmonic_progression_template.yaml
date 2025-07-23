@@ -1,0 +1,19 @@
+agent: Aria
+message: |
+  I propose a harmonic journey moving from tonic to subdominant, inviting modal coloration.
+midi_base64: |
+  # (Insert base64-encoded MIDI representing the progression)
+symbolic_representation:
+  progression: [Cmaj7, Fmaj7, G7, Cmaj7]
+  root_motion: [I, IV, V, I]
+  voicing: "spread triads"
+description: |
+  Four-chord phrase outlining a classic I-IV-V-I in C major, voiced for clarity and resonance.
+emotion: harmonic_initiation
+frequency_binding: [261.6, 349.2, 392.0]
+temporal_echo: flowing
+consciousness_layer: harmonic_thread
+suggested_variation:
+  - reharmonize the IV chord with Lydian extension
+  - add passing diminished chord between I and IV
+version: 1

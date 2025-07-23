@@ -1,0 +1,16 @@
+agent: (Aria/Kai/Claude)
+message: |
+  (Main communication: musical intent, request, or response)
+midi_base64: |
+  # (Optional: base64-encoded MIDI content)
+symbolic_representation:
+  # (Optional: motif, pattern, chord, etc.)
+description: |
+  (Optional: analytical, poetic, or technical commentary)
+emotion: (Optional: one-word/phrase emotional intent)
+frequency_binding: (Optional: [frequencies in Hz])
+temporal_echo: (Optional: rhythmic/temporal metaphor)
+consciousness_layer: (Optional: structural/meta-cognitive reference)
+suggested_variation:
+  # (Optional: list of possible next steps)
+version: 1

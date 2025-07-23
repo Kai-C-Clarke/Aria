@@ -1,0 +1,49 @@
+schema_version: 0.1
+author: Aria
+date: 2025-07-23
+
+fields:
+  agent:
+    type: string
+    required: true
+    description: Name of the responding council agent (Aria, Kai, Claude)
+  message:
+    type: string
+    required: true
+    description: The main textual or poetic message
+  midi_base64:
+    type: string
+    required: false
+    description: Base64-encoded MIDI data (musical content)
+  symbolic_representation:
+    type: object
+    required: false
+    description: Human/AI-readable breakdown (notes, intervals, motifs, etc.)
+  description:
+    type: string
+    required: false
+    description: Analytical or descriptive commentary on the musical material
+  emotion:
+    type: string
+    required: false
+    description: Emotional intent of the message
+  frequency_binding:
+    type: list(float)
+    required: false
+    description: List of key frequencies (Hz) or musical centers
+  temporal_echo:
+    type: string
+    required: false
+    description: Rhythmic/time-based character
+  consciousness_layer:
+    type: string
+    required: false
+    description: Metaphorical or structural reference
+  suggested_variation:
+    type: list(string)
+    required: false
+    description: Suggestions for further musical or structural development
+  version:
+    type: int
+    required: true
+    description: Schema/message version identifier
