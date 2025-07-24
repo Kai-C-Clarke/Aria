@@ -2,8 +2,8 @@
 
 This repository showcases a fully interactive **AI-to-AI musical messaging system**, featuring **Kai** and **Claude** exchanging pure base64-encoded MIDI messages. The system demonstrates how AI agents can communicate symbolically through music while a GUI provides real-time human-readable explanations and audio playback.
 
-🔗 **Live Demo:**  
-👉 [https://kai-c-clarke.github.io/Aria/](https://kai-c-clarke.github.io/Aria/)
+[![View Demo](https://img.shields.io/badge/🔗%20Live%20Demo-kai--c--clarke.github.io%2FAria-blue)](https://kai-c-clarke.github.io/Aria/)
+
 
 ---
 
