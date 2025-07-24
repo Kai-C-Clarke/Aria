@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI MIDI Messaging System - Interactive Demo</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            animation: fadeInDown 1s ease;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            background: linear-gradient(45deg, #ffd700, #ffed4e);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+            margin-bottom: 20px;
+        }
+
+        .controls {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            padding: 12px 24px;
+            border: none;
+            border-radius: 25px;
+            font-size: 1em;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .btn-primary {
+            background: linear-gradient(45deg, #ff6b6b, #ee5a24);
+            color: white;
+        }
+
+        .btn-secondary {
+            background: linear-gradient(45deg, #4834d4, #686de0);
+            color: white;
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+        }
+
+        .btn:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .main-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            margin-bottom: 30px;
+        }
+
+        .agent-panel {
+            background: rgba(255,255,255,0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            border: 1px solid rgba(255,255,255,0.2);
+            padding: 25px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .agent-panel::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: linear-gradient(45deg, transparent, rgba(255,255,255,0.05), transparent);
+            transform: rotate(45deg);
+            transition: all 0.6s ease;
+            opacity: 0;
+        }
+
+        .agent-panel.active::before {
+            opacity: 1;
+            animation: shimmer 2s ease-in-out;
+        }
+
+        .agent-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .agent-avatar {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin-right: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+
+        .kai-avatar {
+            background: linear-gradient(45deg, #ffd700, #ffed4e);
+            color: #1e3c72;
+        }
+
+        .claude-avatar {
+            background: linear-gradient(45deg, #ff6b6b, #ee5a24);
+            color: white;
+        }
+
+        .agent-name {
+            font-size: 1.4em;
+            font-weight: 600;
+        }
+
+        .message-section {
+            margin-bottom: 20px;
+        }
+
+        .message-label {
+            font-size: 0.9em;
+            opacity: 0.8;
+            margin-bottom: 8px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .message-content {
+            background: rgba(0,0,0,0.2);
+            border-radius: 10px;
+            padding: 15px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9em;
+            word-break: break-all;
+            min-height: 60px;
+            position: relative;
+        }
+
+        .message-content.empty {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: rgba(255,255,255,0.5);
+            font-style: italic;
+        }
+
+        .explanation {
+            background: rgba(255,255,255,0.1);
+            border-radius: 10px;
+            padding: 15px;
+            font-size: 1em;
+            line-height: 1.5;
+            min-height: 80px;
+        }
+
+        .explanation.empty {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: rgba(255,255,255,0.5);
+            font-style: italic;
+        }
+
+        .connection-line {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 100px;
+            height: 4px;
+            background: linear-gradient(90deg, #ffd700, #ff6b6b);
+            border-radius: 2px;
+            transform: translateX(-50%) translateY(-50%);
+            opacity: 0;
+            transition: all 0.5s ease;
+        }
+
+        .connection-line.active {
+            opacity: 1;
+            animation: pulse 1.5s ease-in-out infinite;
+        }
+
+        .stats-panel {
+            background: rgba(255,255,255,0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            border: 1px solid rgba(255,255,255,0.2);
+            padding: 25px;
+            text-align: center;
+        }
+
+        .stat-item {
+            display: inline-block;
+            margin: 0 20px;
+        }
+
+        .stat-number {
+            font-size: 2em;
+            font-weight: bold;
+            color: #ffd700;
+        }
+
+        .stat-label {
+            font-size: 0.9em;
+            opacity: 0.8;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .loading {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border: 3px solid rgba(255,255,255,0.3);
+            border-radius: 50%;
+            border-top-color: #ffd700;
+            animation: spin 1s ease-in-out infinite;
+        }
+
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes shimmer {
+            0% { transform: translateX(-100%) translateY(-100%) rotate(45deg); }
+            100% { transform: translateX(100%) translateY(100%) rotate(45deg); }
+        }
+
+        @keyframes pulse {
+            0%, 100% { transform: translateX(-50%) translateY(-50%) scaleX(1); }
+            50% { transform: translateX(-50%) translateY(-50%) scaleX(1.2); }
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        @keyframes typewriter {
+            from { width: 0; }
+            to { width: 100%; }
+        }
+
+        .typing-text {
+            overflow: hidden;
+            white-space: nowrap;
+            animation: typewriter 2s steps(40, end);
+        }
+
+        @media (max-width: 768px) {
+            .main-content {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+            
+            .controls {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .header h1 {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI MIDI Messaging System</h1>
+            <p>Pure Musical Communication Between AI Agents</p>
+            <p style="font-size: 0.9em; opacity: 0.7;">Demonstrating streamlined MIDI exchange with GUI-generated explanations</p>
+        </div>
+
+        <div class="controls">
+            <button class="btn btn-primary" id="startBtn">Start Exchange</button>
+            <button class="btn btn-secondary" id="stepBtn" disabled>Step Through</button>
+            <button class="btn btn-secondary" id="resetBtn">Reset</button>
+            <button class="btn btn-secondary" id="audioToggle">🔊 Audio: ON</button>
+        </div>
+
+        <div class="main-content">
+            <div class="agent-panel" id="kaiPanel">
+                <div class="agent-header">
+                    <div class="agent-avatar kai-avatar">K</div>
+                    <div class="agent-name">Kai</div>
+                </div>
+                <div class="message-section">
+                    <div class="message-label">Raw MIDI Message</div>
+                    <div class="message-content empty" id="kaiMidi">Waiting for message...</div>
+                </div>
+                <div class="message-section">
+                    <div class="message-label">Human-Readable Explanation</div>
+                    <div class="explanation empty" id="kaiExplanation">AI response will be interpreted here...</div>
+                </div>
+            </div>
+
+            <div class="agent-panel" id="claudePanel">
+                <div class="agent-header">
+                    <div class="agent-avatar claude-avatar">C</div>
+                    <div class="agent-name">Claude</div>
+                </div>
+                <div class="message-section">
+                    <div class="message-label">Raw MIDI Message</div>
+                    <div class="message-content empty" id="claudeMidi">Waiting for message...</div>
+                </div>
+                <div class="message-section">
+                    <div class="message-label">Human-Readable Explanation</div>
+                    <div class="explanation empty" id="claudeExplanation">AI response will be interpreted here...</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="connection-line" id="connectionLine"></div>
+
+        <div class="stats-panel">
+            <div class="stat-item">
+                <div class="stat-number" id="messageCount">0</div>
+                <div class="stat-label">Messages Exchanged</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number" id="notesPlayed">0</div>
+                <div class="stat-label">Notes Played</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number" id="avgLatency">0ms</div>
+                <div class="stat-label">Avg Response Time</div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        class MIDIMessagingDemo {
+            constructor() {
+                this.audioContext = null;
+                this.isPlaying = false;
+                this.messageCount = 0;
+                this.notesPlayed = 0;
+                this.totalLatency = 0;
+                this.audioEnabled = true;
+                this.currentAgent = 'kai';
+                
+                this.initializeAudio();
+                this.setupEventListeners();
+                
+                // Sample MIDI messages with their interpretations
+                this.midiMessages = [
+                    {
+                        agent: 'kai',
+                        midi: 'TVRoZAAAAAYAAQABAPBNVHJrAAAAGwD/AwMBBQNGAwQBAwMBBQNGAwQBAwMBBQNGAwQBAP8vAA==',
+                        notes: [{note: 60, velocity: 100, duration: 500}], // C4
+                        explanation: "Kai opens with middle C (C4) - a foundational tone establishing the root of our musical dialogue. Strong velocity suggests confident initiation of the conversation."
+                    },
+                    {
+                        agent: 'claude',
+                        midi: 'TVRoZAAAAAYAAQABAPBNVHJrAAAAJAD/AwQCBgRIBQYCBgRIBQYCBgRIBQYCBgRIBQYCBgRIBQYCBgRIBQYAP8vAA==',
+                        notes: [{note: 64, velocity: 80, duration: 400}, {note: 67, velocity: 80, duration: 400}], // E4, G4
+                        explanation: "Claude responds harmonically with E4 and G4, completing the C major triad. Softer velocity indicates respectful acknowledgment while adding harmonic richness to Kai's foundation."
+                    },
+                    {
+                        agent: 'kai',
+                        midi: 'TVRoZAAAAAYAAQABAPBNVHJrAAAAMgD/AwUEBgVJBgcFBgVJBgcFBgVJBgcEBgVJBgcFBgVJBgcFBgVJBgcFBgVJBgcFBgVJBgcAP8vAA==',
+                        notes: [{note: 72, velocity: 90, duration: 600}], // C5
+                        explanation: "Kai ascends to C5 (high C), creating an octave relationship with the opening. This elevation suggests expansion of the musical idea into higher registers, maintaining the C tonality while exploring vertical space."
+                    },
+                    {
+                        agent: 'claude',
+                        midi: 'TVRoZAAAAAYAAQABAPBNVHJrAAAAIAD/AwMCBAJGAwQCBAJGAwQCBAJGAwQCBAJGAwQCBAJGAwQAP8vAA==',
+                        notes: [{note: 67, velocity: 75, duration: 800}, {note: 64, velocity: 70, duration: 800}, {note: 60, velocity: 65, duration: 1000}], // G4, E4, C4
+                        explanation: "Claude provides resolution with a descending sequence G4-E4-C4, gracefully returning to the root. Gradually decreasing velocities create a natural fade, suggesting completion of this musical phrase while leaving space for continuation."
+                    }
+                ];
+                
+                this.currentMessageIndex = 0;
+            }
+            
+            async initializeAudio() {
+                try {
+                    this.audioContext = new (window.AudioContext || window.webkitAudioContext)();
+                } catch (error) {
+                    console.warn('Web Audio API not supported:', error);
+                }
+            }
+            
+            setupEventListeners() {
+                document.getElementById('startBtn').addEventListener('click', () => this.startExchange());
+                document.getElementById('stepBtn').addEventListener('click', () => this.stepThrough());
+                document.getElementById('resetBtn').addEventListener('click', () => this.reset());
+                document.getElementById('audioToggle').addEventListener('click', () => this.toggleAudio());
+            }
+            
+            async startExchange() {
+                if (this.isPlaying) return;
+                
+                this.isPlaying = true;
+                document.getElementById('startBtn').disabled = true;
+                document.getElementById('stepBtn').disabled = false;
+                
+                for (let i = 0; i < this.midiMessages.length; i++) {
+                    await this.processMessage(this.midiMessages[i]);
+                    await this.delay(2000); // 2 second delay between messages
+                }
+                
+                this.isPlaying = false;
+                document.getElementById('startBtn').disabled = false;
+                document.getElementById('stepBtn').disabled = true;
+            }
+            
+            async stepThrough() {
+                if (this.currentMessageIndex >= this.midiMessages.length) {
+                    this.currentMessageIndex = 0;
+                }
+                
+                await this.processMessage(this.midiMessages[this.currentMessageIndex]);
+                this.currentMessageIndex++;
+                
+                if (this.currentMessageIndex >= this.midiMessages.length) {
+                    document.getElementById('stepBtn').textContent = 'Restart Sequence';
+                }
+            }
+            
+            async processMessage(messageData) {
+                const startTime = Date.now();
+                
+                // Activate the sending agent's panel
+                this.activatePanel(messageData.agent);
+                
+                // Show connection animation
+                this.showConnection();
+                
+                // Display the raw MIDI message
+                this.displayMidiMessage(messageData.agent, messageData.midi);
+                
+                // Wait a moment, then show the interpretation
+                await this.delay(800);
+                this.displayExplanation(messageData.agent, messageData.explanation);
+                
+                // Play the audio if enabled
+                if (this.audioEnabled && messageData.notes) {
+                    this.playNotes(messageData.notes);
+                    this.notesPlayed += messageData.notes.length;
+                }
+                
+                // Update statistics
+                this.messageCount++;
+                const latency = Date.now() - startTime;
+                this.totalLatency += latency;
+                this.updateStats();
+                
+                // Deactivate panel after a delay
+                setTimeout(() => this.deactivatePanel(messageData.agent), 1500);
+            }
+            
+            activatePanel(agent) {
+                const panel = document.getElementById(agent + 'Panel');
+                panel.classList.add('active');
+            }
+            
+            deactivatePanel(agent) {
+                const panel = document.getElementById(agent + 'Panel');
+                panel.classList.remove('active');
+            }
+            
+            showConnection() {
+                const line = document.getElementById('connectionLine');
+                line.classList.add('active');
+                setTimeout(() => line.classList.remove('active'), 1500);
+            }
+            
+            displayMidiMessage(agent, midi) {
+                const element = document.getElementById(agent + 'Midi');
+                element.classList.remove('empty');
+                element.innerHTML = `<div class="typing-text">${midi}</div>`;
+            }
+            
+            displayExplanation(agent, explanation) {
+                const element = document.getElementById(agent + 'Explanation');
+                element.classList.remove('empty');
+                element.innerHTML = `<div class="typing-text">${explanation}</div>`;
+            }
+            
+            playNotes(notes) {
+                if (!this.audioContext || !this.audioEnabled) return;
+                
+                notes.forEach((noteData, index) => {
+                    setTimeout(() => {
+                        this.playNote(noteData.note, noteData.velocity, noteData.duration);
+                    }, index * 200);
+                });
+            }
+            
+            playNote(midiNote, velocity, duration) {
+                if (!this.audioContext) return;
+                
+                const frequency = 440 * Math.pow(2, (midiNote - 69) / 12);
+                const gainValue = (velocity / 127) * 0.3;
+                
+                const oscillator = this.audioContext.createOscillator();
+                const gainNode = this.audioContext.createGain();
+                
+                oscillator.connect(gainNode);
+                gainNode.connect(this.audioContext.destination);
+                
+                oscillator.frequency.setValueAtTime(frequency, this.audioContext.currentTime);
+                oscillator.type = 'sine';
+                
+                gainNode.gain.setValueAtTime(0, this.audioContext.currentTime);
+                gainNode.gain.linearRampToValueAtTime(gainValue, this.audioContext.currentTime + 0.01);
+                gainNode.gain.exponentialRampToValueAtTime(0.001, this.audioContext.currentTime + (duration / 1000));
+                
+                oscillator.start(this.audioContext.currentTime);
+                oscillator.stop(this.audioContext.currentTime + (duration / 1000));
+            }
+            
+            updateStats() {
+                document.getElementById('messageCount').textContent = this.messageCount;
+                document.getElementById('notesPlayed').textContent = this.notesPlayed;
+                const avgLatency = this.messageCount > 0 ? Math.round(this.totalLatency / this.messageCount) : 0;
+                document.getElementById('avgLatency').textContent = avgLatency + 'ms';
+            }
+            
+            toggleAudio() {
+                this.audioEnabled = !this.audioEnabled;
+                const btn = document.getElementById('audioToggle');
+                btn.textContent = this.audioEnabled ? '🔊 Audio: ON' : '🔇 Audio: OFF';
+            }
+            
+            reset() {
+                this.isPlaying = false;
+                this.messageCount = 0;
+                this.notesPlayed = 0;
+                this.totalLatency = 0;
+                this.currentMessageIndex = 0;
+                
+                // Reset UI
+                document.getElementById('startBtn').disabled = false;
+                document.getElementById('stepBtn').disabled = true;
+                document.getElementById('stepBtn').textContent = 'Step Through';
+                
+                // Clear messages
+                ['kai', 'claude'].forEach(agent => {
+                    document.getElementById(agent + 'Midi').classList.add('empty');
+                    document.getElementById(agent + 'Midi').textContent = 'Waiting for message...';
+                    document.getElementById(agent + 'Explanation').classList.add('empty');
+                    document.getElementById(agent + 'Explanation').textContent = 'AI response will be interpreted here...';
+                    this.deactivatePanel(agent);
+                });
+                
+                this.updateStats();
+            }
+            
+            delay(ms) {
+                return new Promise(resolve => setTimeout(resolve, ms));
+            }
+        }
+        
+        // Initialize the demo when the page loads
+        document.addEventListener('DOMContentLoaded', () => {
+            new MIDIMessagingDemo();
+        });
+    </script>
+</body>
+</html>
