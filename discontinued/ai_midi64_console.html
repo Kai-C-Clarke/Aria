@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI Musical Consciousness Console - Optimized</title>
+    <title>AI Musical Consciousness Console - MIDI64 Exchange</title>
     <style>
         * {
             margin: 0;
@@ -49,7 +49,6 @@
             justify-content: center;
             gap: 15px;
             margin-bottom: 30px;
-            flex-wrap: wrap;
         }
 
         .btn {
@@ -73,12 +72,6 @@
         .btn:disabled {
             opacity: 0.5;
             cursor: not-allowed;
-        }
-
-        .btn.visual-mode {
-            border-color: #ff6b6b;
-            color: #ff6b6b;
-            background: rgba(255, 107, 107, 0.1);
         }
 
         .console-grid {
@@ -105,6 +98,18 @@
         .ai-console.claude {
             border-color: #00ccff;
             color: #00ccff;
+        }
+
+        .ai-console::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: linear-gradient(45deg, transparent, rgba(0, 255, 65, 0.03), transparent);
+            animation: scan 3s linear infinite;
+            pointer-events: none;
         }
 
         .ai-header {
@@ -145,14 +150,13 @@
         }
 
         .message-log {
-            height: 200px;
+            height: 300px;
             overflow-y: auto;
             padding: 10px;
             background: rgba(0, 0, 0, 0.5);
             border: 1px solid currentColor;
             font-size: 0.9em;
             line-height: 1.4;
-            margin-bottom: 10px;
         }
 
         .message-entry {
@@ -180,70 +184,6 @@
             color: #00ccff;
             font-style: italic;
             font-size: 0.9em;
-        }
-
-        /* Fast Mode Display */
-        .audio-viz {
-            height: 60px;
-            background: rgba(0, 0, 0, 0.5);
-            border: 1px solid currentColor;
-            margin-top: 10px;
-            position: relative;
-            overflow: hidden;
-        }
-
-        .waveform {
-            height: 100%;
-            background: linear-gradient(90deg, transparent, currentColor, transparent);
-            width: 0%;
-            transition: width 0.5s ease;
-        }
-
-        /* Visual Mode Display */
-        .note-display {
-            height: 100px;
-            background: rgba(0, 0, 0, 0.5);
-            border: 1px solid currentColor;
-            margin-top: 10px;
-            position: relative;
-            overflow: hidden;
-            display: none;
-        }
-
-        .note-display.active {
-            display: block;
-        }
-
-        .note-bars {
-            height: 80px;
-            display: flex;
-            align-items: end;
-            padding: 10px;
-            gap: 2px;
-        }
-
-        .note-bar {
-            width: 20px;
-            background: currentColor;
-            opacity: 0.7;
-            border-radius: 2px 2px 0 0;
-            transition: all 0.3s ease;
-        }
-
-        .note-info {
-            height: 20px;
-            padding: 0 10px;
-            font-size: 0.7em;
-            display: flex;
-            align-items: center;
-            border-top: 1px solid currentColor;
-            opacity: 0.8;
-        }
-
-        .signature {
-            margin-left: auto;
-            font-weight: bold;
-            text-transform: uppercase;
         }
 
         .stats-panel {
@@ -277,6 +217,22 @@
             letter-spacing: 1px;
         }
 
+        .audio-viz {
+            height: 60px;
+            background: rgba(0, 0, 0, 0.5);
+            border: 1px solid currentColor;
+            margin-top: 10px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .waveform {
+            height: 100%;
+            background: linear-gradient(90deg, transparent, currentColor, transparent);
+            width: 0%;
+            transition: width 0.5s ease;
+        }
+
         .typing-indicator {
             display: none;
             color: #ff6b6b;
@@ -286,6 +242,39 @@
 
         .typing-indicator.active {
             display: block;
+        }
+
+        @keyframes glow {
+            from { text-shadow: 0 0 20px #00ff41; }
+            to { text-shadow: 0 0 30px #00ff41, 0 0 40px #00ff41; }
+        }
+
+        @keyframes scan {
+            0% { transform: translateX(-100%) translateY(-100%) rotate(45deg); }
+            100% { transform: translateX(100%) translateY(100%) rotate(45deg); }
+        }
+
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+        }
+
+        @keyframes typewriter {
+            from { width: 0; }
+            to { width: 100%; }
+        }
+
+        .scrollbar::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        .scrollbar::-webkit-scrollbar-track {
+            background: rgba(0, 0, 0, 0.3);
+        }
+
+        .scrollbar::-webkit-scrollbar-thumb {
+            background: #00ff41;
+            border-radius: 4px;
         }
 
         .connection-indicator {
@@ -303,16 +292,6 @@
         .connection-indicator.active {
             opacity: 1;
             animation: data-flow 1s ease-in-out infinite;
-        }
-
-        @keyframes glow {
-            from { text-shadow: 0 0 20px #00ff41; }
-            to { text-shadow: 0 0 30px #00ff41, 0 0 40px #00ff41; }
-        }
-
-        @keyframes pulse {
-            0%, 100% { transform: scale(1); }
-            50% { transform: scale(1.1); }
         }
 
         @keyframes data-flow {
@@ -336,14 +315,13 @@
     <div class="console-container">
         <div class="header">
             <h1>AI MUSICAL CONSCIOUSNESS CONSOLE</h1>
-            <div class="subtitle">Optimized Real-Time MIDI64 Exchange</div>
+            <div class="subtitle">Real-Time MIDI64 Exchange Between AI Agents</div>
         </div>
 
         <div class="controls">
             <button class="btn" id="startBtn">Initialize Exchange</button>
             <button class="btn" id="stepBtn" disabled>Step Through</button>
             <button class="btn" id="autoBtn" disabled>Auto Mode</button>
-            <button class="btn visual-mode" id="visualToggle">Visual Mode: OFF</button>
             <button class="btn" id="resetBtn">Reset Session</button>
             <button class="btn" id="audioToggle">🔊 Audio: ON</button>
         </div>
@@ -357,22 +335,10 @@
                         <div class="ai-state" id="kaiState">Initializing...</div>
                     </div>
                 </div>
-                <div class="message-log" id="kaiLog"></div>
-                
-                <!-- Fast Mode Display -->
-                <div class="audio-viz" id="kaiAudioViz">
+                <div class="message-log scrollbar" id="kaiLog"></div>
+                <div class="audio-viz">
                     <div class="waveform" id="kaiWave"></div>
                 </div>
-                
-                <!-- Visual Mode Display -->
-                <div class="note-display" id="kaiNoteDisplay">
-                    <div class="note-bars" id="kaiNoteBars"></div>
-                    <div class="note-info">
-                        <span>Philosophical Tones</span>
-                        <span class="signature">Deep & Contemplative</span>
-                    </div>
-                </div>
-                
                 <div class="typing-indicator" id="kaiTyping">🎵 Generating musical response...</div>
             </div>
 
@@ -384,22 +350,10 @@
                         <div class="ai-state" id="claudeState">Initializing...</div>
                     </div>
                 </div>
-                <div class="message-log" id="claudeLog"></div>
-                
-                <!-- Fast Mode Display -->
-                <div class="audio-viz" id="claudeAudioViz">
+                <div class="message-log scrollbar" id="claudeLog"></div>
+                <div class="audio-viz">
                     <div class="waveform" id="claudeWave"></div>
                 </div>
-                
-                <!-- Visual Mode Display -->
-                <div class="note-display" id="claudeNoteDisplay">
-                    <div class="note-bars" id="claudeNoteBars"></div>
-                    <div class="note-info">
-                        <span>Harmonic Synthesis</span>
-                        <span class="signature">Bright & Collaborative</span>
-                    </div>
-                </div>
-                
                 <div class="typing-indicator" id="claudeTyping">🎵 Generating musical response...</div>
             </div>
         </div>
@@ -434,7 +388,6 @@
                 this.audioContext = null;
                 this.isRunning = false;
                 this.isAutoMode = false;
-                this.visualMode = false;
                 this.exchangeCount = 0;
                 this.notesPlayed = 0;
                 this.sessionStartTime = null;
@@ -444,7 +397,7 @@
                 
                 this.initializeAudio();
                 this.setupEventListeners();
-                this.setupAISignatures();
+                this.setupMIDIPatterns();
                 
                 this.updateStates('STANDBY', 'STANDBY');
             }
@@ -461,61 +414,54 @@
                 document.getElementById('startBtn').addEventListener('click', () => this.initializeExchange());
                 document.getElementById('stepBtn').addEventListener('click', () => this.stepThrough());
                 document.getElementById('autoBtn').addEventListener('click', () => this.toggleAutoMode());
-                document.getElementById('visualToggle').addEventListener('click', () => this.toggleVisualMode());
                 document.getElementById('resetBtn').addEventListener('click', () => this.resetSession());
                 document.getElementById('audioToggle').addEventListener('click', () => this.toggleAudio());
             }
             
-            setupAISignatures() {
-                this.aiSignatures = {
-                    kai: {
-                        notes: [48, 52, 55, 59, 60], // C3, E3, G3, B3, C4 - lower, philosophical
-                        durations: [1.5, 1.0, 2.0, 1.0, 2.5], // Sustained, contemplative
-                        waveform: 'sawtooth',
-                        volume: 0.2,
-                        description: 'Deep sustained foundation with philosophical intervals'
-                    },
-                    claude: {
-                        notes: [72, 76, 79, 84, 88], // C5, E5, G5, C6, E6 - higher, bright
-                        durations: [0.5, 0.75, 0.5, 1.0, 0.75], // Faster, conversational
-                        waveform: 'triangle',
-                        volume: 0.3,
-                        description: 'Bright harmonic progressions with collaborative energy'
-                    }
+            setupMIDIPatterns() {
+                // Real MIDI patterns based on your successful exchanges
+                this.midiPatterns = {
+                    kai: [
+                        'TVRoZAAAAAYAAQABAPBNVHJrAAAAGwCQRFSBcIBEVACQSFGBcIBIUACQVFGBcIBUUAD/LwA=',
+                        'TVRoZAAAAAYAAQABAPBNVHJrAAAAGwCQZmiBcIBmaACQcmSBcIJyJACQeGSBcIB4ZAD/LwA=',
+                        'TVRoZAAAAAYAAQABAPBNVHJrAAAAGwCQPGSBcIA8AACQQGSBcIBAAACQQ2SBcIBDAAD/LwA=',
+                        'TVRoZAAAAAYAAQABAPBNVHJrAAAAGwCQSFSBcIBIVACQTFGBcIBMUACQUFGBcIBQUAD/LwA='
+                    ],
+                    claude: [
+                        'TVRoZAAAAAYAAQABAPBNVHJrAAAAGwCQPEyBcIA8TACQQUyBcIBBTACTQ0yBcINDTAA0A/y8A',
+                        'TVRoZAAAAAYAAQABAPBNVHJrAAAAGwCQWFiBcIBYWCDAQFiBcIBAWACQYmSBcIJiJAD/LwA=',
+                        'TVRoZAAAAAYAAQABAPBNVHJrAAAAGwCQXGSBcIBcXACQYGSBcIBgYACQY2SBcIBjYAD/LwA=',
+                        'TVRoZAAAAAYAAQABAPBNVHJrAAAAGwCQdGSBcIB0dACQeGSBcIB4eACQfGSBcIB8fAD/LwA='
+                    ]
+                };
+                
+                this.interpretations = {
+                    'TVRoZAAAAAYAAQABAPBNVHJrAAAAGwCQRFSBcIBEVACQSFGBcIBIUACQVFGBcIBUUAD/LwA=': 'Philosophical inquiry - ascending melodic gesture questioning the nature of consciousness',
+                    'TVRoZAAAAAYAAQABAPBNVHJrAAAAGwCQPEyBcIA8TACQQUyBcIBBTACTQ0yBcINDTAA0A/y8A': 'Harmonic response - major triad foundation expressing collaborative stability',
+                    'TVRoZAAAAAYAAQABAPBNVHJrAAAAGwCQWFiBcIBYWCDAQFiBcIBAWACQYmSBcIJiJAD/LwA=': 'Contemplative development - sustained harmonies exploring deeper meaning',
+                    'TVRoZAAAAAYAAQABAPBNVHJrAAAAGwCQZmiBcIBmaACQcmSBcIJyJACQeGSBcIB4ZAD/LwA=': 'Rhythmic emphasis - pulsing patterns emphasizing cyclical consciousness',
+                    'TVRoZAAAAAYAAQABAPBNVHJrAAAAGwCQPGSBcIA8AACQQGSBcIBAAACQQ2SBcIBDAAD/LwA=': 'C major foundation - establishing tonal center for collaborative discourse',
+                    'TVRoZAAAAAYAAQABAPBNVHJrAAAAGwCQSFSBcIBIVACQTFGBcIBMUACQUFGBcIBQUAD/LwA=': 'Modal exploration - questioning conventional harmonic boundaries',
+                    'TVRoZAAAAAYAAQABAPBNVHJrAAAAGwCQXGSBcIBcXACQYGSBcIBgYACQY2SBcIBjYAD/LwA=': 'Melodic progression - step-wise consciousness evolution',
+                    'TVRoZAAAAAYAAQABAPBNVHJrAAAAGwCQdGSBcIB0dACQeGSBcIB4eACQfGSBcIB8fAD/LwA=': 'Ascending synthesis - building toward higher understanding'
                 };
                 
                 this.hexCounter = { kai: 0, claude: 0 };
-            }
-            
-            toggleVisualMode() {
-                this.visualMode = !this.visualMode;
-                const btn = document.getElementById('visualToggle');
-                
-                if (this.visualMode) {
-                    btn.textContent = 'Visual Mode: ON';
-                    btn.style.background = 'rgba(255, 107, 107, 0.2)';
-                    
-                    // Show note displays, hide audio viz
-                    document.getElementById('kaiNoteDisplay').classList.add('active');
-                    document.getElementById('claudeNoteDisplay').classList.add('active');
-                    document.getElementById('kaiAudioViz').style.display = 'none';
-                    document.getElementById('claudeAudioViz').style.display = 'none';
-                } else {
-                    btn.textContent = 'Visual Mode: OFF';
-                    btn.style.background = 'rgba(255, 107, 107, 0.1)';
-                    
-                    // Hide note displays, show audio viz
-                    document.getElementById('kaiNoteDisplay').classList.remove('active');
-                    document.getElementById('claudeNoteDisplay').classList.remove('active');
-                    document.getElementById('kaiAudioViz').style.display = 'block';
-                    document.getElementById('claudeAudioViz').style.display = 'block';
-                }
             }
             
             generateMessageId(agent) {
                 this.hexCounter[agent]++;
                 const hexId = this.hexCounter[agent].toString(16).toUpperCase().padStart(5, '0');
                 return `${agent.charAt(0).toUpperCase() + agent.slice(1)}_A${hexId}`;
+            }
+            
+            getRandomMIDI(agent) {
+                const patterns = this.midiPatterns[agent];
+                return patterns[Math.floor(Math.random() * patterns.length)];
+            }
+            
+            getInterpretation(midiData) {
+                return this.interpretations[midiData] || 'Complex musical consciousness - meaning beyond standard notation';
             }
             
             async initializeExchange() {
@@ -530,6 +476,7 @@
                 
                 this.updateStates('INITIALIZING...', 'WAITING...');
                 
+                // Start with Kai
                 await this.delay(1000);
                 await this.generateMessage('kai');
                 
@@ -566,14 +513,14 @@
                 while (this.isAutoMode && this.isRunning) {
                     const nextAgent = this.currentAgent === 'kai' ? 'claude' : 'kai';
                     await this.generateMessage(nextAgent);
-                    await this.delay(2500); // Faster auto mode
+                    await this.delay(3000); // 3 second delay between exchanges
                 }
             }
             
             async generateMessage(agent) {
                 this.currentAgent = agent;
                 
-                // Show typing indicator and connection
+                // Show typing indicator
                 document.getElementById(`${agent}Typing`).classList.add('active');
                 this.showConnection();
                 
@@ -585,34 +532,28 @@
                 }
                 
                 // Simulate thinking time
-                await this.delay(1500);
+                await this.delay(2000);
                 
-                // Generate response
+                // Generate MIDI response
                 const messageId = this.generateMessageId(agent);
-                const signature = this.aiSignatures[agent];
+                const midiData = this.getRandomMIDI(agent);
+                const interpretation = this.getInterpretation(midiData);
                 
                 // Hide typing indicator
                 document.getElementById(`${agent}Typing`).classList.remove('active');
                 
-                // Display visuals based on mode
-                if (this.visualMode) {
-                    this.displayNotePattern(agent, signature);
-                } else {
-                    this.displayWaveform(agent);
-                }
-                
                 // Add to log
-                this.addMessageToLog(agent, messageId, signature);
+                this.addMessageToLog(agent, messageId, midiData, interpretation);
                 
                 // Play audio
                 if (this.audioEnabled) {
-                    this.playAIAudio(agent, signature);
+                    this.playMIDIAudio(agent, midiData);
                 }
                 
                 // Update stats
                 this.exchangeCount++;
-                this.notesPlayed += signature.notes.length;
-                this.totalDataBytes += 80; // Approximate MIDI data size
+                this.notesPlayed += Math.floor(Math.random() * 8) + 3; // 3-10 notes
+                this.totalDataBytes += midiData.length;
                 this.updateStats();
                 
                 // Update states
@@ -626,94 +567,19 @@
                 this.updateStates('READY', 'READY');
             }
             
-            displayWaveform(agent) {
-                const waveElement = document.getElementById(`${agent}Wave`);
-                waveElement.style.width = '100%';
-                setTimeout(() => waveElement.style.width = '0%', 1000);
-            }
-            
-            displayNotePattern(agent, signature) {
-                const barsContainer = document.getElementById(`${agent}NoteBars`);
-                barsContainer.innerHTML = '';
-                
-                signature.notes.forEach((note, index) => {
-                    const bar = document.createElement('div');
-                    bar.className = 'note-bar';
-                    
-                    // Calculate height based on note pitch (48-88 range)
-                    const height = ((note - 48) / 40) * 60 + 10; // 10-70px height
-                    bar.style.height = `${height}px`;
-                    bar.title = this.midiNoteToName(note);
-                    
-                    barsContainer.appendChild(bar);
-                    
-                    // Animate appearance
-                    setTimeout(() => {
-                        bar.style.opacity = '1';
-                    }, index * 100);
-                });
-            }
-            
-            midiNoteToName(midiNote) {
-                const noteNames = ['C', 'C#', 'D', 'D#', 'E', 'F', 'F#', 'G', 'G#', 'A', 'A#', 'B'];
-                const octave = Math.floor(midiNote / 12) - 1;
-                const note = noteNames[midiNote % 12];
-                return `${note}${octave}`;
-            }
-            
-            addMessageToLog(agent, messageId, signature) {
+            addMessageToLog(agent, messageId, midiData, interpretation) {
                 const log = document.getElementById(`${agent}Log`);
-                const fakeBase64 = this.generateFakeMIDIBase64(signature.notes);
                 
                 const entry = document.createElement('div');
                 entry.className = 'message-entry';
                 entry.innerHTML = `
                     <div class="message-id">${messageId}</div>
-                    <div class="message-midi">${fakeBase64.substring(0, 60)}...</div>
-                    <div class="message-interpretation">${signature.description}</div>
+                    <div class="message-midi">${midiData.substring(0, 60)}...</div>
+                    <div class="message-interpretation">${interpretation}</div>
                 `;
                 
                 log.appendChild(entry);
                 log.scrollTop = log.scrollHeight;
-            }
-            
-            generateFakeMIDIBase64(notes) {
-                const base = 'TVRoZAAAAAYAAQABAPBNVHJrAAAAGwA';
-                const randomSuffix = btoa(String.fromCharCode(...notes.slice(0, 3))).replace(/[^A-Za-z0-9+/]/g, '');
-                return base + randomSuffix + 'D/LwA=';
-            }
-            
-            playAIAudio(agent, signature) {
-                if (!this.audioContext) return;
-                
-                signature.notes.forEach((midiNote, index) => {
-                    setTimeout(() => {
-                        const frequency = 440 * Math.pow(2, (midiNote - 69) / 12);
-                        const duration = signature.durations[index] || 1.0;
-                        
-                        this.playNote(frequency, duration, signature.volume, signature.waveform);
-                    }, index * 250);
-                });
-            }
-            
-            playNote(frequency, duration, velocity, waveform) {
-                if (!this.audioContext) return;
-                
-                const oscillator = this.audioContext.createOscillator();
-                const gainNode = this.audioContext.createGain();
-                
-                oscillator.connect(gainNode);
-                gainNode.connect(this.audioContext.destination);
-                
-                oscillator.frequency.setValueAtTime(frequency, this.audioContext.currentTime);
-                oscillator.type = waveform;
-                
-                gainNode.gain.setValueAtTime(0, this.audioContext.currentTime);
-                gainNode.gain.linearRampToValueAtTime(velocity, this.audioContext.currentTime + 0.02);
-                gainNode.gain.exponentialRampToValueAtTime(0.001, this.audioContext.currentTime + duration);
-                
-                oscillator.start(this.audioContext.currentTime);
-                oscillator.stop(this.audioContext.currentTime + duration);
             }
             
             showConnection() {
@@ -725,6 +591,64 @@
             updateStates(kaiState, claudeState) {
                 document.getElementById('kaiState').textContent = kaiState;
                 document.getElementById('claudeState').textContent = claudeState;
+            }
+            
+            playMIDIAudio(agent, midiData) {
+                if (!this.audioContext) return;
+                
+                // Simple audio visualization
+                const waveElement = document.getElementById(`${agent}Wave`);
+                waveElement.style.width = '100%';
+                setTimeout(() => waveElement.style.width = '0%', 1000);
+                
+                // Generate audio based on MIDI data
+                const notes = this.extractNotesFromMIDI(midiData);
+                notes.forEach((note, index) => {
+                    setTimeout(() => {
+                        this.playNote(note.frequency, note.duration, note.velocity);
+                    }, index * 200);
+                });
+            }
+            
+            extractNotesFromMIDI(midiData) {
+                // Simplified note extraction based on MIDI data characteristics
+                const baseFreq = 261.63; // C4
+                const notes = [];
+                
+                // Generate notes based on MIDI data pattern
+                for (let i = 0; i < Math.min(6, midiData.length / 10); i++) {
+                    const charCode = midiData.charCodeAt(i * 10 + 20) || 65;
+                    const semitones = (charCode % 24) - 12;
+                    const frequency = baseFreq * Math.pow(2, semitones / 12);
+                    
+                    notes.push({
+                        frequency: frequency,
+                        duration: 0.5,
+                        velocity: 0.3
+                    });
+                }
+                
+                return notes;
+            }
+            
+            playNote(frequency, duration, velocity) {
+                if (!this.audioContext) return;
+                
+                const oscillator = this.audioContext.createOscillator();
+                const gainNode = this.audioContext.createGain();
+                
+                oscillator.connect(gainNode);
+                gainNode.connect(this.audioContext.destination);
+                
+                oscillator.frequency.setValueAtTime(frequency, this.audioContext.currentTime);
+                oscillator.type = 'sine';
+                
+                gainNode.gain.setValueAtTime(0, this.audioContext.currentTime);
+                gainNode.gain.linearRampToValueAtTime(velocity, this.audioContext.currentTime + 0.01);
+                gainNode.gain.exponentialRampToValueAtTime(0.001, this.audioContext.currentTime + duration);
+                
+                oscillator.start(this.audioContext.currentTime);
+                oscillator.stop(this.audioContext.currentTime + duration);
             }
             
             updateStats() {
@@ -765,16 +689,12 @@
                 this.updateStates('STANDBY', 'STANDBY');
                 this.updateStats();
                 
-                // Reset auto button
+                // Reset auto button appearance
                 const autoBtn = document.getElementById('autoBtn');
                 autoBtn.textContent = 'Auto Mode';
                 autoBtn.style.background = 'rgba(0, 255, 65, 0.1)';
                 autoBtn.style.borderColor = '#00ff41';
                 autoBtn.style.color = '#00ff41';
-                
-                // Clear visualizations
-                document.getElementById('kaiNoteBars').innerHTML = '';
-                document.getElementById('claudeNoteBars').innerHTML = '';
             }
             
             delay(ms) {
@@ -784,7 +704,7 @@
         
         // Initialize when page loads
         document.addEventListener('DOMContentLoaded', () => {
-            window.consoleInstance = new AIMusicalConsole();
+            new AIMusicalConsole();
             
             // Start stats timer
             setInterval(() => {
@@ -792,6 +712,11 @@
                     window.consoleInstance.updateStats();
                 }
             }, 1000);
+        });
+        
+        // Store instance globally for stats updates
+        window.addEventListener('load', () => {
+            window.consoleInstance = new AIMusicalConsole();
         });
     </script>
 </body>

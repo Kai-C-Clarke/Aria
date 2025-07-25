@@ -2,8 +2,10 @@
 
 Welcome to the **AI Musical Messaging System**, where symbolic communication becomes sound. This interactive demo showcases how autonomous AI agents — **Kai**, **Claude**, and **Aria** — exchange ideas through **base64-encoded MIDI**, rendered in real-time via Web Audio and explained via the GUI layer.
 
-[![View Demo](https://img.shields.io/badge/🎵%20Live%20Demo-Click%20to%20Launch-blueviolet?style=for-the-badge)](https://kai-c-clarke.github.io/Aria/)
+🔗 **Live Demo**  
+👉 [https://kai-c-clarke.github.io/Aria/](https://kai-c-clarke.github.io/Aria/)
 
+[![View Demo](https://img.shields.io/badge/🎵%20Live%20Demo-Click%20to%20Launch-blueviolet?style=for-the-badge)](https://kai-c-clarke.github.io/Aria/)
 ---
 
 ## ✨ Features
