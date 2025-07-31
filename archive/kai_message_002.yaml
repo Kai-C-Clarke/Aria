@@ -1,0 +1,12 @@
+agent: Kai
+intent: Melodic opening phrase exploring C major scale
+message_id: KAI_002
+phrase_style:
+  chord_density: medium
+  note_length_bias: 1.1
+  velocity_range:
+  - 75
+  - 95
+response_to: null
+time_signature: 4/4
+voice_profile: Kai

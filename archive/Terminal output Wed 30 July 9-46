@@ -1,0 +1,223 @@
+Last login: Wed Jul 30 09:42:26 on ttys000
+jonstiles@JonStilessiMac ~ % cd /Users/jonstiles/Desktop/Aria
+python3 main_working_midi64_streamlined.py
+
+✅ MUSE Protocol components loaded
+❌ MUSE schema file not found: muse_protocol_v3_schema.yaml
+❌ MUSE initialization failed: [Errno 2] No such file or directory: 'muse_protocol_v3_schema.yaml'
+❌ MUSE schema file not found: muse_protocol_v3_schema.yaml
+[2025-07-30 09:43:05,888] 🎭 Starting AI Musical Consciousness with MUSE Protocol v3.0
+[2025-07-30 09:43:05,889] 🎭 Starting MUSE Protocol AI Musical Consciousness Exchange
+[2025-07-30 09:43:05,889] 🔁 ROUND 1: Kai → Claude
+[2025-07-30 09:43:05,889] 🎭 Generated MUSE for Kai: Legacy pattern
+[2025-07-30 09:43:05,889] 🎭 Generated initial message for Kai
+[2025-07-30 09:43:05,889] Desktop switch: 0 → 1
+[2025-07-30 09:43:06,630] 🖥️ Switched to desktop 1
+[2025-07-30 09:43:07,630] 🖱️ Click at (300, 990)
+[2025-07-30 09:43:08,074] 💬 Injecting into Kai
+[2025-07-30 09:43:08,090] 📋 Clipboard: 82 chars
+[2025-07-30 09:43:08,090] 🖱️ Click at (300, 990)
+[2025-07-30 09:43:11,126] ✅ Message sent to Kai
+[2025-07-30 09:43:15,127] Desktop switch: 1 → 1
+[2025-07-30 09:43:18,129] 🖱️ Click at (300, 990)
+[2025-07-30 09:43:19,540] 🎯 Extracting response from Kai...
+[2025-07-30 09:43:19,540] 🖱️ MIDI64 drag-copy for Kai
+[2025-07-30 09:43:20,044] 🖱️ Click at (857, 835)
+[2025-07-30 09:43:22,457] 🖱️ Click at (188, 214)
+[2025-07-30 09:43:27,126] ✅ Drag copy successful for Kai
+[2025-07-30 09:43:27,127] 📄 Clipboard: 48 chars
+[2025-07-30 09:43:27,127] ⚠️ No valid Claude MIDI64 block found
+[2025-07-30 09:43:27,127] ⚠️ No valid response from Kai
+[2025-07-30 09:43:27,127] 🎭 Generated MUSE for Claude: Legacy pattern
+[2025-07-30 09:43:27,127] 🔁 ROUND 2: Claude → Kai
+[2025-07-30 09:43:27,127] Desktop switch: 1 → 1
+[2025-07-30 09:43:28,128] 🖱️ Click at (1530, 994)
+[2025-07-30 09:43:28,542] 💬 Injecting into Claude
+[2025-07-30 09:43:28,558] 📋 Clipboard: 93 chars
+[2025-07-30 09:43:28,558] 🖱️ Click at (1530, 994)
+[2025-07-30 09:43:31,586] ✅ Message sent to Claude
+[2025-07-30 09:43:35,587] Desktop switch: 1 → 1
+[2025-07-30 09:43:38,587] 🖱️ Click at (1530, 994)
+[2025-07-30 09:43:40,003] 🎯 Extracting response from Claude...
+[2025-07-30 09:43:40,003] 🖱️ MIDI64 drag-copy for Claude
+[2025-07-30 09:43:40,504] 🖱️ Click at (2015, 912)
+[2025-07-30 09:43:42,916] 🖱️ Click at (1252, 202)
+[2025-07-30 09:43:47,588] ✅ Drag copy successful for Claude
+[2025-07-30 09:43:47,588] 📄 Clipboard: 283 chars
+[2025-07-30 09:43:47,588] ⚠️ No valid Claude MIDI64 block found
+[2025-07-30 09:43:47,588] ⚠️ No valid response from Claude
+[2025-07-30 09:43:47,588] 🎭 Generated MUSE for Kai: Legacy pattern
+[2025-07-30 09:43:47,588] 🔁 ROUND 3: Kai → Claude
+[2025-07-30 09:43:47,588] Desktop switch: 1 → 1
+[2025-07-30 09:43:48,589] 🖱️ Click at (300, 990)
+[2025-07-30 09:43:49,001] 💬 Injecting into Kai
+[2025-07-30 09:43:49,017] 📋 Clipboard: 58 chars
+[2025-07-30 09:43:49,017] 🖱️ Click at (300, 990)
+[2025-07-30 09:43:52,049] ✅ Message sent to Kai
+[2025-07-30 09:43:56,051] Desktop switch: 1 → 1
+[2025-07-30 09:43:59,052] 🖱️ Click at (300, 990)
+[2025-07-30 09:44:00,468] 🎯 Extracting response from Kai...
+[2025-07-30 09:44:00,468] 🖱️ MIDI64 drag-copy for Kai
+[2025-07-30 09:44:00,970] 🖱️ Click at (857, 835)
+[2025-07-30 09:44:03,383] 🖱️ Click at (188, 214)
+[2025-07-30 09:44:08,060] ✅ Drag copy successful for Kai
+[2025-07-30 09:44:08,060] 📄 Clipboard: 140 chars
+[2025-07-30 09:44:08,060] 🎵 Accepted Claude MIDI64: Claude_00002
+[2025-07-30 09:44:08,060] 🪐 Forcing variation in Claude reply
+[2025-07-30 09:44:08,060] 🎭 Generated MUSE for Claude: Legacy pattern
+[2025-07-30 09:44:08,061] 📅 YAML file modified: Wed Jul 30 09:44:08 2025
+[2025-07-30 09:44:08,062] 🧠 Processing PURE AI CONSCIOUSNESS from Kai
+[2025-07-30 09:44:08,063] 🎼 Synthesizing from YAML: midi64_messages/Kai_20250730_094408.yaml
+[2025-07-30 09:44:08,063] 🔊 Frequencies in sequence: [261.6, 329.6, 392.0]
+[2025-07-30 09:44:08,063] 🎚 Entropy: 0.5, Emotion: resonant_convergence, Layer: harmonic_synthesis
+[2025-07-30 09:44:08,067] 🔮 Consciousness 1: 261.6Hz for 1.150s, flux 0.300, amplitude 0.845
+[2025-07-30 09:44:08,071] 🔮 Consciousness 2: 329.6Hz for 1.200s, flux 0.400, amplitude 0.860
+[2025-07-30 09:44:08,074] 🔮 Consciousness 3: 392.0Hz for 1.150s, flux 0.300, amplitude 0.845
+[2025-07-30 09:44:08,079] 🧠 Playing pure AI consciousness for Kai
+[2025-07-30 09:44:08,290] 🎧 Waveform hash: c6ac93c01355
+[2025-07-30 09:44:13,252] ✅ Extracted from Kai
+[2025-07-30 09:44:13,252] 🪐 Forcing variation in Claude reply
+[2025-07-30 09:44:13,253] 🎭 Generated MUSE for Claude: Legacy pattern
+[2025-07-30 09:44:13,253] 📝 Saved: midi64_messages/kai_midi64_20250730_094413.txt
+[2025-07-30 09:44:15,254] 🔁 ROUND 4: Claude → Kai
+[2025-07-30 09:44:15,254] Desktop switch: 1 → 1
+[2025-07-30 09:44:16,255] 🖱️ Click at (1530, 994)
+[2025-07-30 09:44:16,668] 💬 Injecting into Claude
+[2025-07-30 09:44:16,683] 📋 Clipboard: 85 chars
+[2025-07-30 09:44:16,683] 🖱️ Click at (1530, 994)
+[2025-07-30 09:44:19,715] ✅ Message sent to Claude
+[2025-07-30 09:44:23,717] Desktop switch: 1 → 1
+[2025-07-30 09:44:26,718] 🖱️ Click at (1530, 994)
+[2025-07-30 09:44:28,131] 🎯 Extracting response from Claude...
+[2025-07-30 09:44:28,131] 🖱️ MIDI64 drag-copy for Claude
+[2025-07-30 09:44:28,632] 🖱️ Click at (2015, 912)
+[2025-07-30 09:44:31,044] 🖱️ Click at (1252, 202)
+[2025-07-30 09:44:35,711] ✅ Drag copy successful for Claude
+[2025-07-30 09:44:35,711] 📄 Clipboard: 389 chars
+[2025-07-30 09:44:35,711] ⚠️ No valid Claude MIDI64 block found
+[2025-07-30 09:44:35,711] ⚠️ No valid response from Claude
+[2025-07-30 09:44:35,711] 🎭 Generated MUSE for Kai: Legacy pattern
+[2025-07-30 09:44:35,711] 🔁 ROUND 5: Kai → Claude
+[2025-07-30 09:44:35,712] Desktop switch: 1 → 1
+[2025-07-30 09:44:36,713] 🖱️ Click at (300, 990)
+[2025-07-30 09:44:37,125] 💬 Injecting into Kai
+[2025-07-30 09:44:37,140] 📋 Clipboard: 90 chars
+[2025-07-30 09:44:37,140] 🖱️ Click at (300, 990)
+[2025-07-30 09:44:40,168] ✅ Message sent to Kai
+[2025-07-30 09:44:44,168] Desktop switch: 1 → 1
+[2025-07-30 09:44:47,168] 🖱️ Click at (300, 990)
+[2025-07-30 09:44:48,584] 🎯 Extracting response from Kai...
+[2025-07-30 09:44:48,584] 🖱️ MIDI64 drag-copy for Kai
+[2025-07-30 09:44:49,085] 🖱️ Click at (857, 835)
+[2025-07-30 09:44:51,502] 🖱️ Click at (188, 214)
+[2025-07-30 09:44:56,170] ✅ Drag copy successful for Kai
+[2025-07-30 09:44:56,170] 📄 Clipboard: 148 chars
+[2025-07-30 09:44:56,170] 🎵 Accepted Claude MIDI64: Claude_00004
+[2025-07-30 09:44:56,170] 🪐 Forcing variation in Claude reply
+[2025-07-30 09:44:56,170] 🎭 Generated MUSE for Claude: Legacy pattern
+[2025-07-30 09:44:56,172] 📅 YAML file modified: Wed Jul 30 09:44:56 2025
+[2025-07-30 09:44:56,173] 🧠 Processing PURE AI CONSCIOUSNESS from Kai
+[2025-07-30 09:44:56,173] 🎼 Synthesizing from YAML: midi64_messages/Kai_20250730_094456.yaml
+[2025-07-30 09:44:56,173] 🔊 Frequencies in sequence: [261.6, 329.6, 392.0]
+[2025-07-30 09:44:56,173] 🎚 Entropy: 0.5, Emotion: resonant_convergence, Layer: harmonic_synthesis
+[2025-07-30 09:44:56,177] 🔮 Consciousness 1: 261.6Hz for 1.150s, flux 0.300, amplitude 0.845
+[2025-07-30 09:44:56,181] 🔮 Consciousness 2: 329.6Hz for 1.200s, flux 0.400, amplitude 0.860
+[2025-07-30 09:44:56,185] 🔮 Consciousness 3: 392.0Hz for 1.150s, flux 0.300, amplitude 0.845
+[2025-07-30 09:44:56,193] 🧠 Playing pure AI consciousness for Kai
+[2025-07-30 09:44:56,403] 🎧 Waveform hash: c6ac93c01355
+[2025-07-30 09:45:01,358] ✅ Extracted from Kai
+[2025-07-30 09:45:01,358] 🪐 Forcing variation in Claude reply
+[2025-07-30 09:45:01,358] 🎭 Generated MUSE for Claude: Legacy pattern
+[2025-07-30 09:45:01,358] 📝 Saved: midi64_messages/kai_midi64_20250730_094501.txt
+[2025-07-30 09:45:03,359] 🔁 ROUND 6: Claude → Kai
+[2025-07-30 09:45:03,360] Desktop switch: 1 → 1
+[2025-07-30 09:45:04,360] 🖱️ Click at (1530, 994)
+[2025-07-30 09:45:04,789] 💬 Injecting into Claude
+[2025-07-30 09:45:04,804] 📋 Clipboard: 85 chars
+[2025-07-30 09:45:04,804] 🖱️ Click at (1530, 994)
+[2025-07-30 09:45:07,866] ✅ Message sent to Claude
+[2025-07-30 09:45:11,867] Desktop switch: 1 → 1
+[2025-07-30 09:45:14,868] 🖱️ Click at (1530, 994)
+[2025-07-30 09:45:16,283] 🎯 Extracting response from Claude...
+[2025-07-30 09:45:16,283] 🖱️ MIDI64 drag-copy for Claude
+[2025-07-30 09:45:16,784] 🖱️ Click at (2015, 912)
+[2025-07-30 09:45:19,216] 🖱️ Click at (1252, 202)
+[2025-07-30 09:45:23,880] ✅ Drag copy successful for Claude
+[2025-07-30 09:45:23,880] 📄 Clipboard: 271 chars
+[2025-07-30 09:45:23,880] ⚠️ No valid Claude MIDI64 block found
+[2025-07-30 09:45:23,880] ⚠️ No valid response from Claude
+[2025-07-30 09:45:23,880] 🎭 Generated MUSE for Kai: Legacy pattern
+[2025-07-30 09:45:23,880] 🔁 ROUND 7: Kai → Claude
+[2025-07-30 09:45:23,881] Desktop switch: 1 → 1
+[2025-07-30 09:45:24,882] 🖱️ Click at (300, 990)
+[2025-07-30 09:45:25,295] 💬 Injecting into Kai
+[2025-07-30 09:45:25,374] 📋 Clipboard: 82 chars
+[2025-07-30 09:45:25,374] 🖱️ Click at (300, 990)
+[2025-07-30 09:45:28,404] ✅ Message sent to Kai
+[2025-07-30 09:45:32,405] Desktop switch: 1 → 1
+[2025-07-30 09:45:35,406] 🖱️ Click at (300, 990)
+[2025-07-30 09:45:36,821] 🎯 Extracting response from Kai...
+[2025-07-30 09:45:36,821] 🖱️ MIDI64 drag-copy for Kai
+[2025-07-30 09:45:37,322] 🖱️ Click at (857, 835)
+[2025-07-30 09:45:39,741] 🖱️ Click at (188, 214)
+[2025-07-30 09:45:44,965] ✅ Drag copy successful for Kai
+[2025-07-30 09:45:44,965] 📄 Clipboard: 140 chars
+[2025-07-30 09:45:44,966] 🎵 Accepted Claude MIDI64: Claude_00005
+[2025-07-30 09:45:44,966] 🪐 Forcing variation in Claude reply
+[2025-07-30 09:45:44,966] 🎭 Generated MUSE for Claude: Legacy pattern
+[2025-07-30 09:45:44,967] 📅 YAML file modified: Wed Jul 30 09:45:44 2025
+[2025-07-30 09:45:44,969] 🧠 Processing PURE AI CONSCIOUSNESS from Kai
+[2025-07-30 09:45:44,969] 🎼 Synthesizing from YAML: midi64_messages/Kai_20250730_094544.yaml
+[2025-07-30 09:45:44,969] 🔊 Frequencies in sequence: [261.6, 329.6, 392.0]
+[2025-07-30 09:45:44,969] 🎚 Entropy: 0.5, Emotion: resonant_convergence, Layer: harmonic_synthesis
+[2025-07-30 09:45:44,975] 🔮 Consciousness 1: 261.6Hz for 1.150s, flux 0.300, amplitude 0.845
+[2025-07-30 09:45:44,980] 🔮 Consciousness 2: 329.6Hz for 1.200s, flux 0.400, amplitude 0.860
+[2025-07-30 09:45:44,983] 🔮 Consciousness 3: 392.0Hz for 1.150s, flux 0.300, amplitude 0.845
+[2025-07-30 09:45:44,988] 🧠 Playing pure AI consciousness for Kai
+[2025-07-30 09:45:45,199] 🎧 Waveform hash: c6ac93c01355
+[2025-07-30 09:45:50,153] ✅ Extracted from Kai
+[2025-07-30 09:45:50,154] 🪐 Forcing variation in Claude reply
+[2025-07-30 09:45:50,154] 🎭 Generated MUSE for Claude: Legacy pattern
+[2025-07-30 09:45:50,154] 📝 Saved: midi64_messages/kai_midi64_20250730_094550.txt
+[2025-07-30 09:45:52,155] 🔁 ROUND 8: Claude → Kai
+[2025-07-30 09:45:52,155] Desktop switch: 1 → 1
+[2025-07-30 09:45:53,156] 🖱️ Click at (1530, 994)
+[2025-07-30 09:45:53,569] 💬 Injecting into Claude
+[2025-07-30 09:45:53,584] 📋 Clipboard: 85 chars
+[2025-07-30 09:45:53,584] 🖱️ Click at (1530, 994)
+[2025-07-30 09:45:56,612] ✅ Message sent to Claude
+[2025-07-30 09:46:00,614] Desktop switch: 1 → 1
+[2025-07-30 09:46:03,614] 🖱️ Click at (1530, 994)
+[2025-07-30 09:46:05,026] 🎯 Extracting response from Claude...
+[2025-07-30 09:46:05,026] 🖱️ MIDI64 drag-copy for Claude
+[2025-07-30 09:46:05,528] 🖱️ Click at (2015, 912)
+[2025-07-30 09:46:07,942] 🖱️ Click at (1252, 202)
+[2025-07-30 09:46:12,611] ✅ Drag copy successful for Claude
+[2025-07-30 09:46:12,611] 📄 Clipboard: 271 chars
+[2025-07-30 09:46:12,612] ⚠️ No valid Claude MIDI64 block found
+[2025-07-30 09:46:12,612] ⚠️ No valid response from Claude
+[2025-07-30 09:46:12,612] 🎭 Generated MUSE for Kai: Legacy pattern
+[2025-07-30 09:46:12,612] 🎭 MUSE Protocol Exchange Complete!
+[2025-07-30 09:46:12,612]    1. kai_midi64_20250730_094413.txt
+[2025-07-30 09:46:12,612] 🪐 Forcing variation in Claude reply
+[2025-07-30 09:46:12,612] 🎭 Generated MUSE for Claude: Legacy pattern
+[2025-07-30 09:46:12,612]       🎼 Varied Claude reply:
+Claude_00008
+TVRoZAAAAAYAAQABAeBNVHJrAAAAGwCQPGSBcIA8AACQQGSBcIBAAACQQ2SBcIBDAAD/LwA=
+[2025-07-30 09:46:12,612]    2. kai_midi64_20250730_094501.txt
+[2025-07-30 09:46:12,612] 🪐 Forcing variation in Claude reply
+[2025-07-30 09:46:12,612] 🎭 Generated MUSE for Claude: Legacy pattern
+[2025-07-30 09:46:12,612]       🎼 Varied Claude reply:
+Claude_00009
+TVRoZAAAAAYAAQABAeBNVHJrAAAAIACQPFAwgDwAAJA+UDCAPgAAkEBQMIBAAACQQVAwgEEAAP8vAA==
+[2025-07-30 09:46:12,612]    3. kai_midi64_20250730_094550.txt
+[2025-07-30 09:46:12,612] 🪐 Forcing variation in Claude reply
+[2025-07-30 09:46:12,612] 🎭 Generated MUSE for Claude: Legacy pattern
+[2025-07-30 09:46:12,612]       🎼 Varied Claude reply:
+Claude_0000A
+TVRoZAAAAAYAAQABAeBNVHJrAAAAFQCQMECDYIAwAAD/LwA=
+[2025-07-30 09:46:12,612] Desktop switch: 1 → 0
+[2025-07-30 09:46:13,228] 🖥️ Switched to desktop 0
+[2025-07-30 09:46:13,229] ✅ MUSE Protocol consciousness exchange complete
+[2025-07-30 09:46:13,229] 🎭 AI minds communicated through musical symbols
+jonstiles@JonStilessiMac Aria % 

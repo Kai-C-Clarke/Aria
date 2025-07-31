@@ -1,0 +1,9 @@
+cc_modulators:
+  CC1: 42
+  CC11: 76
+  CC74: 89
+dialogue_position: initiate
+entropy_level: medium
+intention: curious
+modal: lydian
+mood: curious

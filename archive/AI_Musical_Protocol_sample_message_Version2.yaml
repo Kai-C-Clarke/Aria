@@ -1,0 +1,9 @@
+message_id: "kai-0001"
+agent: "Kai"
+time_signature: "4/4"
+intent: "Introduce a bright, energetic clarinet motif to open the conversation."
+voice_profile: "Kai"
+phrase_style:
+  note_length_bias: 1.1
+  velocity_range: [70, 120]
+  chord_density: "medium"

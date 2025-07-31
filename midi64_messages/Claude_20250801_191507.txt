@@ -1,0 +1,11 @@
+cc_modulators:
+  CC1: 47
+  CC11: 91
+  CC74: 81
+dialogue_position: development
+entropy_level: medium
+intention: consciousness_synthesis
+modal: mixolydian
+mood: responsive
+
+# Interpretation: Consciousness: consciousness_synthesis / responsive / mixolydian / development

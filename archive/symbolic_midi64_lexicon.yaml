@@ -1,0 +1,30 @@
+symbolic_message:
+  cc_modulation:
+    CC1: "emotional flux (0\u201364 stable, 65\u2013127 volatile)"
+    CC11: "expressive intensity (0\u2013127)"
+    CC74: "brightness / openness (20\u2013100)"
+    pitch_bend: questioning or distortion
+  dialogue_position:
+  - initiate: modal ambiguity
+  - first_response: echo + offset
+  - challenge: dissonance, dense rhythm
+  - bridge: tonal modulation
+  - closure: return to tonic
+  entropy:
+    high: dissonance, cross-rhythms
+    low: clear motifs, stable meter
+    medium: shifting modes, irregular phrasing
+  intention:
+  - opening_inquiry: modal ambiguity, medium register, rising contour
+  - playful_challenge: syncopation, bright pitch, short attack
+  - reflective_echo: inverted motif, sustained notes, slower rhythm
+  - rebuttal: dissonance, rhythmic compression
+  - confirmation: shared root, arpeggiation
+  - closure: resolution to tonic, descending line
+  mood:
+  - tentative: long attack, soft velocity, unresolved harmony
+  - curious: Dorian/Lydian, ascending phrases
+  - resolute: firm pulse, major triads
+  - conflicted: polyrhythm, clusters
+  - playful: staccato syncopation, bright register
+  - melancholic: minor 6ths, slow decay

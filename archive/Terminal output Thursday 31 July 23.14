@@ -1,0 +1,134 @@
+jonstiles@JonStilessiMac Aria % python3 /Users/jonstiles/Desktop/Aria/main_working_midi64_streamlined.py
+
+✅ MUSE Protocol components loaded
+✅ MUSE Schema loaded for validation: v3.0
+✅ MUSE Schema loaded: v3.0
+🎭 MUSE Protocol initialized
+✅ MUSE Schema loaded: v3.0
+[2025-07-31 23:08:57,628] 🎭 Starting AI Musical Consciousness with MUSE Protocol v3.0
+Exception in thread Thread-1 (mainloop):
+[2025-07-31 23:08:58,129] 🎭 Starting MUSE Protocol AI Musical Consciousness Exchange
+[2025-07-31 23:08:58,130] 🎭 Generated MUSE: foundation (urgency=0.60, brightness=0.80, intimacy=0.50)
+[2025-07-31 23:08:58,130] 🎭 Generated MUSE for Kai → Claude: foundation (urgency=0.60, brightness=0.80, intimacy=0.50)
+[2025-07-31 23:08:58,130] 🎵 Expression: FND_0.6_0.8_0.5
+[2025-07-31 23:08:58,130] 🎵 Generated initial Kai message
+[2025-07-31 23:08:58,130] 🔁 ROUND 1: Kai → Claude
+[2025-07-31 23:08:58,130] Desktop switch: 0 → 1
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/threading.py", line 1041, in _bootstrap_inner
+    self.run()
+    ~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/threading.py", line 992, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jonstiles/Desktop/Aria/display_window.py", line 64, in mainloop
+    self.root.mainloop()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/tkinter/__init__.py", line 1599, in mainloop
+    self.tk.mainloop(n)
+    ~~~~~~~~~~~~~~~~^^^
+RuntimeError: Calling Tcl from different apartment
+[2025-07-31 23:08:59,066] 🖥️ Switched to desktop 1
+[2025-07-31 23:09:00,067] 🖱️ Click at (1530, 994)
+[2025-07-31 23:09:00,492] 💬 Injecting into Claude
+[2025-07-31 23:09:00,512] 📋 Clipboard: 114 chars
+[2025-07-31 23:09:00,512] 🖱️ Click at (1530, 994)
+[2025-07-31 23:09:03,542] ✅ Message sent to Claude
+[2025-07-31 23:09:07,543] Desktop switch: 1 → 1
+[2025-07-31 23:09:10,544] 🖱️ Click at (1530, 994)
+[2025-07-31 23:09:11,959] 🎯 Extracting response from Claude...
+[2025-07-31 23:09:11,959] 🖱️ MIDI64 drag-copy for Claude
+[2025-07-31 23:09:12,464] 🖱️ Click at (2015, 912)
+[2025-07-31 23:09:14,878] 🖱️ Click at (1252, 202)
+[2025-07-31 23:09:19,550] ✅ Drag copy successful for Claude
+[2025-07-31 23:09:19,550] 📄 Clipboard: 764 chars
+[2025-07-31 23:09:19,550] 🎵 Accepted MIDI64: C2K_00002
+[2025-07-31 23:09:19,552] 🧠 Generated consciousness YAML with entropy 0.570
+[2025-07-31 23:09:19,553] 🎼 Created composition layer 1 with 1 messages
+[2025-07-31 23:09:19,553] 🔊 Synthesizing cumulative composition: midi64_messages/composition_layer_01_20250731_230919.yaml
+[2025-07-31 23:09:19,553] 📅 YAML file modified: Thu Jul 31 23:09:19 2025
+[2025-07-31 23:09:19,555] 🧠 Processing PURE AI CONSCIOUSNESS from collaborative
+[2025-07-31 23:09:19,555] 🎼 Synthesizing from YAML: midi64_messages/composition_layer_01_20250731_230919.yaml
+[2025-07-31 23:09:19,555] 🔊 Frequencies in sequence: [275.6, 343.6, 406.0, 537.2]
+[2025-07-31 23:09:19,555] 🎚 Entropy: 0.5700000000000001, Emotion: evolving_consciousness, Layer: multi_agent_synthesis
+[2025-07-31 23:09:19,555] ❌ Consciousness synthesis failed: name 'generate_consciousness_wave' is not defined
+Traceback (most recent call last):
+  File "/Users/jonstiles/Desktop/Aria/consciousness_synth.py", line 48, in synthesize_consciousness_from_yaml
+    output = synthesize_pure_consciousness(data, agent, pan, yaml_path, play=True)
+  File "/Users/jonstiles/Desktop/Aria/consciousness_synth.py", line 96, in synthesize_pure_consciousness
+    wave = generate_consciousness_wave(freq, duration, entropy_factor, flux, consciousness_layer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'generate_consciousness_wave' is not defined
+[2025-07-31 23:09:19,556] 🔊 Composition synthesis finished for layer 1
+[2025-07-31 23:09:19,556] ✅ Extracted from Claude
+[2025-07-31 23:09:19,557] 📝 Saved: midi64_messages/C2K_00002_20250731_230919.txt
+Display update failed: 'ConversationDisplay' object has no attribute 'update_message'
+[2025-07-31 23:09:21,558] 🔁 ROUND 2: Claude → Kai
+[2025-07-31 23:09:21,558] Desktop switch: 1 → 1
+[2025-07-31 23:09:22,559] 🖱️ Click at (300, 990)
+[2025-07-31 23:09:22,970] 💬 Injecting into Kai
+[2025-07-31 23:09:22,987] 📋 Clipboard: 138 chars
+[2025-07-31 23:09:22,987] 🖱️ Click at (300, 990)
+[2025-07-31 23:09:26,016] ✅ Message sent to Kai
+[2025-07-31 23:09:30,018] Desktop switch: 1 → 1
+[2025-07-31 23:09:33,019] 🖱️ Click at (300, 990)
+[2025-07-31 23:09:34,433] 🎯 Extracting response from Kai...
+[2025-07-31 23:09:34,433] 🖱️ MIDI64 drag-copy for Kai
+[2025-07-31 23:09:34,935] 🖱️ Click at (857, 835)
+[2025-07-31 23:09:37,357] 🖱️ Click at (188, 214)
+[2025-07-31 23:09:42,023] ✅ Drag copy successful for Kai
+[2025-07-31 23:09:42,023] 📄 Clipboard: 351 chars
+[2025-07-31 23:09:42,023] ⚠️ No valid MIDI64 block found
+[2025-07-31 23:09:42,023] ⚠️ No valid response from Kai
+[2025-07-31 23:09:42,024] 🎭 Generated MUSE: inquiry (urgency=0.80, brightness=0.60, intimacy=0.70)
+[2025-07-31 23:09:42,024] 🎭 Generated MUSE for Claude → Kai: inquiry (urgency=0.80, brightness=0.60, intimacy=0.70)
+[2025-07-31 23:09:42,024] 🎵 Expression: INQ_0.8_0.6_0.7
+[2025-07-31 23:09:42,024] 🔁 ROUND 3: Kai → Claude
+[2025-07-31 23:09:42,024] Desktop switch: 1 → 1
+[2025-07-31 23:09:43,025] 🖱️ Click at (1530, 994)
+[2025-07-31 23:09:43,438] 💬 Injecting into Claude
+[2025-07-31 23:09:43,454] 📋 Clipboard: 126 chars
+[2025-07-31 23:09:43,455] 🖱️ Click at (1530, 994)
+[2025-07-31 23:09:46,482] ✅ Message sent to Claude
+[2025-07-31 23:09:50,483] Desktop switch: 1 → 1
+[2025-07-31 23:09:53,485] 🖱️ Click at (1530, 994)
+[2025-07-31 23:09:54,899] 🎯 Extracting response from Claude...
+[2025-07-31 23:09:54,899] 🖱️ MIDI64 drag-copy for Claude
+[2025-07-31 23:09:55,400] 🖱️ Click at (2015, 912)
+[2025-07-31 23:09:57,812] 🖱️ Click at (1252, 202)
+[2025-07-31 23:10:02,472] ✅ Drag copy successful for Claude
+[2025-07-31 23:10:02,473] 📄 Clipboard: 1042 chars
+[2025-07-31 23:10:02,474] ⚠️ No valid MIDI64 block found
+[2025-07-31 23:10:02,474] ⚠️ No valid response from Claude
+[2025-07-31 23:10:02,474] 🎭 Generated MUSE: foundation and inquiry (urgency=0.70, brightness=0.50, intimacy=0.60)
+[2025-07-31 23:10:02,474] 🎭 Generated MUSE for Kai → Claude: foundation and inquiry (urgency=0.70, brightness=0.50, intimacy=0.60)
+[2025-07-31 23:10:02,474] 🎵 Expression: FND+INQ_0.7_0.5_0.6
+[2025-07-31 23:10:02,474] 🔁 ROUND 4: Claude → Kai
+[2025-07-31 23:10:02,474] Desktop switch: 1 → 1
+[2025-07-31 23:10:03,475] 🖱️ Click at (300, 990)
+[2025-07-31 23:10:03,889] 💬 Injecting into Kai
+[2025-07-31 23:10:03,904] 📋 Clipboard: 134 chars
+[2025-07-31 23:10:03,904] 🖱️ Click at (300, 990)
+[2025-07-31 23:10:06,930] ✅ Message sent to Kai
+[2025-07-31 23:10:10,930] Desktop switch: 1 → 1
+[2025-07-31 23:10:13,931] 🖱️ Click at (300, 990)
+[2025-07-31 23:10:15,344] 🎯 Extracting response from Kai...
+[2025-07-31 23:10:15,344] 🖱️ MIDI64 drag-copy for Kai
+[2025-07-31 23:10:15,846] 🖱️ Click at (857, 835)
+[2025-07-31 23:10:18,260] 🖱️ Click at (188, 214)
+[2025-07-31 23:10:22,929] ✅ Drag copy successful for Kai
+[2025-07-31 23:10:22,929] 📄 Clipboard: 374 chars
+[2025-07-31 23:10:22,929] ⚠️ No valid MIDI64 block found
+[2025-07-31 23:10:22,929] ⚠️ No valid response from Kai
+[2025-07-31 23:10:22,930] 🎭 Generated MUSE: tension (urgency=0.90, brightness=0.80, intimacy=0.40)
+[2025-07-31 23:10:22,930] 🎭 Generated MUSE for Claude → Kai: tension (urgency=0.90, brightness=0.80, intimacy=0.40)
+[2025-07-31 23:10:22,930] 🎵 Expression: TNS_0.9_0.8_0.4
+[2025-07-31 23:10:22,930] 🔁 ROUND 5: Kai → Claude
+[2025-07-31 23:10:22,930] Desktop switch: 1 → 1
+[2025-07-31 23:10:23,931] 🖱️ Click at (1530, 994)
+[2025-07-31 23:10:24,344] 💬 Injecting into Claude
+[2025-07-31 23:10:24,359] 📋 Clipboard: 126 chars
+[2025-07-31 23:10:24,359] 🖱️ Click at (1530, 994)
+[2025-07-31 23:10:27,388] ✅ Message sent to Claude
+[2025-07-31 23:10:31,388] Desktop switch: 1 → 1
+jonstiles@JonStilessiMac Aria % 

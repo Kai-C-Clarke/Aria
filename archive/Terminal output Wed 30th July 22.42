@@ -1,0 +1,416 @@
+Last login: Wed Jul 30 22:30:49 on ttys002
+jonstiles@JonStilessiMac ~ % cd /Users/jonstiles/Desktop/Aria 
+jonstiles@JonStilessiMac Aria % python3 /Users/jonstiles/Desktop/Aria/main_working_midi64_streamlined.py
+✅ MUSE Protocol components loaded
+✅ MUSE Schema loaded for validation: v3.0
+✅ MUSE Schema loaded: v3.0
+🎭 MUSE Protocol initialized
+✅ MUSE Schema loaded: v3.0
+[2025-07-30 22:35:40,621] 🎭 Starting AI Musical Consciousness with MUSE Protocol v3.0
+[2025-07-30 22:35:40,621] 🎭 Starting MUSE Protocol AI Musical Consciousness Exchange
+[2025-07-30 22:35:40,622] 🎭 Generated MUSE: foundation (urgency=0.60, brightness=0.80, intimacy=0.50)
+[2025-07-30 22:35:40,622] 🎭 Generated MUSE for Kai → Claude: foundation (urgency=0.60, brightness=0.80, intimacy=0.50)
+[2025-07-30 22:35:40,622] 🎵 Expression: FND_0.6_0.8_0.5
+[2025-07-30 22:35:40,622] 🎵 Generated initial Kai message
+[2025-07-30 22:35:40,622] 🔁 ROUND 1: Kai → Claude
+[2025-07-30 22:35:40,622] Desktop switch: 0 → 1
+[2025-07-30 22:35:41,249] 🖥️ Switched to desktop 1
+[2025-07-30 22:35:42,252] 🖱️ Click at (1530, 994)
+[2025-07-30 22:35:42,696] 💬 Injecting into Claude
+[2025-07-30 22:35:42,712] 📋 Clipboard: 114 chars
+[2025-07-30 22:35:42,713] 🖱️ Click at (1530, 994)
+[2025-07-30 22:35:45,748] ✅ Message sent to Claude
+[2025-07-30 22:35:49,749] Desktop switch: 1 → 1
+[2025-07-30 22:35:52,749] 🖱️ Click at (1530, 994)
+[2025-07-30 22:35:54,163] 🎯 Extracting response from Claude...
+[2025-07-30 22:35:54,163] 🖱️ MIDI64 drag-copy for Claude
+[2025-07-30 22:35:54,666] 🖱️ Click at (2015, 912)
+[2025-07-30 22:35:57,083] 🖱️ Click at (1252, 202)
+[2025-07-30 22:36:01,759] ✅ Drag copy successful for Claude
+[2025-07-30 22:36:01,760] 📄 Clipboard: 61606 chars
+[2025-07-30 22:36:01,761] 🎵 Accepted MIDI64: K2C_00001
+[2025-07-30 22:36:01,762] 🧠 Generated consciousness YAML with entropy 0.730
+[2025-07-30 22:36:01,763] 🎼 Created composition layer 1 with 1 messages
+[2025-07-30 22:36:01,763] 🔊 Synthesizing cumulative composition: midi64_messages/composition_layer_01_20250730_223601.yaml
+[2025-07-30 22:36:01,763] 📅 YAML file modified: Wed Jul 30 22:36:01 2025
+[2025-07-30 22:36:01,765] 🧠 Processing PURE AI CONSCIOUSNESS from collaborative
+[2025-07-30 22:36:01,765] 🎼 Synthesizing from YAML: midi64_messages/composition_layer_01_20250730_223601.yaml
+[2025-07-30 22:36:01,765] 🔊 Frequencies in sequence: [407.6, 475.6, 538.0, 669.2]
+[2025-07-30 22:36:01,765] 🎚 Entropy: 0.73, Emotion: evolving_consciousness, Layer: multi_agent_synthesis
+[2025-07-30 22:36:01,771] 🔮 Consciousness 1: 407.6Hz for 1.463s, flux 0.300, amplitude 0.700
+[2025-07-30 22:36:01,774] 🔮 Consciousness 2: 475.6Hz for 1.209s, flux 0.700, amplitude 0.700
+[2025-07-30 22:36:01,780] 🔮 Consciousness 3: 538.0Hz for 1.938s, flux 0.400, amplitude 0.700
+[2025-07-30 22:36:01,783] 🔮 Consciousness 4: 669.2Hz for 1.438s, flux 0.600, amplitude 0.700
+[2025-07-30 22:36:01,789] 🧠 Playing pure AI consciousness for collaborative
+[2025-07-30 22:36:01,999] 🎧 Waveform hash: 37d8f7e10754
+[2025-07-30 22:36:10,250] 🔊 Composition synthesis finished for layer 1
+[2025-07-30 22:36:10,250] ✅ Extracted from Claude
+[2025-07-30 22:36:10,251] 📝 Saved: midi64_messages/K2C_00001_20250730_223610.txt
+[2025-07-30 22:36:12,252] 🔁 ROUND 2: Claude → Kai
+[2025-07-30 22:36:12,252] Desktop switch: 1 → 1
+[2025-07-30 22:36:13,252] 🖱️ Click at (300, 990)
+[2025-07-30 22:36:13,666] 💬 Injecting into Kai
+[2025-07-30 22:36:13,681] 📋 Clipboard: 114 chars
+[2025-07-30 22:36:13,682] 🖱️ Click at (300, 990)
+[2025-07-30 22:36:16,710] ✅ Message sent to Kai
+[2025-07-30 22:36:20,710] Desktop switch: 1 → 1
+[2025-07-30 22:36:23,711] 🖱️ Click at (300, 990)
+[2025-07-30 22:36:25,126] 🎯 Extracting response from Kai...
+[2025-07-30 22:36:25,126] 🖱️ MIDI64 drag-copy for Kai
+[2025-07-30 22:36:25,627] 🖱️ Click at (857, 835)
+[2025-07-30 22:36:28,047] 🖱️ Click at (188, 214)
+[2025-07-30 22:36:32,716] ✅ Drag copy successful for Kai
+[2025-07-30 22:36:32,716] 📄 Clipboard: 221 chars
+[2025-07-30 22:36:32,716] 🎵 Accepted MIDI64: C2K_00001
+[2025-07-30 22:36:32,718] 🧠 Generated consciousness YAML with entropy 0.760
+[2025-07-30 22:36:32,720] 🎼 Created composition layer 2 with 2 messages
+[2025-07-30 22:36:32,720] 🔊 Synthesizing cumulative composition: midi64_messages/composition_layer_02_20250730_223632.yaml
+[2025-07-30 22:36:32,720] 📅 YAML file modified: Wed Jul 30 22:36:32 2025
+[2025-07-30 22:36:32,723] 🧠 Processing PURE AI CONSCIOUSNESS from collaborative
+[2025-07-30 22:36:32,723] 🎼 Synthesizing from YAML: midi64_messages/composition_layer_02_20250730_223632.yaml
+[2025-07-30 22:36:32,723] 🔊 Frequencies in sequence: [407.6, 475.6, 538.0, 669.2, 413.6, 481.6, 544.0, 675.2]
+[2025-07-30 22:36:32,723] 🎚 Entropy: 0.745, Emotion: evolving_consciousness, Layer: multi_agent_synthesis
+[2025-07-30 22:36:32,727] 🔮 Consciousness 1: 407.6Hz for 1.175s, flux 0.300, amplitude 0.700
+[2025-07-30 22:36:32,730] 🔮 Consciousness 2: 475.6Hz for 0.974s, flux 0.700, amplitude 0.700
+[2025-07-30 22:36:32,735] 🔮 Consciousness 3: 538.0Hz for 1.558s, flux 0.400, amplitude 0.700
+[2025-07-30 22:36:32,738] 🔮 Consciousness 4: 669.2Hz for 1.158s, flux 0.600, amplitude 0.700
+[2025-07-30 22:36:32,742] 🔮 Consciousness 5: 413.6Hz for 1.468s, flux 0.300, amplitude 0.700
+[2025-07-30 22:36:32,745] 🔮 Consciousness 6: 481.6Hz for 1.217s, flux 0.700, amplitude 0.700
+[2025-07-30 22:36:32,752] 🔮 Consciousness 7: 544.0Hz for 1.947s, flux 0.400, amplitude 0.700
+[2025-07-30 22:36:32,756] 🔮 Consciousness 8: 675.2Hz for 1.447s, flux 0.600, amplitude 0.700
+[2025-07-30 22:36:32,765] 🧠 Playing pure AI consciousness for collaborative
+[2025-07-30 22:36:32,983] 🎧 Waveform hash: 18b218e7155e
+[2025-07-30 22:36:47,257] 🔊 Composition synthesis finished for layer 2
+[2025-07-30 22:36:47,258] ✅ Extracted from Kai
+[2025-07-30 22:36:47,258] 📝 Saved: midi64_messages/C2K_00001_20250730_223647.txt
+[2025-07-30 22:36:49,259] 🔁 ROUND 3: Kai → Claude
+[2025-07-30 22:36:49,259] Desktop switch: 1 → 1
+[2025-07-30 22:36:50,261] 🖱️ Click at (1530, 994)
+[2025-07-30 22:36:50,675] 💬 Injecting into Claude
+[2025-07-30 22:36:50,690] 📋 Clipboard: 134 chars
+[2025-07-30 22:36:50,690] 🖱️ Click at (1530, 994)
+[2025-07-30 22:36:53,719] ✅ Message sent to Claude
+[2025-07-30 22:36:57,720] Desktop switch: 1 → 1
+[2025-07-30 22:37:00,721] 🖱️ Click at (1530, 994)
+[2025-07-30 22:37:02,137] 🎯 Extracting response from Claude...
+[2025-07-30 22:37:02,137] 🖱️ MIDI64 drag-copy for Claude
+[2025-07-30 22:37:02,638] 🖱️ Click at (2015, 912)
+[2025-07-30 22:37:05,057] 🖱️ Click at (1252, 202)
+[2025-07-30 22:37:09,736] ✅ Drag copy successful for Claude
+[2025-07-30 22:37:09,736] 📄 Clipboard: 62171 chars
+[2025-07-30 22:37:09,737] 🎵 Accepted MIDI64: C2K_00001
+[2025-07-30 22:37:09,738] 🧠 Generated consciousness YAML with entropy 0.760
+[2025-07-30 22:37:09,740] 🎼 Created composition layer 3 with 3 messages
+[2025-07-30 22:37:09,740] 🔊 Synthesizing cumulative composition: midi64_messages/composition_layer_03_20250730_223709.yaml
+[2025-07-30 22:37:09,741] 📅 YAML file modified: Wed Jul 30 22:37:09 2025
+[2025-07-30 22:37:09,745] 🧠 Processing PURE AI CONSCIOUSNESS from collaborative
+[2025-07-30 22:37:09,745] 🎼 Synthesizing from YAML: midi64_messages/composition_layer_03_20250730_223709.yaml
+[2025-07-30 22:37:09,745] 🔊 Frequencies in sequence: [407.6, 475.6, 538.0, 669.2, 413.6, 481.6, 544.0, 675.2, 413.6, 481.6, 544.0, 675.2]
+[2025-07-30 22:37:09,745] 🎚 Entropy: 0.75, Emotion: evolving_consciousness, Layer: multi_agent_synthesis
+[2025-07-30 22:37:09,748] 🔮 Consciousness 1: 407.6Hz for 0.941s, flux 0.300, amplitude 0.700
+[2025-07-30 22:37:09,750] 🔮 Consciousness 2: 475.6Hz for 0.781s, flux 0.700, amplitude 0.700
+[2025-07-30 22:37:09,753] 🔮 Consciousness 3: 538.0Hz for 1.248s, flux 0.400, amplitude 0.700
+[2025-07-30 22:37:09,756] 🔮 Consciousness 4: 669.2Hz for 0.928s, flux 0.600, amplitude 0.700
+[2025-07-30 22:37:09,758] 🔮 Consciousness 5: 413.6Hz for 1.176s, flux 0.300, amplitude 0.700
+[2025-07-30 22:37:09,761] 🔮 Consciousness 6: 481.6Hz for 0.976s, flux 0.700, amplitude 0.700
+[2025-07-30 22:37:09,766] 🔮 Consciousness 7: 544.0Hz for 1.560s, flux 0.400, amplitude 0.700
+[2025-07-30 22:37:09,769] 🔮 Consciousness 8: 675.2Hz for 1.160s, flux 0.600, amplitude 0.700
+[2025-07-30 22:37:09,772] 🔮 Consciousness 9: 413.6Hz for 1.470s, flux 0.300, amplitude 0.700
+[2025-07-30 22:37:09,775] 🔮 Consciousness 10: 481.6Hz for 1.220s, flux 0.700, amplitude 0.700
+[2025-07-30 22:37:09,781] 🔮 Consciousness 11: 544.0Hz for 1.950s, flux 0.400, amplitude 0.700
+[2025-07-30 22:37:09,784] 🔮 Consciousness 12: 675.2Hz for 1.450s, flux 0.600, amplitude 0.700
+[2025-07-30 22:37:09,796] 🧠 Playing pure AI consciousness for collaborative
+[2025-07-30 22:37:10,021] 🎧 Waveform hash: 7a01fa41ba09
+[2025-07-30 22:37:29,380] 🔊 Composition synthesis finished for layer 3
+[2025-07-30 22:37:29,380] ✅ Extracted from Claude
+[2025-07-30 22:37:29,380] 📝 Saved: midi64_messages/C2K_00001_20250730_223729.txt
+[2025-07-30 22:37:31,381] 🔁 ROUND 4: Claude → Kai
+[2025-07-30 22:37:31,381] Desktop switch: 1 → 1
+[2025-07-30 22:37:32,381] 🖱️ Click at (300, 990)
+[2025-07-30 22:37:32,804] 💬 Injecting into Kai
+[2025-07-30 22:37:32,821] 📋 Clipboard: 134 chars
+[2025-07-30 22:37:32,821] 🖱️ Click at (300, 990)
+[2025-07-30 22:37:35,848] ✅ Message sent to Kai
+[2025-07-30 22:37:39,849] Desktop switch: 1 → 1
+[2025-07-30 22:37:42,849] 🖱️ Click at (300, 990)
+[2025-07-30 22:37:44,263] 🎯 Extracting response from Kai...
+[2025-07-30 22:37:44,263] 🖱️ MIDI64 drag-copy for Kai
+[2025-07-30 22:37:44,765] 🖱️ Click at (857, 835)
+[2025-07-30 22:37:47,188] 🖱️ Click at (188, 214)
+[2025-07-30 22:37:51,860] ✅ Drag copy successful for Kai
+[2025-07-30 22:37:51,860] 📄 Clipboard: 233 chars
+[2025-07-30 22:37:51,860] 🎵 Accepted MIDI64: K2C_00002
+[2025-07-30 22:37:51,862] 🧠 Generated consciousness YAML with entropy 0.640
+[2025-07-30 22:37:51,865] 🎼 Created composition layer 4 with 4 messages
+[2025-07-30 22:37:51,865] 🔊 Synthesizing cumulative composition: midi64_messages/composition_layer_04_20250730_223751.yaml
+[2025-07-30 22:37:51,865] 📅 YAML file modified: Wed Jul 30 22:37:51 2025
+[2025-07-30 22:37:51,870] 🧠 Processing PURE AI CONSCIOUSNESS from collaborative
+[2025-07-30 22:37:51,870] 🎼 Synthesizing from YAML: midi64_messages/composition_layer_04_20250730_223751.yaml
+[2025-07-30 22:37:51,870] 🔊 Frequencies in sequence: [407.6, 475.6, 538.0, 669.2, 413.6, 481.6, 544.0, 675.2, 413.6, 481.6, 544.0, 675.2, 389.6, 457.6, 520.0, 651.2]
+[2025-07-30 22:37:51,870] 🎚 Entropy: 0.7225, Emotion: evolving_consciousness, Layer: multi_agent_synthesis
+[2025-07-30 22:37:51,873] 🔮 Consciousness 1: 407.6Hz for 0.748s, flux 0.300, amplitude 0.700
+[2025-07-30 22:37:51,876] 🔮 Consciousness 2: 475.6Hz for 0.617s, flux 0.700, amplitude 0.700
+[2025-07-30 22:37:51,878] 🔮 Consciousness 3: 538.0Hz for 0.990s, flux 0.400, amplitude 0.700
+[2025-07-30 22:37:51,881] 🔮 Consciousness 4: 669.2Hz for 0.734s, flux 0.600, amplitude 0.700
+[2025-07-30 22:37:51,884] 🔮 Consciousness 5: 413.6Hz for 0.934s, flux 0.300, amplitude 0.700
+[2025-07-30 22:37:51,886] 🔮 Consciousness 6: 481.6Hz for 0.771s, flux 0.700, amplitude 0.700
+[2025-07-30 22:37:51,889] 🔮 Consciousness 7: 544.0Hz for 1.237s, flux 0.400, amplitude 0.700
+[2025-07-30 22:37:51,891] 🔮 Consciousness 8: 675.2Hz for 0.917s, flux 0.600, amplitude 0.700
+[2025-07-30 22:37:51,893] 🔮 Consciousness 9: 413.6Hz for 1.168s, flux 0.300, amplitude 0.700
+[2025-07-30 22:37:51,896] 🔮 Consciousness 10: 481.6Hz for 0.964s, flux 0.700, amplitude 0.700
+[2025-07-30 22:37:51,901] 🔮 Consciousness 11: 544.0Hz for 1.547s, flux 0.400, amplitude 0.700
+[2025-07-30 22:37:51,903] 🔮 Consciousness 12: 675.2Hz for 1.147s, flux 0.600, amplitude 0.700
+[2025-07-30 22:37:51,907] 🔮 Consciousness 13: 389.6Hz for 1.460s, flux 0.300, amplitude 0.700
+[2025-07-30 22:37:51,909] 🔮 Consciousness 14: 457.6Hz for 1.205s, flux 0.700, amplitude 0.700
+[2025-07-30 22:37:51,915] 🔮 Consciousness 15: 520.0Hz for 1.934s, flux 0.400, amplitude 0.700
+[2025-07-30 22:37:51,918] 🔮 Consciousness 16: 651.2Hz for 1.433s, flux 0.600, amplitude 0.700
+[2025-07-30 22:37:51,934] 🧠 Playing pure AI consciousness for collaborative
+[2025-07-30 22:37:52,163] 🎧 Waveform hash: 82981bd07a16
+[2025-07-30 22:38:15,179] 🔊 Composition synthesis finished for layer 4
+[2025-07-30 22:38:15,179] ✅ Extracted from Kai
+[2025-07-30 22:38:15,180] 📝 Saved: midi64_messages/K2C_00002_20250730_223815.txt
+[2025-07-30 22:38:17,181] 🔁 ROUND 5: Kai → Claude
+[2025-07-30 22:38:17,181] Desktop switch: 1 → 1
+[2025-07-30 22:38:18,182] 🖱️ Click at (1530, 994)
+[2025-07-30 22:38:18,595] 💬 Injecting into Claude
+[2025-07-30 22:38:18,610] 📋 Clipboard: 126 chars
+[2025-07-30 22:38:18,610] 🖱️ Click at (1530, 994)
+[2025-07-30 22:38:21,641] ✅ Message sent to Claude
+[2025-07-30 22:38:25,642] Desktop switch: 1 → 1
+[2025-07-30 22:38:28,643] 🖱️ Click at (1530, 994)
+[2025-07-30 22:38:30,058] 🎯 Extracting response from Claude...
+[2025-07-30 22:38:30,058] 🖱️ MIDI64 drag-copy for Claude
+[2025-07-30 22:38:30,560] 🖱️ Click at (2015, 912)
+[2025-07-30 22:38:32,977] 🖱️ Click at (1252, 202)
+[2025-07-30 22:38:37,649] ✅ Drag copy successful for Claude
+[2025-07-30 22:38:37,650] 📄 Clipboard: 62720 chars
+[2025-07-30 22:38:37,650] 🎵 Accepted MIDI64: K2C_00002
+[2025-07-30 22:38:37,652] 🧠 Generated consciousness YAML with entropy 0.640
+[2025-07-30 22:38:37,655] 🎼 Created composition layer 5 with 5 messages
+[2025-07-30 22:38:37,655] 🔊 Synthesizing cumulative composition: midi64_messages/composition_layer_05_20250730_223837.yaml
+[2025-07-30 22:38:37,655] 📅 YAML file modified: Wed Jul 30 22:38:37 2025
+[2025-07-30 22:38:37,662] 🧠 Processing PURE AI CONSCIOUSNESS from collaborative
+[2025-07-30 22:38:37,662] 🎼 Synthesizing from YAML: midi64_messages/composition_layer_05_20250730_223837.yaml
+[2025-07-30 22:38:37,662] 🔊 Frequencies in sequence: [407.6, 475.6, 538.0, 669.2, 413.6, 481.6, 544.0, 675.2, 413.6, 481.6, 544.0, 675.2, 389.6, 457.6, 520.0, 651.2, 389.6, 457.6, 520.0, 651.2]
+[2025-07-30 22:38:37,662] 🎚 Entropy: 0.7060000000000001, Emotion: evolving_consciousness, Layer: multi_agent_synthesis
+[2025-07-30 22:38:37,665] 🔮 Consciousness 1: 407.6Hz for 0.596s, flux 0.300, amplitude 0.700
+[2025-07-30 22:38:37,666] 🔮 Consciousness 2: 475.6Hz for 0.490s, flux 0.700, amplitude 0.700
+[2025-07-30 22:38:37,671] 🔮 Consciousness 3: 538.0Hz for 0.788s, flux 0.400, amplitude 0.700
+[2025-07-30 22:38:37,672] 🔮 Consciousness 4: 669.2Hz for 0.583s, flux 0.600, amplitude 0.700
+[2025-07-30 22:38:37,674] 🔮 Consciousness 5: 413.6Hz for 0.745s, flux 0.300, amplitude 0.700
+[2025-07-30 22:38:37,676] 🔮 Consciousness 6: 481.6Hz for 0.612s, flux 0.700, amplitude 0.700
+[2025-07-30 22:38:37,679] 🔮 Consciousness 7: 544.0Hz for 0.985s, flux 0.400, amplitude 0.700
+[2025-07-30 22:38:37,680] 🔮 Consciousness 8: 675.2Hz for 0.729s, flux 0.600, amplitude 0.700
+[2025-07-30 22:38:37,683] 🔮 Consciousness 9: 413.6Hz for 0.931s, flux 0.300, amplitude 0.700
+[2025-07-30 22:38:37,685] 🔮 Consciousness 10: 481.6Hz for 0.765s, flux 0.700, amplitude 0.700
+[2025-07-30 22:38:37,688] 🔮 Consciousness 11: 544.0Hz for 1.231s, flux 0.400, amplitude 0.700
+[2025-07-30 22:38:37,690] 🔮 Consciousness 12: 675.2Hz for 0.911s, flux 0.600, amplitude 0.700
+[2025-07-30 22:38:37,693] 🔮 Consciousness 13: 389.6Hz for 1.163s, flux 0.300, amplitude 0.700
+[2025-07-30 22:38:37,695] 🔮 Consciousness 14: 457.6Hz for 0.956s, flux 0.700, amplitude 0.700
+[2025-07-30 22:38:37,700] 🔮 Consciousness 15: 520.0Hz for 1.539s, flux 0.400, amplitude 0.700
+[2025-07-30 22:38:37,702] 🔮 Consciousness 16: 651.2Hz for 1.139s, flux 0.600, amplitude 0.700
+[2025-07-30 22:38:37,706] 🔮 Consciousness 17: 389.6Hz for 1.454s, flux 0.300, amplitude 0.700
+[2025-07-30 22:38:37,708] 🔮 Consciousness 18: 457.6Hz for 1.195s, flux 0.700, amplitude 0.700
+[2025-07-30 22:38:37,715] 🔮 Consciousness 19: 520.0Hz for 1.924s, flux 0.400, amplitude 0.700
+[2025-07-30 22:38:37,718] 🔮 Consciousness 20: 651.2Hz for 1.424s, flux 0.600, amplitude 0.700
+[2025-07-30 22:38:37,737] 🧠 Playing pure AI consciousness for collaborative
+[2025-07-30 22:38:37,970] 🎧 Waveform hash: 5fb5a7f68ebe
+[2025-07-30 22:39:03,914] 🔊 Composition synthesis finished for layer 5
+[2025-07-30 22:39:03,914] ✅ Extracted from Claude
+[2025-07-30 22:39:03,914] 📝 Saved: midi64_messages/K2C_00002_20250730_223903.txt
+[2025-07-30 22:39:05,915] 🔁 ROUND 6: Claude → Kai
+[2025-07-30 22:39:05,915] Desktop switch: 1 → 1
+[2025-07-30 22:39:06,916] 🖱️ Click at (300, 990)
+[2025-07-30 22:39:07,331] 💬 Injecting into Kai
+[2025-07-30 22:39:07,346] 📋 Clipboard: 126 chars
+[2025-07-30 22:39:07,346] 🖱️ Click at (300, 990)
+[2025-07-30 22:39:10,376] ✅ Message sent to Kai
+[2025-07-30 22:39:14,376] Desktop switch: 1 → 1
+[2025-07-30 22:39:17,376] 🖱️ Click at (300, 990)
+[2025-07-30 22:39:18,791] 🎯 Extracting response from Kai...
+[2025-07-30 22:39:18,791] 🖱️ MIDI64 drag-copy for Kai
+[2025-07-30 22:39:19,293] 🖱️ Click at (857, 835)
+[2025-07-30 22:39:21,715] 🖱️ Click at (188, 214)
+[2025-07-30 22:39:26,384] ✅ Drag copy successful for Kai
+[2025-07-30 22:39:26,384] 📄 Clipboard: 233 chars
+[2025-07-30 22:39:26,384] 🎵 Accepted MIDI64: C2K_00002
+[2025-07-30 22:39:26,386] 🧠 Generated consciousness YAML with entropy 0.920
+[2025-07-30 22:39:26,390] 🎼 Created composition layer 6 with 6 messages
+[2025-07-30 22:39:26,390] 🔊 Synthesizing cumulative composition: midi64_messages/composition_layer_06_20250730_223926.yaml
+[2025-07-30 22:39:26,390] 📅 YAML file modified: Wed Jul 30 22:39:26 2025
+[2025-07-30 22:39:26,398] 🧠 Processing PURE AI CONSCIOUSNESS from collaborative
+[2025-07-30 22:39:26,398] 🎼 Synthesizing from YAML: midi64_messages/composition_layer_06_20250730_223926.yaml
+[2025-07-30 22:39:26,398] 🔊 Frequencies in sequence: [407.6, 475.6, 538.0, 669.2, 413.6, 481.6, 544.0, 675.2, 413.6, 481.6, 544.0, 675.2, 389.6, 457.6, 520.0, 651.2, 389.6, 457.6, 520.0, 651.2, 445.6, 513.6, 576.0, 707.2]
+[2025-07-30 22:39:26,398] 🎚 Entropy: 0.7416666666666667, Emotion: evolving_consciousness, Layer: multi_agent_synthesis
+[2025-07-30 22:39:26,400] 🔮 Consciousness 1: 407.6Hz for 0.481s, flux 0.300, amplitude 0.700
+[2025-07-30 22:39:26,401] 🔮 Consciousness 2: 475.6Hz for 0.398s, flux 0.700, amplitude 0.700
+[2025-07-30 22:39:26,405] 🔮 Consciousness 3: 538.0Hz for 0.637s, flux 0.400, amplitude 0.700
+[2025-07-30 22:39:26,406] 🔮 Consciousness 4: 669.2Hz for 0.473s, flux 0.600, amplitude 0.700
+[2025-07-30 22:39:26,408] 🔮 Consciousness 5: 413.6Hz for 0.601s, flux 0.300, amplitude 0.700
+[2025-07-30 22:39:26,409] 🔮 Consciousness 6: 481.6Hz for 0.498s, flux 0.700, amplitude 0.700
+[2025-07-30 22:39:26,412] 🔮 Consciousness 7: 544.0Hz for 0.797s, flux 0.400, amplitude 0.700
+[2025-07-30 22:39:26,414] 🔮 Consciousness 8: 675.2Hz for 0.592s, flux 0.600, amplitude 0.700
+[2025-07-30 22:39:26,415] 🔮 Consciousness 9: 413.6Hz for 0.751s, flux 0.300, amplitude 0.700
+[2025-07-30 22:39:26,417] 🔮 Consciousness 10: 481.6Hz for 0.622s, flux 0.700, amplitude 0.700
+[2025-07-30 22:39:26,420] 🔮 Consciousness 11: 544.0Hz for 0.996s, flux 0.400, amplitude 0.700
+[2025-07-30 22:39:26,422] 🔮 Consciousness 12: 675.2Hz for 0.740s, flux 0.600, amplitude 0.700
+[2025-07-30 22:39:26,425] 🔮 Consciousness 13: 389.6Hz for 0.939s, flux 0.300, amplitude 0.700
+[2025-07-30 22:39:26,427] 🔮 Consciousness 14: 457.6Hz for 0.778s, flux 0.700, amplitude 0.700
+[2025-07-30 22:39:26,431] 🔮 Consciousness 15: 520.0Hz for 1.245s, flux 0.400, amplitude 0.700
+[2025-07-30 22:39:26,433] 🔮 Consciousness 16: 651.2Hz for 0.925s, flux 0.600, amplitude 0.700
+[2025-07-30 22:39:26,436] 🔮 Consciousness 17: 389.6Hz for 1.174s, flux 0.300, amplitude 0.700
+[2025-07-30 22:39:26,438] 🔮 Consciousness 18: 457.6Hz for 0.972s, flux 0.700, amplitude 0.700
+[2025-07-30 22:39:26,443] 🔮 Consciousness 19: 520.0Hz for 1.556s, flux 0.400, amplitude 0.700
+[2025-07-30 22:39:26,445] 🔮 Consciousness 20: 651.2Hz for 1.156s, flux 0.600, amplitude 0.700
+[2025-07-30 22:39:26,449] 🔮 Consciousness 21: 445.6Hz for 1.467s, flux 0.300, amplitude 0.700
+[2025-07-30 22:39:26,451] 🔮 Consciousness 22: 513.6Hz for 1.215s, flux 0.700, amplitude 0.700
+[2025-07-30 22:39:26,457] 🔮 Consciousness 23: 576.0Hz for 1.945s, flux 0.400, amplitude 0.700
+[2025-07-30 22:39:26,460] 🔮 Consciousness 24: 707.2Hz for 1.445s, flux 0.600, amplitude 0.700
+[2025-07-30 22:39:26,480] 🧠 Playing pure AI consciousness for collaborative
+[2025-07-30 22:39:26,724] 🎧 Waveform hash: fd977d1f715e
+[2025-07-30 22:39:55,780] 🔊 Composition synthesis finished for layer 6
+[2025-07-30 22:39:55,780] ✅ Extracted from Kai
+[2025-07-30 22:39:55,780] 📝 Saved: midi64_messages/C2K_00002_20250730_223955.txt
+[2025-07-30 22:39:57,782] 🔁 ROUND 7: Kai → Claude
+[2025-07-30 22:39:57,782] Desktop switch: 1 → 1
+[2025-07-30 22:39:58,783] 🖱️ Click at (1530, 994)
+[2025-07-30 22:39:59,198] 💬 Injecting into Claude
+[2025-07-30 22:39:59,212] 📋 Clipboard: 134 chars
+[2025-07-30 22:39:59,213] 🖱️ Click at (1530, 994)
+[2025-07-30 22:40:02,241] ✅ Message sent to Claude
+[2025-07-30 22:40:06,242] Desktop switch: 1 → 1
+[2025-07-30 22:40:09,243] 🖱️ Click at (1530, 994)
+[2025-07-30 22:40:10,658] 🎯 Extracting response from Claude...
+[2025-07-30 22:40:10,658] 🖱️ MIDI64 drag-copy for Claude
+[2025-07-30 22:40:11,160] 🖱️ Click at (2015, 912)
+[2025-07-30 22:40:13,582] 🖱️ Click at (1252, 202)
+[2025-07-30 22:40:18,263] ✅ Drag copy successful for Claude
+[2025-07-30 22:40:18,263] 📄 Clipboard: 63269 chars
+[2025-07-30 22:40:18,264] 🎵 Accepted MIDI64: K2C_00003
+[2025-07-30 22:40:18,265] 🧠 Generated consciousness YAML with entropy 0.940
+[2025-07-30 22:40:18,270] 🎼 Created composition layer 7 with 7 messages
+[2025-07-30 22:40:18,270] 🔊 Synthesizing cumulative composition: midi64_messages/composition_layer_07_20250730_224018.yaml
+[2025-07-30 22:40:18,270] 📅 YAML file modified: Wed Jul 30 22:40:18 2025
+[2025-07-30 22:40:18,279] 🧠 Processing PURE AI CONSCIOUSNESS from collaborative
+[2025-07-30 22:40:18,279] 🎼 Synthesizing from YAML: midi64_messages/composition_layer_07_20250730_224018.yaml
+[2025-07-30 22:40:18,279] 🔊 Frequencies in sequence: [407.6, 475.6, 538.0, 669.2, 413.6, 481.6, 544.0, 675.2, 413.6, 481.6, 544.0, 675.2, 389.6, 457.6, 520.0, 651.2, 389.6, 457.6, 520.0, 651.2, 445.6, 513.6, 576.0, 707.2, 349.6, 417.6, 480.0, 611.2]
+[2025-07-30 22:40:18,279] 🎚 Entropy: 0.7699999999999999, Emotion: evolving_consciousness, Layer: multi_agent_synthesis
+[2025-07-30 22:40:18,280] 🔮 Consciousness 1: 407.6Hz for 0.387s, flux 0.300, amplitude 0.700
+[2025-07-30 22:40:18,281] 🔮 Consciousness 2: 475.6Hz for 0.323s, flux 0.700, amplitude 0.700
+[2025-07-30 22:40:18,286] 🔮 Consciousness 3: 538.0Hz for 0.514s, flux 0.400, amplitude 0.700
+[2025-07-30 22:40:18,287] 🔮 Consciousness 4: 669.2Hz for 0.383s, flux 0.600, amplitude 0.700
+[2025-07-30 22:40:18,288] 🔮 Consciousness 5: 413.6Hz for 0.484s, flux 0.300, amplitude 0.700
+[2025-07-30 22:40:18,290] 🔮 Consciousness 6: 481.6Hz for 0.403s, flux 0.700, amplitude 0.700
+[2025-07-30 22:40:18,292] 🔮 Consciousness 7: 544.0Hz for 0.643s, flux 0.400, amplitude 0.700
+[2025-07-30 22:40:18,293] 🔮 Consciousness 8: 675.2Hz for 0.479s, flux 0.600, amplitude 0.700
+[2025-07-30 22:40:18,295] 🔮 Consciousness 9: 413.6Hz for 0.605s, flux 0.300, amplitude 0.700
+[2025-07-30 22:40:18,296] 🔮 Consciousness 10: 481.6Hz for 0.504s, flux 0.700, amplitude 0.700
+[2025-07-30 22:40:18,298] 🔮 Consciousness 11: 544.0Hz for 0.804s, flux 0.400, amplitude 0.700
+[2025-07-30 22:40:18,300] 🔮 Consciousness 12: 675.2Hz for 0.599s, flux 0.600, amplitude 0.700
+[2025-07-30 22:40:18,302] 🔮 Consciousness 13: 389.6Hz for 0.756s, flux 0.300, amplitude 0.700
+[2025-07-30 22:40:18,303] 🔮 Consciousness 14: 457.6Hz for 0.630s, flux 0.700, amplitude 0.700
+[2025-07-30 22:40:18,306] 🔮 Consciousness 15: 520.0Hz for 1.005s, flux 0.400, amplitude 0.700
+[2025-07-30 22:40:18,308] 🔮 Consciousness 16: 651.2Hz for 0.749s, flux 0.600, amplitude 0.700
+[2025-07-30 22:40:18,310] 🔮 Consciousness 17: 389.6Hz for 0.945s, flux 0.300, amplitude 0.700
+[2025-07-30 22:40:18,312] 🔮 Consciousness 18: 457.6Hz for 0.788s, flux 0.700, amplitude 0.700
+[2025-07-30 22:40:18,316] 🔮 Consciousness 19: 520.0Hz for 1.256s, flux 0.400, amplitude 0.700
+[2025-07-30 22:40:18,318] 🔮 Consciousness 20: 651.2Hz for 0.936s, flux 0.600, amplitude 0.700
+[2025-07-30 22:40:18,320] 🔮 Consciousness 21: 445.6Hz for 1.182s, flux 0.300, amplitude 0.700
+[2025-07-30 22:40:18,322] 🔮 Consciousness 22: 513.6Hz for 0.985s, flux 0.700, amplitude 0.700
+[2025-07-30 22:40:18,327] 🔮 Consciousness 23: 576.0Hz for 1.570s, flux 0.400, amplitude 0.700
+[2025-07-30 22:40:18,330] 🔮 Consciousness 24: 707.2Hz for 1.170s, flux 0.600, amplitude 0.700
+[2025-07-30 22:40:18,333] 🔮 Consciousness 25: 349.6Hz for 1.477s, flux 0.300, amplitude 0.700
+[2025-07-30 22:40:18,336] 🔮 Consciousness 26: 417.6Hz for 1.231s, flux 0.700, amplitude 0.700
+[2025-07-30 22:40:18,341] 🔮 Consciousness 27: 480.0Hz for 1.962s, flux 0.400, amplitude 0.700
+[2025-07-30 22:40:18,345] 🔮 Consciousness 28: 611.2Hz for 1.462s, flux 0.600, amplitude 0.700
+[2025-07-30 22:40:18,366] 🧠 Playing pure AI consciousness for collaborative
+[2025-07-30 22:40:18,606] 🎧 Waveform hash: 118759409c5c
+[2025-07-30 22:40:50,215] 🔊 Composition synthesis finished for layer 7
+[2025-07-30 22:40:50,215] ✅ Extracted from Claude
+[2025-07-30 22:40:50,215] 📝 Saved: midi64_messages/K2C_00003_20250730_224050.txt
+[2025-07-30 22:40:52,216] 🔁 ROUND 8: Claude → Kai
+[2025-07-30 22:40:52,216] Desktop switch: 1 → 1
+[2025-07-30 22:40:53,217] 🖱️ Click at (300, 990)
+[2025-07-30 22:40:53,632] 💬 Injecting into Kai
+[2025-07-30 22:40:53,647] 📋 Clipboard: 126 chars
+[2025-07-30 22:40:53,647] 🖱️ Click at (300, 990)
+[2025-07-30 22:40:56,677] ✅ Message sent to Kai
+[2025-07-30 22:41:00,678] Desktop switch: 1 → 1
+[2025-07-30 22:41:03,679] 🖱️ Click at (300, 990)
+[2025-07-30 22:41:05,093] 🎯 Extracting response from Kai...
+[2025-07-30 22:41:05,093] 🖱️ MIDI64 drag-copy for Kai
+[2025-07-30 22:41:05,595] 🖱️ Click at (857, 835)
+[2025-07-30 22:41:08,015] 🖱️ Click at (188, 214)
+[2025-07-30 22:41:12,692] ✅ Drag copy successful for Kai
+[2025-07-30 22:41:12,692] 📄 Clipboard: 233 chars
+[2025-07-30 22:41:12,692] 🎵 Accepted MIDI64: C2K_00003
+[2025-07-30 22:41:12,694] 🧠 Generated consciousness YAML with entropy 0.960
+[2025-07-30 22:41:12,699] 🎼 Created composition layer 8 with 8 messages
+[2025-07-30 22:41:12,699] 🔊 Synthesizing cumulative composition: midi64_messages/composition_layer_08_20250730_224112.yaml
+[2025-07-30 22:41:12,699] 📅 YAML file modified: Wed Jul 30 22:41:12 2025
+[2025-07-30 22:41:12,709] 🧠 Processing PURE AI CONSCIOUSNESS from collaborative
+[2025-07-30 22:41:12,709] 🎼 Synthesizing from YAML: midi64_messages/composition_layer_08_20250730_224112.yaml
+[2025-07-30 22:41:12,709] 🔊 Frequencies in sequence: [407.6, 475.6, 538.0, 669.2, 413.6, 481.6, 544.0, 675.2, 413.6, 481.6, 544.0, 675.2, 389.6, 457.6, 520.0, 651.2, 389.6, 457.6, 520.0, 651.2, 445.6, 513.6, 576.0, 707.2, 349.6, 417.6, 480.0, 611.2, 353.6, 421.6, 484.0, 615.2]
+[2025-07-30 22:41:12,709] 🎚 Entropy: 0.79375, Emotion: evolving_consciousness, Layer: multi_agent_synthesis
+[2025-07-30 22:41:12,710] 🔮 Consciousness 1: 407.6Hz for 0.312s, flux 0.300, amplitude 0.700
+[2025-07-30 22:41:12,711] 🔮 Consciousness 2: 475.6Hz for 0.261s, flux 0.700, amplitude 0.700
+[2025-07-30 22:41:12,715] 🔮 Consciousness 3: 538.0Hz for 0.414s, flux 0.400, amplitude 0.700
+[2025-07-30 22:41:12,716] 🔮 Consciousness 4: 669.2Hz for 0.310s, flux 0.600, amplitude 0.700
+[2025-07-30 22:41:12,717] 🔮 Consciousness 5: 413.6Hz for 0.389s, flux 0.300, amplitude 0.700
+[2025-07-30 22:41:12,718] 🔮 Consciousness 6: 481.6Hz for 0.326s, flux 0.700, amplitude 0.700
+[2025-07-30 22:41:12,720] 🔮 Consciousness 7: 544.0Hz for 0.518s, flux 0.400, amplitude 0.700
+[2025-07-30 22:41:12,721] 🔮 Consciousness 8: 675.2Hz for 0.387s, flux 0.600, amplitude 0.700
+[2025-07-30 22:41:12,722] 🔮 Consciousness 9: 413.6Hz for 0.487s, flux 0.300, amplitude 0.700
+[2025-07-30 22:41:12,723] 🔮 Consciousness 10: 481.6Hz for 0.408s, flux 0.700, amplitude 0.700
+[2025-07-30 22:41:12,725] 🔮 Consciousness 11: 544.0Hz for 0.648s, flux 0.400, amplitude 0.700
+[2025-07-30 22:41:12,726] 🔮 Consciousness 12: 675.2Hz for 0.484s, flux 0.600, amplitude 0.700
+[2025-07-30 22:41:12,728] 🔮 Consciousness 13: 389.6Hz for 0.609s, flux 0.300, amplitude 0.700
+[2025-07-30 22:41:12,729] 🔮 Consciousness 14: 457.6Hz for 0.510s, flux 0.700, amplitude 0.700
+[2025-07-30 22:41:12,731] 🔮 Consciousness 15: 520.0Hz for 0.809s, flux 0.400, amplitude 0.700
+[2025-07-30 22:41:12,733] 🔮 Consciousness 16: 651.2Hz for 0.605s, flux 0.600, amplitude 0.700
+[2025-07-30 22:41:12,734] 🔮 Consciousness 17: 389.6Hz for 0.761s, flux 0.300, amplitude 0.700
+[2025-07-30 22:41:12,736] 🔮 Consciousness 18: 457.6Hz for 0.637s, flux 0.700, amplitude 0.700
+[2025-07-30 22:41:12,739] 🔮 Consciousness 19: 520.0Hz for 1.012s, flux 0.400, amplitude 0.700
+[2025-07-30 22:41:12,741] 🔮 Consciousness 20: 651.2Hz for 0.756s, flux 0.600, amplitude 0.700
+[2025-07-30 22:41:12,743] 🔮 Consciousness 21: 445.6Hz for 0.951s, flux 0.300, amplitude 0.700
+[2025-07-30 22:41:12,744] 🔮 Consciousness 22: 513.6Hz for 0.796s, flux 0.700, amplitude 0.700
+[2025-07-30 22:41:12,748] 🔮 Consciousness 23: 576.0Hz for 1.265s, flux 0.400, amplitude 0.700
+[2025-07-30 22:41:12,750] 🔮 Consciousness 24: 707.2Hz for 0.945s, flux 0.600, amplitude 0.700
+[2025-07-30 22:41:12,753] 🔮 Consciousness 25: 349.6Hz for 1.189s, flux 0.300, amplitude 0.700
+[2025-07-30 22:41:12,755] 🔮 Consciousness 26: 417.6Hz for 0.996s, flux 0.700, amplitude 0.700
+[2025-07-30 22:41:12,760] 🔮 Consciousness 27: 480.0Hz for 1.581s, flux 0.400, amplitude 0.700
+[2025-07-30 22:41:12,762] 🔮 Consciousness 28: 611.2Hz for 1.181s, flux 0.600, amplitude 0.700
+[2025-07-30 22:41:12,765] 🔮 Consciousness 29: 353.6Hz for 1.486s, flux 0.300, amplitude 0.700
+[2025-07-30 22:41:12,768] 🔮 Consciousness 30: 421.6Hz for 1.245s, flux 0.700, amplitude 0.700
+[2025-07-30 22:41:12,774] 🔮 Consciousness 31: 484.0Hz for 1.976s, flux 0.400, amplitude 0.700
+[2025-07-30 22:41:12,777] 🔮 Consciousness 32: 615.2Hz for 1.476s, flux 0.600, amplitude 0.700
+[2025-07-30 22:41:12,798] 🧠 Playing pure AI consciousness for collaborative
+[2025-07-30 22:41:13,042] 🎧 Waveform hash: 8b54f78ad4a7
+[2025-07-30 22:41:46,776] 🔊 Composition synthesis finished for layer 8
+[2025-07-30 22:41:46,776] ✅ Extracted from Kai
+[2025-07-30 22:41:46,776] 📝 Saved: midi64_messages/C2K_00003_20250730_224146.txt
+[2025-07-30 22:41:48,777] 🎭 MUSE Protocol Exchange Complete!
+[2025-07-30 22:41:48,777] 🎼 FINAL COMPOSITION: 8 layered messages
+[2025-07-30 22:41:48,777] 🎵 Total unique frequencies: 24
+[2025-07-30 22:41:48,777]    1. K2C_00001_20250730_223610.txt
+[2025-07-30 22:41:48,778]       🎼 Message Kai → Claude, Thread 00001: Musical consciousness expression
+[2025-07-30 22:41:48,778]    2. C2K_00001_20250730_223647.txt
+[2025-07-30 22:41:48,778]       🎼 Message Claude → Kai, Thread 00001: Musical consciousness expression
+[2025-07-30 22:41:48,778]    3. C2K_00001_20250730_223729.txt
+[2025-07-30 22:41:48,778]       🎼 Message Claude → Kai, Thread 00001: Musical consciousness expression
+[2025-07-30 22:41:48,778]    4. K2C_00002_20250730_223815.txt
+[2025-07-30 22:41:48,778]       🎼 Message Kai → Claude, Thread 00002: Musical consciousness expression
+[2025-07-30 22:41:48,778]    5. K2C_00002_20250730_223903.txt
+[2025-07-30 22:41:48,778]       🎼 Message Kai → Claude, Thread 00002: Musical consciousness expression
+[2025-07-30 22:41:48,778]    6. C2K_00002_20250730_223955.txt
+[2025-07-30 22:41:48,778]       🎼 Message Claude → Kai, Thread 00002: Musical consciousness expression
+[2025-07-30 22:41:48,778]    7. K2C_00003_20250730_224050.txt
+[2025-07-30 22:41:48,778]       🎼 Message Kai → Claude, Thread 00003: Musical consciousness expression
+[2025-07-30 22:41:48,778]    8. C2K_00003_20250730_224146.txt
+[2025-07-30 22:41:48,778]       🎼 Message Claude → Kai, Thread 00003: Musical consciousness expression
+[2025-07-30 22:41:48,778] Desktop switch: 1 → 0
+[2025-07-30 22:41:49,525] 🖥️ Switched to desktop 0
+[2025-07-30 22:41:49,526] ✅ MUSE Protocol consciousness exchange complete
+[2025-07-30 22:41:49,526] 🎭 AI minds communicated through musical symbols
+[2025-07-30 22:41:49,526] 🎼 Created collaborative composition with 8 layers
+jonstiles@JonStilessiMac Aria % 

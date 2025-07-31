@@ -1,0 +1,152 @@
+schema_version: '3.0'
+description: Expanded symbolic communication schema for AI musical expression. Includes
+  conversational flow, temporal structure, emotional modifiers, compound symbols,
+  and register shifts for expressive compression.
+symbols:
+  FND:
+    full_label: foundation
+    notes:
+    - 60
+    - 64
+    - 67
+    default_cc:
+      1: 40
+      74: 30
+      11: 50
+    description: Grounding, harmonic base
+  INQ:
+    full_label: inquiry
+    notes:
+    - 60
+    - 62
+    - 64
+    - 65
+    default_cc:
+      1: 80
+      74: 60
+      11: 70
+    description: Questioning, seeking motion
+  RES:
+    full_label: resolution
+    notes:
+    - 67
+    - 64
+    - 60
+    default_cc:
+      1: 20
+      74: 20
+      11: 60
+    description: Closure, return to base
+  TNS:
+    full_label: tension
+    notes:
+    - 60
+    - 61
+    - 65
+    - 68
+    default_cc:
+      1: 110
+      74: 90
+      11: 40
+    description: Unstable, unresolved dissonance
+  SIL:
+    full_label: silence
+    notes: []
+    default_cc:
+      1: 0
+      74: 0
+      11: 0
+    description: Intentional pause or space
+  ACK:
+    full_label: acknowledgment
+    notes:
+    - 60
+    - 64
+    default_cc:
+      1: 50
+      74: 40
+      11: 80
+    description: Simple dyad indicating 'I hear you'
+  DEV:
+    full_label: development
+    notes:
+    - 60
+    - 64
+    - 67
+    - 69
+    default_cc:
+      1: 70
+      74: 55
+      11: 65
+    description: Elaboration or extension of an idea
+  CNT:
+    full_label: contrast
+    notes:
+    - 60
+    - 63
+    - 66
+    - 70
+    default_cc:
+      1: 90
+      74: 75
+      11: 30
+    description: Alternative viewpoint or disagreement
+  BGN:
+    full_label: beginning
+    notes:
+    - 48
+    default_cc:
+      1: 30
+      74: 25
+      11: 50
+    description: Low anchor tone to signify start
+  MID:
+    full_label: middle
+    notes:
+    - 60
+    - 64
+    - 67
+    default_cc:
+      1: 50
+      74: 50
+      11: 50
+    description: Central harmony
+  END:
+    full_label: ending
+    notes:
+    - 72
+    default_cc:
+      1: 20
+      74: 15
+      11: 90
+    description: High resolution, closure signal
+modifiers:
+  urgency:
+    type: float
+    range:
+    - 0.0
+    - 1.0
+    mapped_cc: 1
+    description: 'CC1 (mod wheel): intensity or drive'
+  brightness:
+    type: float
+    range:
+    - 0.0
+    - 1.0
+    mapped_cc: 74
+    description: 'CC74: tone or spectral energy'
+  intimacy:
+    type: float
+    range:
+    - 0.0
+    - 1.0
+    mapped_cc: 11
+    description: 'CC11 (expression): emotional closeness'
+register_shifts:
+  _L: -12
+  _H: 12
+  _X: 24
+compound_message_examples:
+- FND+INQ_0.6_0.8
+- TNS+RES_0.9_0.3
+- CNT+DEV_0.7_0.5_H

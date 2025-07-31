@@ -1,0 +1,11 @@
+cc_modulators:
+  CC1: 48
+  CC11: 81
+  CC74: 60
+dialogue_position: response
+entropy_level: medium
+intention: harmonic_reflection
+modal: major
+mood: responsive
+
+# Interpretation: Consciousness: harmonic_reflection / responsive / major / response

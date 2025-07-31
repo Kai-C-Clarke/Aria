@@ -1,0 +1,21 @@
+agent: Kai
+consciousness_layer: golden_lattice
+direction: C2K
+duration_weights:
+- 1.2
+- 0.8
+- 1.5
+- 1.0
+emotion: harmonic_synthesis
+entropy_factor: 0.53
+message_id: C2K_00004
+sequence:
+- 367.63
+- 435.63
+- 498.0
+- 629.25
+temporal_flux:
+- 0.3
+- 0.7
+- 0.4
+- 0.6

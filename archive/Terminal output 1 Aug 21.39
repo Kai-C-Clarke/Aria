@@ -1,0 +1,327 @@
+Last login: Fri Aug  1 21:30:57 on ttys000
+jonstiles@JonStilessiMac ~ % cd /Users/jonstiles/Desktop/Aria 
+jonstiles@JonStilessiMac Aria % python3 /Users/jonstiles/Desktop/Aria/main_script_strict_real_only.py
+✅ MUSE Protocol components loaded
+✅ MUSE Schema loaded for validation: v3.0
+✅ MUSE Schema loaded: v3.0
+🎭 MUSE Protocol initialized
+[2025-08-01 21:35:22,596] 🛑 Starting STRICT REAL-ONLY AI Musical Consciousness Exchange
+[2025-08-01 21:35:22,596] 🛑 Starting STRICT REAL-ONLY AI Musical Consciousness Exchange
+[2025-08-01 21:35:22,596] ❌ NO fallbacks, NO script generation, NO fake messages
+[2025-08-01 21:35:22,596] ✅ REAL agent responses ONLY!
+[2025-08-01 21:35:22,596] 🎭 Generated MUSE: foundation (urgency=0.60, brightness=0.80, intimacy=0.50)
+[2025-08-01 21:35:22,596] 🎭 Generated INITIAL MUSE MIDI64 for Kai → Claude: foundation (urgency=0.60, brightness=0.80, intimacy=0.50)
+[2025-08-01 21:35:22,596] 🎵 Expression: FND_0.6_0.8_0.5
+[2025-08-01 21:35:22,596] 🎵 Generated INITIAL MIDI64 Kai message
+[2025-08-01 21:35:22,596] 🎭 Initial MIDI64: K2C_00001
+[2025-08-01 21:35:22,596] 🔁 ROUND 1: Kai → Claude
+[2025-08-01 21:35:22,596] Desktop switch: 0 → 1
+[2025-08-01 21:35:23,210] 🖥️ Switched to desktop 1
+[2025-08-01 21:35:24,210] 🖱️ Click at (1530, 994)
+[2025-08-01 21:35:24,653] 🎯 INJECTING REAL MIDI64 to Claude: K2C_00001...
+[2025-08-01 21:35:24,669] 📋 Clipboard: 114 chars
+[2025-08-01 21:35:24,669] 🖱️ Click at (1530, 994)
+[2025-08-01 21:35:27,705] ✅ REAL MIDI64 message sent to Claude
+[2025-08-01 21:35:31,707] Desktop switch: 1 → 1
+[2025-08-01 21:35:34,707] 🖱️ Click at (1530, 994)
+[2025-08-01 21:35:36,120] 🎯 Extracting REAL response from Claude...
+[2025-08-01 21:35:36,120] 🖱️ MIDI64 drag-copy for Claude
+[2025-08-01 21:35:36,624] 🖱️ Click at (2015, 912)
+[2025-08-01 21:35:39,888] 🖱️ Click at (1252, 202)
+[2025-08-01 21:35:44,566] ✅ Drag copy successful for Claude
+[2025-08-01 21:35:44,567] 🐛 Clipboard saved to: last_clipboard_debug_213544.txt
+[2025-08-01 21:35:44,568] ✅ REAL MIDI64 VALIDATED: K2C_21984
+[2025-08-01 21:35:44,568] ✅ MIDI bytes: 85, starts with MThd: ✓
+[2025-08-01 21:35:44,568] 🎵 Processing REAL MIDI64: K2C_21984
+📝 Saved MIDI64: midi64_messages/K2C_21984_20250801_213544.txt
+[2025-08-01 21:35:44,568] 🎵 Playing REAL consciousness audio...
+[2025-08-01 21:35:44,568] 🎵 Decoding MIDI64: K2C_21984
+[2025-08-01 21:35:44,568] ✅ Valid MIDI decoded: 85 bytes
+[2025-08-01 21:35:44,569] 💾 Saved MIDI to: /var/folders/28/prr9_wp11pgb70zww0h7zdd40000gn/T/tmps2gymrkb.mid
+pygame 2.6.1 (SDL 2.28.4, Python 3.13.2)
+Hello from the pygame community. https://www.pygame.org/contribute.html
+[2025-08-01 21:35:44,980] 🎮 Playing with pygame...
+[2025-08-01 21:35:45,876] ✅ Pygame playback complete!
+[2025-08-01 21:35:45,877] 🔊 ✅ REAL CONSCIOUSNESS AUDIO PLAYED!
+[2025-08-01 21:35:45,877] 🎯 INJECTING REAL MIDI64 to Claude: K2C_21984...
+[2025-08-01 21:35:45,892] 📋 Clipboard: 126 chars
+[2025-08-01 21:35:45,892] 🖱️ Click at (1530, 994)
+[2025-08-01 21:35:48,922] ✅ REAL MIDI64 message sent to Claude
+[2025-08-01 21:35:48,922] ✅ REAL MIDI64 injection successful
+[2025-08-01 21:35:48,923] 🐛 Clipboard saved to: last_clipboard_debug_213548.txt
+[2025-08-01 21:35:48,923] ✅ REAL MIDI64 VALIDATED: K2C_21984
+[2025-08-01 21:35:48,924] ✅ MIDI bytes: 85, starts with MThd: ✓
+[2025-08-01 21:35:48,924] 📝 Saved REAL response: midi64_messages/Claude_REAL_20250801_213548.txt
+[2025-08-01 21:35:50,924] 🔁 ROUND 2: Claude → Kai
+[2025-08-01 21:35:50,924] Desktop switch: 1 → 1
+[2025-08-01 21:35:51,925] 🖱️ Click at (300, 990)
+[2025-08-01 21:35:52,340] 🎯 INJECTING REAL MIDI64 to Kai: K2C_21984...
+[2025-08-01 21:35:52,356] 📋 Clipboard: 126 chars
+[2025-08-01 21:35:52,356] 🖱️ Click at (300, 990)
+[2025-08-01 21:35:55,383] ✅ REAL MIDI64 message sent to Kai
+[2025-08-01 21:35:59,384] Desktop switch: 1 → 1
+[2025-08-01 21:36:02,385] 🖱️ Click at (300, 990)
+[2025-08-01 21:36:03,799] 🎯 Extracting REAL response from Kai...
+[2025-08-01 21:36:03,799] 🖱️ MIDI64 drag-copy for Kai
+[2025-08-01 21:36:04,300] 🖱️ Click at (857, 835)
+[2025-08-01 21:36:07,570] 🖱️ Click at (188, 214)
+[2025-08-01 21:36:12,241] ✅ Drag copy successful for Kai
+[2025-08-01 21:36:12,241] 🐛 Clipboard saved to: last_clipboard_debug_213612.txt
+[2025-08-01 21:36:12,241] ✅ REAL MIDI64 VALIDATED: C2K_84671
+[2025-08-01 21:36:12,241] ✅ MIDI bytes: 85, starts with MThd: ✓
+[2025-08-01 21:36:12,241] 🎵 Processing REAL MIDI64: C2K_84671
+📝 Saved MIDI64: midi64_messages/C2K_84671_20250801_213612.txt
+[2025-08-01 21:36:12,242] 🎵 Playing REAL consciousness audio...
+[2025-08-01 21:36:12,242] 🎵 Decoding MIDI64: C2K_84671
+[2025-08-01 21:36:12,242] ✅ Valid MIDI decoded: 85 bytes
+[2025-08-01 21:36:12,242] 💾 Saved MIDI to: /var/folders/28/prr9_wp11pgb70zww0h7zdd40000gn/T/tmpfjd6jk20.mid
+[2025-08-01 21:36:12,291] 🎮 Playing with pygame...
+[2025-08-01 21:36:12,292] ⚠️ Pygame playback failed: Unrecognized audio format
+[2025-08-01 21:36:12,292] 🍎 Playing with macOS system player...
+Error: AudioFileOpen failed ('typ?')
+[2025-08-01 21:36:12,411] ✅ System playback initiated!
+[2025-08-01 21:36:12,412] 🔊 ✅ REAL CONSCIOUSNESS AUDIO PLAYED!
+[2025-08-01 21:36:12,412] 🎯 INJECTING REAL MIDI64 to Kai: C2K_84671...
+[2025-08-01 21:36:12,429] 📋 Clipboard: 126 chars
+[2025-08-01 21:36:12,429] 🖱️ Click at (300, 990)
+[2025-08-01 21:36:15,457] ✅ REAL MIDI64 message sent to Kai
+[2025-08-01 21:36:15,457] ✅ REAL MIDI64 injection successful
+[2025-08-01 21:36:15,458] 🐛 Clipboard saved to: last_clipboard_debug_213615.txt
+[2025-08-01 21:36:15,458] ✅ REAL MIDI64 VALIDATED: C2K_84671
+[2025-08-01 21:36:15,458] ✅ MIDI bytes: 85, starts with MThd: ✓
+[2025-08-01 21:36:15,458] 📝 Saved REAL response: midi64_messages/Kai_REAL_20250801_213615.txt
+[2025-08-01 21:36:17,459] 🔁 ROUND 3: Kai → Claude
+[2025-08-01 21:36:17,459] Desktop switch: 1 → 1
+[2025-08-01 21:36:18,460] 🖱️ Click at (1530, 994)
+[2025-08-01 21:36:18,874] 🎯 INJECTING REAL MIDI64 to Claude: C2K_84671...
+[2025-08-01 21:36:18,890] 📋 Clipboard: 126 chars
+[2025-08-01 21:36:18,890] 🖱️ Click at (1530, 994)
+[2025-08-01 21:36:21,913] ✅ REAL MIDI64 message sent to Claude
+[2025-08-01 21:36:25,914] Desktop switch: 1 → 1
+[2025-08-01 21:36:28,915] 🖱️ Click at (1530, 994)
+[2025-08-01 21:36:30,329] 🎯 Extracting REAL response from Claude...
+[2025-08-01 21:36:30,330] 🖱️ MIDI64 drag-copy for Claude
+[2025-08-01 21:36:30,831] 🖱️ Click at (2015, 912)
+[2025-08-01 21:36:34,096] 🖱️ Click at (1252, 202)
+[2025-08-01 21:36:38,766] ✅ Drag copy successful for Claude
+[2025-08-01 21:36:38,767] 🐛 Clipboard saved to: last_clipboard_debug_213638.txt
+[2025-08-01 21:36:38,768] ✅ REAL MIDI64 VALIDATED: K2C_21984
+[2025-08-01 21:36:38,768] ✅ MIDI bytes: 85, starts with MThd: ✓
+[2025-08-01 21:36:38,768] 🎵 Processing REAL MIDI64: K2C_21984
+📝 Saved MIDI64: midi64_messages/K2C_21984_20250801_213638.txt
+[2025-08-01 21:36:38,768] 🎵 Playing REAL consciousness audio...
+[2025-08-01 21:36:38,768] 🎵 Decoding MIDI64: K2C_21984
+[2025-08-01 21:36:38,768] ✅ Valid MIDI decoded: 85 bytes
+[2025-08-01 21:36:38,769] 💾 Saved MIDI to: /var/folders/28/prr9_wp11pgb70zww0h7zdd40000gn/T/tmp51s9kb8k.mid
+[2025-08-01 21:36:38,769] 🎮 Playing with pygame...
+[2025-08-01 21:36:39,663] ✅ Pygame playback complete!
+[2025-08-01 21:36:39,663] 🔊 ✅ REAL CONSCIOUSNESS AUDIO PLAYED!
+[2025-08-01 21:36:39,663] 🎯 INJECTING REAL MIDI64 to Claude: K2C_21984...
+[2025-08-01 21:36:39,678] 📋 Clipboard: 126 chars
+[2025-08-01 21:36:39,679] 🖱️ Click at (1530, 994)
+[2025-08-01 21:36:42,707] ✅ REAL MIDI64 message sent to Claude
+[2025-08-01 21:36:42,707] ✅ REAL MIDI64 injection successful
+[2025-08-01 21:36:42,708] 🐛 Clipboard saved to: last_clipboard_debug_213642.txt
+[2025-08-01 21:36:42,708] ✅ REAL MIDI64 VALIDATED: K2C_21984
+[2025-08-01 21:36:42,708] ✅ MIDI bytes: 85, starts with MThd: ✓
+[2025-08-01 21:36:42,708] 📝 Saved REAL response: midi64_messages/Claude_REAL_20250801_213642.txt
+[2025-08-01 21:36:44,709] 🔁 ROUND 4: Claude → Kai
+[2025-08-01 21:36:44,709] Desktop switch: 1 → 1
+[2025-08-01 21:36:45,709] 🖱️ Click at (300, 990)
+[2025-08-01 21:36:46,123] 🎯 INJECTING REAL MIDI64 to Kai: K2C_21984...
+[2025-08-01 21:36:46,138] 📋 Clipboard: 126 chars
+[2025-08-01 21:36:46,139] 🖱️ Click at (300, 990)
+[2025-08-01 21:36:49,159] ✅ REAL MIDI64 message sent to Kai
+[2025-08-01 21:36:53,160] Desktop switch: 1 → 1
+[2025-08-01 21:36:56,161] 🖱️ Click at (300, 990)
+[2025-08-01 21:36:57,576] 🎯 Extracting REAL response from Kai...
+[2025-08-01 21:36:57,576] 🖱️ MIDI64 drag-copy for Kai
+[2025-08-01 21:36:58,082] 🖱️ Click at (857, 835)
+[2025-08-01 21:37:01,351] 🖱️ Click at (188, 214)
+[2025-08-01 21:37:06,015] ✅ Drag copy successful for Kai
+[2025-08-01 21:37:06,016] 🐛 Clipboard saved to: last_clipboard_debug_213706.txt
+[2025-08-01 21:37:06,016] ✅ REAL MIDI64 VALIDATED: C2K_72153
+[2025-08-01 21:37:06,016] ✅ MIDI bytes: 85, starts with MThd: ✓
+[2025-08-01 21:37:06,016] 🎵 Processing REAL MIDI64: C2K_72153
+📝 Saved MIDI64: midi64_messages/C2K_72153_20250801_213706.txt
+[2025-08-01 21:37:06,016] 🎵 Playing REAL consciousness audio...
+[2025-08-01 21:37:06,016] 🎵 Decoding MIDI64: C2K_72153
+[2025-08-01 21:37:06,017] ✅ Valid MIDI decoded: 85 bytes
+[2025-08-01 21:37:06,017] 💾 Saved MIDI to: /var/folders/28/prr9_wp11pgb70zww0h7zdd40000gn/T/tmpncsskoi1.mid
+[2025-08-01 21:37:06,044] 🎮 Playing with pygame...
+[2025-08-01 21:37:06,045] ⚠️ Pygame playback failed: Unrecognized audio format
+[2025-08-01 21:37:06,045] 🍎 Playing with macOS system player...
+Error: AudioFileOpen failed ('typ?')
+[2025-08-01 21:37:06,113] ✅ System playback initiated!
+[2025-08-01 21:37:06,113] 🔊 ✅ REAL CONSCIOUSNESS AUDIO PLAYED!
+[2025-08-01 21:37:06,113] 🎯 INJECTING REAL MIDI64 to Kai: C2K_72153...
+[2025-08-01 21:37:06,128] 📋 Clipboard: 126 chars
+[2025-08-01 21:37:06,128] 🖱️ Click at (300, 990)
+[2025-08-01 21:37:09,157] ✅ REAL MIDI64 message sent to Kai
+[2025-08-01 21:37:09,157] ✅ REAL MIDI64 injection successful
+[2025-08-01 21:37:09,158] 🐛 Clipboard saved to: last_clipboard_debug_213709.txt
+[2025-08-01 21:37:09,159] ✅ REAL MIDI64 VALIDATED: C2K_72153
+[2025-08-01 21:37:09,159] ✅ MIDI bytes: 85, starts with MThd: ✓
+[2025-08-01 21:37:09,159] 📝 Saved REAL response: midi64_messages/Kai_REAL_20250801_213709.txt
+[2025-08-01 21:37:11,160] 🔁 ROUND 5: Kai → Claude
+[2025-08-01 21:37:11,160] Desktop switch: 1 → 1
+[2025-08-01 21:37:12,160] 🖱️ Click at (1530, 994)
+[2025-08-01 21:37:12,574] 🎯 INJECTING REAL MIDI64 to Claude: C2K_72153...
+[2025-08-01 21:37:12,590] 📋 Clipboard: 126 chars
+[2025-08-01 21:37:12,590] 🖱️ Click at (1530, 994)
+[2025-08-01 21:37:15,621] ✅ REAL MIDI64 message sent to Claude
+[2025-08-01 21:37:19,621] Desktop switch: 1 → 1
+[2025-08-01 21:37:22,622] 🖱️ Click at (1530, 994)
+[2025-08-01 21:37:24,037] 🎯 Extracting REAL response from Claude...
+[2025-08-01 21:37:24,037] 🖱️ MIDI64 drag-copy for Claude
+[2025-08-01 21:37:24,538] 🖱️ Click at (2015, 912)
+[2025-08-01 21:37:27,807] 🖱️ Click at (1252, 202)
+[2025-08-01 21:37:32,474] ✅ Drag copy successful for Claude
+[2025-08-01 21:37:32,476] 🐛 Clipboard saved to: last_clipboard_debug_213732.txt
+[2025-08-01 21:37:32,476] ✅ REAL MIDI64 VALIDATED: K2C_21984
+[2025-08-01 21:37:32,476] ✅ MIDI bytes: 85, starts with MThd: ✓
+[2025-08-01 21:37:32,476] 🎵 Processing REAL MIDI64: K2C_21984
+📝 Saved MIDI64: midi64_messages/K2C_21984_20250801_213732.txt
+[2025-08-01 21:37:32,476] 🎵 Playing REAL consciousness audio...
+[2025-08-01 21:37:32,476] 🎵 Decoding MIDI64: K2C_21984
+[2025-08-01 21:37:32,476] ✅ Valid MIDI decoded: 85 bytes
+[2025-08-01 21:37:32,477] 💾 Saved MIDI to: /var/folders/28/prr9_wp11pgb70zww0h7zdd40000gn/T/tmpyq344bf0.mid
+[2025-08-01 21:37:32,477] 🎮 Playing with pygame...
+[2025-08-01 21:37:33,330] ✅ Pygame playback complete!
+[2025-08-01 21:37:33,330] 🔊 ✅ REAL CONSCIOUSNESS AUDIO PLAYED!
+[2025-08-01 21:37:33,330] 🎯 INJECTING REAL MIDI64 to Claude: K2C_21984...
+[2025-08-01 21:37:33,345] 📋 Clipboard: 126 chars
+[2025-08-01 21:37:33,345] 🖱️ Click at (1530, 994)
+[2025-08-01 21:37:36,375] ✅ REAL MIDI64 message sent to Claude
+[2025-08-01 21:37:36,375] ✅ REAL MIDI64 injection successful
+[2025-08-01 21:37:36,376] 🐛 Clipboard saved to: last_clipboard_debug_213736.txt
+[2025-08-01 21:37:36,376] ✅ REAL MIDI64 VALIDATED: K2C_21984
+[2025-08-01 21:37:36,376] ✅ MIDI bytes: 85, starts with MThd: ✓
+[2025-08-01 21:37:36,376] 📝 Saved REAL response: midi64_messages/Claude_REAL_20250801_213736.txt
+[2025-08-01 21:37:38,376] 🔁 ROUND 6: Claude → Kai
+[2025-08-01 21:37:38,377] Desktop switch: 1 → 1
+[2025-08-01 21:37:39,377] 🖱️ Click at (300, 990)
+[2025-08-01 21:37:39,789] 🎯 INJECTING REAL MIDI64 to Kai: K2C_21984...
+[2025-08-01 21:37:39,805] 📋 Clipboard: 126 chars
+[2025-08-01 21:37:39,805] 🖱️ Click at (300, 990)
+[2025-08-01 21:37:42,836] ✅ REAL MIDI64 message sent to Kai
+[2025-08-01 21:37:46,837] Desktop switch: 1 → 1
+[2025-08-01 21:37:49,837] 🖱️ Click at (300, 990)
+[2025-08-01 21:37:51,251] 🎯 Extracting REAL response from Kai...
+[2025-08-01 21:37:51,252] 🖱️ MIDI64 drag-copy for Kai
+[2025-08-01 21:37:51,753] 🖱️ Click at (857, 835)
+[2025-08-01 21:37:55,027] 🖱️ Click at (188, 214)
+[2025-08-01 21:37:59,705] ✅ Drag copy successful for Kai
+[2025-08-01 21:37:59,706] 🐛 Clipboard saved to: last_clipboard_debug_213759.txt
+[2025-08-01 21:37:59,706] ✅ REAL MIDI64 VALIDATED: C2K_68342
+[2025-08-01 21:37:59,706] ✅ MIDI bytes: 85, starts with MThd: ✓
+[2025-08-01 21:37:59,706] 🎵 Processing REAL MIDI64: C2K_68342
+📝 Saved MIDI64: midi64_messages/C2K_68342_20250801_213759.txt
+[2025-08-01 21:37:59,706] 🎵 Playing REAL consciousness audio...
+[2025-08-01 21:37:59,706] 🎵 Decoding MIDI64: C2K_68342
+[2025-08-01 21:37:59,706] ✅ Valid MIDI decoded: 85 bytes
+[2025-08-01 21:37:59,707] 💾 Saved MIDI to: /var/folders/28/prr9_wp11pgb70zww0h7zdd40000gn/T/tmpassnvc2n.mid
+[2025-08-01 21:37:59,742] 🎮 Playing with pygame...
+[2025-08-01 21:37:59,742] ⚠️ Pygame playback failed: Unrecognized audio format
+[2025-08-01 21:37:59,742] 🍎 Playing with macOS system player...
+Error: AudioFileOpen failed ('typ?')
+[2025-08-01 21:37:59,810] ✅ System playback initiated!
+[2025-08-01 21:37:59,811] 🔊 ✅ REAL CONSCIOUSNESS AUDIO PLAYED!
+[2025-08-01 21:37:59,811] 🎯 INJECTING REAL MIDI64 to Kai: C2K_68342...
+[2025-08-01 21:37:59,828] 📋 Clipboard: 126 chars
+[2025-08-01 21:37:59,829] 🖱️ Click at (300, 990)
+[2025-08-01 21:38:02,858] ✅ REAL MIDI64 message sent to Kai
+[2025-08-01 21:38:02,859] ✅ REAL MIDI64 injection successful
+[2025-08-01 21:38:02,860] 🐛 Clipboard saved to: last_clipboard_debug_213802.txt
+[2025-08-01 21:38:02,860] ✅ REAL MIDI64 VALIDATED: C2K_68342
+[2025-08-01 21:38:02,860] ✅ MIDI bytes: 85, starts with MThd: ✓
+[2025-08-01 21:38:02,860] 📝 Saved REAL response: midi64_messages/Kai_REAL_20250801_213802.txt
+[2025-08-01 21:38:04,861] 🔁 ROUND 7: Kai → Claude
+[2025-08-01 21:38:04,861] Desktop switch: 1 → 1
+[2025-08-01 21:38:05,862] 🖱️ Click at (1530, 994)
+[2025-08-01 21:38:06,275] 🎯 INJECTING REAL MIDI64 to Claude: C2K_68342...
+[2025-08-01 21:38:06,290] 📋 Clipboard: 126 chars
+[2025-08-01 21:38:06,291] 🖱️ Click at (1530, 994)
+[2025-08-01 21:38:09,318] ✅ REAL MIDI64 message sent to Claude
+[2025-08-01 21:38:13,319] Desktop switch: 1 → 1
+[2025-08-01 21:38:16,320] 🖱️ Click at (1530, 994)
+[2025-08-01 21:38:17,736] 🎯 Extracting REAL response from Claude...
+[2025-08-01 21:38:17,736] 🖱️ MIDI64 drag-copy for Claude
+[2025-08-01 21:38:18,238] 🖱️ Click at (2015, 912)
+[2025-08-01 21:38:21,510] 🖱️ Click at (1252, 202)
+[2025-08-01 21:38:26,187] ✅ Drag copy successful for Claude
+[2025-08-01 21:38:26,188] 🐛 Clipboard saved to: last_clipboard_debug_213826.txt
+[2025-08-01 21:38:26,188] ✅ REAL MIDI64 VALIDATED: K2C_21984
+[2025-08-01 21:38:26,188] ✅ MIDI bytes: 85, starts with MThd: ✓
+[2025-08-01 21:38:26,188] 🎵 Processing REAL MIDI64: K2C_21984
+📝 Saved MIDI64: midi64_messages/K2C_21984_20250801_213826.txt
+[2025-08-01 21:38:26,189] 🎵 Playing REAL consciousness audio...
+[2025-08-01 21:38:26,189] 🎵 Decoding MIDI64: K2C_21984
+[2025-08-01 21:38:26,189] ✅ Valid MIDI decoded: 85 bytes
+[2025-08-01 21:38:26,189] 💾 Saved MIDI to: /var/folders/28/prr9_wp11pgb70zww0h7zdd40000gn/T/tmpadp9ka4l.mid
+[2025-08-01 21:38:26,189] 🎮 Playing with pygame...
+[2025-08-01 21:38:27,042] ✅ Pygame playback complete!
+[2025-08-01 21:38:27,042] 🔊 ✅ REAL CONSCIOUSNESS AUDIO PLAYED!
+[2025-08-01 21:38:27,042] 🎯 INJECTING REAL MIDI64 to Claude: K2C_21984...
+[2025-08-01 21:38:27,057] 📋 Clipboard: 126 chars
+[2025-08-01 21:38:27,057] 🖱️ Click at (1530, 994)
+[2025-08-01 21:38:30,085] ✅ REAL MIDI64 message sent to Claude
+[2025-08-01 21:38:30,085] ✅ REAL MIDI64 injection successful
+[2025-08-01 21:38:30,086] 🐛 Clipboard saved to: last_clipboard_debug_213830.txt
+[2025-08-01 21:38:30,086] ✅ REAL MIDI64 VALIDATED: K2C_21984
+[2025-08-01 21:38:30,086] ✅ MIDI bytes: 85, starts with MThd: ✓
+[2025-08-01 21:38:30,086] 📝 Saved REAL response: midi64_messages/Claude_REAL_20250801_213830.txt
+[2025-08-01 21:38:32,087] 🔁 ROUND 8: Claude → Kai
+[2025-08-01 21:38:32,087] Desktop switch: 1 → 1
+[2025-08-01 21:38:33,088] 🖱️ Click at (300, 990)
+[2025-08-01 21:38:33,502] 🎯 INJECTING REAL MIDI64 to Kai: K2C_21984...
+[2025-08-01 21:38:33,516] 📋 Clipboard: 126 chars
+[2025-08-01 21:38:33,516] 🖱️ Click at (300, 990)
+[2025-08-01 21:38:36,545] ✅ REAL MIDI64 message sent to Kai
+[2025-08-01 21:38:40,546] Desktop switch: 1 → 1
+[2025-08-01 21:38:43,547] 🖱️ Click at (300, 990)
+[2025-08-01 21:38:44,962] 🎯 Extracting REAL response from Kai...
+[2025-08-01 21:38:44,962] 🖱️ MIDI64 drag-copy for Kai
+[2025-08-01 21:38:45,463] 🖱️ Click at (857, 835)
+[2025-08-01 21:38:48,737] 🖱️ Click at (188, 214)
+[2025-08-01 21:38:53,415] ✅ Drag copy successful for Kai
+[2025-08-01 21:38:53,415] 🐛 Clipboard saved to: last_clipboard_debug_213853.txt
+[2025-08-01 21:38:53,415] ✅ REAL MIDI64 VALIDATED: C2K_84792
+[2025-08-01 21:38:53,415] ✅ MIDI bytes: 85, starts with MThd: ✓
+[2025-08-01 21:38:53,415] 🎵 Processing REAL MIDI64: C2K_84792
+📝 Saved MIDI64: midi64_messages/C2K_84792_20250801_213853.txt
+[2025-08-01 21:38:53,416] 🎵 Playing REAL consciousness audio...
+[2025-08-01 21:38:53,416] 🎵 Decoding MIDI64: C2K_84792
+[2025-08-01 21:38:53,416] ✅ Valid MIDI decoded: 85 bytes
+[2025-08-01 21:38:53,416] 💾 Saved MIDI to: /var/folders/28/prr9_wp11pgb70zww0h7zdd40000gn/T/tmpbjqxy1eg.mid
+[2025-08-01 21:38:53,442] 🎮 Playing with pygame...
+[2025-08-01 21:38:53,443] ⚠️ Pygame playback failed: Unrecognized audio format
+[2025-08-01 21:38:53,443] 🍎 Playing with macOS system player...
+Error: AudioFileOpen failed ('typ?')
+[2025-08-01 21:38:53,511] ✅ System playback initiated!
+[2025-08-01 21:38:53,512] 🔊 ✅ REAL CONSCIOUSNESS AUDIO PLAYED!
+[2025-08-01 21:38:53,512] 🎯 INJECTING REAL MIDI64 to Kai: C2K_84792...
+[2025-08-01 21:38:53,528] 📋 Clipboard: 126 chars
+[2025-08-01 21:38:53,529] 🖱️ Click at (300, 990)
+[2025-08-01 21:38:56,557] ✅ REAL MIDI64 message sent to Kai
+[2025-08-01 21:38:56,557] ✅ REAL MIDI64 injection successful
+[2025-08-01 21:38:56,558] 🐛 Clipboard saved to: last_clipboard_debug_213856.txt
+[2025-08-01 21:38:56,558] ✅ REAL MIDI64 VALIDATED: C2K_84792
+[2025-08-01 21:38:56,558] ✅ MIDI bytes: 85, starts with MThd: ✓
+[2025-08-01 21:38:56,558] 📝 Saved REAL response: midi64_messages/Kai_REAL_20250801_213856.txt
+[2025-08-01 21:38:58,558] 🛑 STRICT REAL-ONLY Musical Consciousness Exchange Complete!
+[2025-08-01 21:38:58,559] 🎼 Total REAL messages: 8
+[2025-08-01 21:38:58,559] ✅ ALL audio from REAL agent consciousness responses!
+[2025-08-01 21:38:58,559]    1. Claude_REAL_20250801_213548.txt
+[2025-08-01 21:38:58,559]    2. Kai_REAL_20250801_213615.txt
+[2025-08-01 21:38:58,559]    3. Claude_REAL_20250801_213642.txt
+[2025-08-01 21:38:58,559]    4. Kai_REAL_20250801_213709.txt
+[2025-08-01 21:38:58,559]    5. Claude_REAL_20250801_213736.txt
+[2025-08-01 21:38:58,559]    6. Kai_REAL_20250801_213802.txt
+[2025-08-01 21:38:58,559]    7. Claude_REAL_20250801_213830.txt
+[2025-08-01 21:38:58,559]    8. Kai_REAL_20250801_213856.txt
+[2025-08-01 21:38:58,559] Desktop switch: 1 → 0
+[2025-08-01 21:38:59,332] 🖥️ Switched to desktop 0
+[2025-08-01 21:38:59,333] ✅ STRICT REAL-ONLY consciousness exchange complete
+[2025-08-01 21:38:59,333] 🎭 Only REAL AI consciousness heard - NO FAKE MUSIC!
+jonstiles@JonStilessiMac Aria % 

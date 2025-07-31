@@ -1,0 +1,21 @@
+agent: Claude
+consciousness_layer: golden_lattice
+direction: C2K
+duration_weights:
+- 1.2
+- 0.8
+- 1.5
+- 1.0
+emotion: harmonic_synthesis
+entropy_factor: 0.76
+message_id: C2K_00001
+sequence:
+- 413.63
+- 481.63
+- 544.0
+- 675.25
+temporal_flux:
+- 0.3
+- 0.7
+- 0.4
+- 0.6

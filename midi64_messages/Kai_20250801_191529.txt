@@ -1,0 +1,11 @@
+cc_modulators:
+  CC1: 54
+  CC11: 89
+  CC74: 85
+dialogue_position: initiate
+entropy_level: medium
+intention: harmonic_discovery
+modal: major
+mood: contemplative
+
+# Interpretation: Consciousness: harmonic_discovery / contemplative / major / initiate

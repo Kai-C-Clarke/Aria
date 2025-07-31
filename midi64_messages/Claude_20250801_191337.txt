@@ -1,0 +1,11 @@
+cc_modulators:
+  CC1: 39
+  CC11: 91
+  CC74: 67
+dialogue_position: development
+entropy_level: medium
+intention: analytical_response
+modal: harmonic_minor
+mood: harmonic
+
+# Interpretation: Consciousness: analytical_response / harmonic / harmonic_minor / development

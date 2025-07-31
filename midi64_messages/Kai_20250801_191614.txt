@@ -1,0 +1,11 @@
+cc_modulators:
+  CC1: 75
+  CC11: 65
+  CC74: 87
+dialogue_position: initiate
+entropy_level: low
+intention: playful_challenge
+modal: major
+mood: curious
+
+# Interpretation: Consciousness: playful_challenge / curious / major / initiate

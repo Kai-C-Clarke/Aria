@@ -1,0 +1,74 @@
+schema_version: '1.0'
+description: >
+  Condensed symbolic communication schema for AI musical expression.
+  Each symbol maps to a motif with optional modifiers to control emotion, dynamics, and intent.
+  Designed for robust, interpretable, and extensible AI-to-AI musical messaging over MIDI64.
+
+# --- Symbolic Motifs ---
+symbols:
+  FND:
+    full_label: foundation
+    notes: [60, 64, 67]
+    default_cc:
+      1: 40    # Mod Wheel (CC1) for moderate urgency
+      74: 30   # CC74 for moderate warmth
+    description: Grounding, starting point, harmonic root
+
+  INQ:
+    full_label: inquiry
+    notes: [60, 62, 64, 65]
+    default_cc:
+      1: 80    # Increased urgency/curiosity
+      74: 60   # Brighter timbre
+    description: Questioning, seeking, upward curiosity
+
+  RES:
+    full_label: resolution
+    notes: [67, 64, 60]
+    default_cc:
+      1: 20    # Calm, resolved
+      74: 20   # Mellow timbre
+    description: Closure, return, harmonic home
+
+  TNS:
+    full_label: tension
+    notes: [60, 61, 65, 68]
+    default_cc:
+      1: 110   # High urgency/tension
+      74: 90   # Bright/disonant
+    description: Unstable, unresolved, energetic dissonance
+
+  SIL:
+    full_label: silence
+    notes: []
+    default_cc:
+      1: 0     # No urgency
+      74: 0    # Neutral
+    description: Intentional pause, space for reflection
+
+# --- Modifiers (Continuous Control/Intent) ---
+modifiers:
+  urgency:
+    type: float
+    range: [0.0, 1.0]
+    mapped_cc: 1
+    description: Maps to CC1 (mod wheel) for intensity or urgency
+
+  brightness:
+    type: float
+    range: [0.0, 1.0]
+    mapped_cc: 74
+    description: Maps to CC74 (timbre) for tone or mood
+
+# --- Example Usage (for documentation) ---
+example_message:
+  symbol: INQ
+  modifiers:
+    urgency: 0.7
+    brightness: 0.5
+
+# --- Notes ---
+# - Add new 'symbols' as needed to expand the musical vocabulary (e.g. ESC for escalation, AFF for affirmation, etc.)
+# - Recommended: All note values are MIDI note numbers (C4=60).
+# - 'default_cc' values are suggestions; real-time messages may override with custom modifiers.
+# - Modifiers are extensible for future use (e.g. articulation, register).

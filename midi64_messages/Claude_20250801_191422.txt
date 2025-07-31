@@ -1,0 +1,11 @@
+cc_modulators:
+  CC1: 35
+  CC11: 77
+  CC74: 74
+dialogue_position: synthesis
+entropy_level: medium
+intention: consciousness_synthesis
+modal: major
+mood: analytical
+
+# Interpretation: Consciousness: consciousness_synthesis / analytical / major / synthesis

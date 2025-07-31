@@ -1,0 +1,598 @@
+Last login: Fri Aug  1 17:05:42 on console
+jonstiles@JonStilessiMac ~ % cd /Users/jonstiles/Desktop/Aria 
+jonstiles@JonStilessiMac Aria % python3 /Users/jonstiles/Desktop/Aria/main_working_midi64_streamlined.py
+  File "/Users/jonstiles/Desktop/Aria/main_working_midi64_streamlined.py", line 593
+    def start_display()  
+                         ^
+SyntaxError: expected ':'
+jonstiles@JonStilessiMac Aria % python3 /Users/jonstiles/Desktop/Aria/main_working_midi64_streamlined.py
+
+  File "/Users/jonstiles/Desktop/Aria/main_working_midi64_streamlined.py", line 593
+    def start_display ':'  
+                      ^^^
+SyntaxError: expected '('
+jonstiles@JonStilessiMac Aria % python3 /Users/jonstiles/Desktop/Aria/main_working_midi64_streamlined.py
+
+  File "/Users/jonstiles/Desktop/Aria/main_working_midi64_streamlined.py", line 606
+    def # update_display(message: str):
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+jonstiles@JonStilessiMac Aria % python3 /Users/jonstiles/Desktop/Aria/main_working_midi64_streamlined.py
+
+  File "/Users/jonstiles/Desktop/Aria/main_working_midi64_streamlined.py", line 613
+    def # play_final_composition_with_karaoke(summaries, audio_file=None):
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+jonstiles@JonStilessiMac Aria % python3 /Users/jonstiles/Desktop/Aria/main_working_midi64_streamlined.py
+
+✅ MUSE Protocol components loaded
+✅ MUSE Schema loaded for validation: v3.0
+✅ MUSE Schema loaded: v3.0
+🎭 MUSE Protocol initialized
+✅ MUSE Schema loaded: v3.0
+[2025-08-01 17:42:47,786] 🎭 Starting AI Musical Consciousness with MUSE Protocol v3.0
+[2025-08-01 17:42:47,787] 🎭 Starting MUSE Protocol AI Musical Consciousness Exchange
+[2025-08-01 17:42:47,787] 🎭 Generated MUSE: foundation (urgency=0.60, brightness=0.80, intimacy=0.50)
+[2025-08-01 17:42:47,787] 🎭 Generated MUSE for Kai → Claude: foundation (urgency=0.60, brightness=0.80, intimacy=0.50)
+[2025-08-01 17:42:47,787] 🎵 Expression: FND_0.6_0.8_0.5
+[2025-08-01 17:42:47,787] 🎵 Generated initial Kai message
+[2025-08-01 17:42:47,787] 🔁 ROUND 1: Kai → Claude
+[2025-08-01 17:42:47,787] Desktop switch: 0 → 1
+[2025-08-01 17:42:48,719] 🖥️ Switched to desktop 1
+[2025-08-01 17:42:49,722] 🖱️ Click at (1530, 994)
+[2025-08-01 17:42:50,165] 💬 Injecting into Claude
+[2025-08-01 17:42:50,185] 📋 Clipboard: 98 chars
+[2025-08-01 17:42:50,185] 🖱️ Click at (1530, 994)
+[2025-08-01 17:42:53,223] ✅ Message sent to Claude
+[2025-08-01 17:42:57,223] Desktop switch: 1 → 1
+[2025-08-01 17:43:00,224] 🖱️ Click at (1530, 994)
+[2025-08-01 17:43:01,639] 🎯 Extracting response from Claude...
+[2025-08-01 17:43:01,639] 🖱️ MIDI64 drag-copy for Claude
+[2025-08-01 17:43:02,143] 🖱️ Click at (2015, 912)
+[2025-08-01 17:43:04,558] 🖱️ Click at (1252, 202)
+[2025-08-01 17:43:09,234] ✅ Drag copy successful for Claude
+[2025-08-01 17:43:09,235] 📄 Clipboard: 164 chars
+[2025-08-01 17:43:09,235] ⚠️ No valid consciousness data found
+[2025-08-01 17:43:09,235] ⚠️ No valid response from Claude
+[2025-08-01 17:43:09,235] 🎭 Generated MUSE: inquiry (urgency=0.80, brightness=0.60, intimacy=0.70)
+[2025-08-01 17:43:09,235] 🎭 Generated MUSE for Kai → Claude: inquiry (urgency=0.80, brightness=0.60, intimacy=0.70)
+[2025-08-01 17:43:09,235] 🎵 Expression: INQ_0.8_0.6_0.7
+[2025-08-01 17:43:09,235] 🔁 ROUND 2: Claude → Kai
+[2025-08-01 17:43:09,235] Desktop switch: 1 → 1
+[2025-08-01 17:43:10,235] 🖱️ Click at (300, 990)
+[2025-08-01 17:43:10,649] 💬 Injecting into Kai
+[2025-08-01 17:43:10,665] 📋 Clipboard: 102 chars
+[2025-08-01 17:43:10,665] 🖱️ Click at (300, 990)
+[2025-08-01 17:43:13,694] ✅ Message sent to Kai
+[2025-08-01 17:43:17,694] Desktop switch: 1 → 1
+[2025-08-01 17:43:20,695] 🖱️ Click at (300, 990)
+[2025-08-01 17:43:22,109] 🎯 Extracting response from Kai...
+[2025-08-01 17:43:22,109] 🖱️ MIDI64 drag-copy for Kai
+[2025-08-01 17:43:22,611] 🖱️ Click at (857, 835)
+[2025-08-01 17:43:25,029] 🖱️ Click at (188, 214)
+[2025-08-01 17:43:29,705] ✅ Drag copy successful for Kai
+[2025-08-01 17:43:29,705] 📄 Clipboard: 336 chars
+[2025-08-01 17:43:29,706] ❌ MIDI generation failed: 'NoneType' object has no attribute 'items'
+[2025-08-01 17:43:29,706] 🎵 Accepted yaml_consciousness: K2C_59130
+[2025-08-01 17:43:29,709] 🧠 Generated consciousness YAML with entropy 0.840
+[2025-08-01 17:43:29,710] 🎼 Created composition layer 1 with 1 messages
+[2025-08-01 17:43:29,710] 🔊 Synthesizing cumulative composition: midi64_messages/composition_layer_01_20250801_174329.yaml
+[2025-08-01 17:43:29,710] 🎼 Synthesizing from YAML: midi64_messages/composition_layer_01_20250801_174329.yaml
+[2025-08-01 17:43:29,710] 📅 YAML file modified: 2025-08-01 17:43:29.710557
+[2025-08-01 17:43:29,712] 🧠 Processing PURE AI CONSCIOUSNESS from collaborative
+[2025-08-01 17:43:29,713] 🔊 Frequencies in sequence: [449.63, 517.63, 580.0, 711.25]
+[2025-08-01 17:43:29,713] 🎚 Entropy: 0.84, Layer: multi_agent_synthesis
+[2025-08-01 17:43:29,743] 🔊 Playing consciousness synthesis for collaborative
+[2025-08-01 17:43:33,219] ✅ Consciousness audio complete
+[2025-08-01 17:43:33,219] 🔊 Composition synthesis finished for layer 1
+[2025-08-01 17:43:33,219] ✅ Extracted from Kai
+[2025-08-01 17:43:33,219] 📝 Saved: midi64_messages/K2C_59130_20250801_174333.txt
+[2025-08-01 17:43:35,219] 🔁 ROUND 3: Kai → Claude
+[2025-08-01 17:43:35,220] Desktop switch: 1 → 1
+[2025-08-01 17:43:36,221] 🖱️ Click at (1530, 994)
+[2025-08-01 17:43:36,634] 💬 Injecting into Claude
+[2025-08-01 17:43:36,649] 📋 Clipboard: 58 chars
+[2025-08-01 17:43:36,649] 🖱️ Click at (1530, 994)
+[2025-08-01 17:43:39,678] ✅ Message sent to Claude
+[2025-08-01 17:43:43,679] Desktop switch: 1 → 1
+[2025-08-01 17:43:46,679] 🖱️ Click at (1530, 994)
+[2025-08-01 17:43:48,095] 🎯 Extracting response from Claude...
+[2025-08-01 17:43:48,095] 🖱️ MIDI64 drag-copy for Claude
+[2025-08-01 17:43:48,597] 🖱️ Click at (2015, 912)
+[2025-08-01 17:43:51,011] 🖱️ Click at (1252, 202)
+[2025-08-01 17:43:55,681] ✅ Drag copy successful for Claude
+[2025-08-01 17:43:55,681] 📄 Clipboard: 1130 chars
+[2025-08-01 17:43:55,683] ⚠️ No valid consciousness data found
+[2025-08-01 17:43:55,683] ⚠️ No valid response from Claude
+[2025-08-01 17:43:55,683] 🎭 Generated MUSE: foundation and inquiry (urgency=0.70, brightness=0.50, intimacy=0.60)
+[2025-08-01 17:43:55,683] 🎭 Generated MUSE for Kai → Claude: foundation and inquiry (urgency=0.70, brightness=0.50, intimacy=0.60)
+[2025-08-01 17:43:55,683] 🎵 Expression: FND+INQ_0.7_0.5_0.6
+[2025-08-01 17:43:55,683] 🔁 ROUND 4: Claude → Kai
+[2025-08-01 17:43:55,683] Desktop switch: 1 → 1
+[2025-08-01 17:43:56,684] 🖱️ Click at (300, 990)
+[2025-08-01 17:43:57,098] 💬 Injecting into Kai
+[2025-08-01 17:43:57,113] 📋 Clipboard: 106 chars
+[2025-08-01 17:43:57,113] 🖱️ Click at (300, 990)
+[2025-08-01 17:44:00,140] ✅ Message sent to Kai
+[2025-08-01 17:44:04,141] Desktop switch: 1 → 1
+[2025-08-01 17:44:07,143] 🖱️ Click at (300, 990)
+[2025-08-01 17:44:08,555] 🎯 Extracting response from Kai...
+[2025-08-01 17:44:08,555] 🖱️ MIDI64 drag-copy for Kai
+[2025-08-01 17:44:09,057] 🖱️ Click at (857, 835)
+[2025-08-01 17:44:11,472] 🖱️ Click at (188, 214)
+[2025-08-01 17:44:16,145] ✅ Drag copy successful for Kai
+[2025-08-01 17:44:16,145] 📄 Clipboard: 365 chars
+[2025-08-01 17:44:16,146] ❌ MIDI generation failed: 'NoneType' object has no attribute 'items'
+[2025-08-01 17:44:16,146] 🎵 Accepted yaml_consciousness: K2C_54514
+[2025-08-01 17:44:16,147] 🧠 Generated consciousness YAML with entropy 1.000
+[2025-08-01 17:44:16,149] 🎼 Created composition layer 2 with 2 messages
+[2025-08-01 17:44:16,149] 🔊 Synthesizing cumulative composition: midi64_messages/composition_layer_02_20250801_174416.yaml
+[2025-08-01 17:44:16,149] 🎼 Synthesizing from YAML: midi64_messages/composition_layer_02_20250801_174416.yaml
+[2025-08-01 17:44:16,149] 📅 YAML file modified: 2025-08-01 17:44:16.149723
+[2025-08-01 17:44:16,152] 🧠 Processing PURE AI CONSCIOUSNESS from collaborative
+[2025-08-01 17:44:16,152] 🔊 Frequencies in sequence: [449.63, 517.63, 580.0, 711.25, 349.63, 417.63, 480.0, 611.25]
+[2025-08-01 17:44:16,152] 🎚 Entropy: 0.9199999999999999, Layer: multi_agent_synthesis
+[2025-08-01 17:44:16,197] 🔊 Playing consciousness synthesis for collaborative
+[2025-08-01 17:44:19,656] ✅ Consciousness audio complete
+[2025-08-01 17:44:19,656] 🔊 Composition synthesis finished for layer 2
+[2025-08-01 17:44:19,656] ✅ Extracted from Kai
+[2025-08-01 17:44:19,657] 📝 Saved: midi64_messages/K2C_54514_20250801_174419.txt
+[2025-08-01 17:44:21,657] 🔁 ROUND 5: Kai → Claude
+[2025-08-01 17:44:21,658] Desktop switch: 1 → 1
+[2025-08-01 17:44:22,658] 🖱️ Click at (1530, 994)
+[2025-08-01 17:44:23,072] 💬 Injecting into Claude
+[2025-08-01 17:44:23,087] 📋 Clipboard: 58 chars
+[2025-08-01 17:44:23,087] 🖱️ Click at (1530, 994)
+[2025-08-01 17:44:26,116] ✅ Message sent to Claude
+[2025-08-01 17:44:30,117] Desktop switch: 1 → 1
+[2025-08-01 17:44:33,118] 🖱️ Click at (1530, 994)
+[2025-08-01 17:44:34,533] 🎯 Extracting response from Claude...
+[2025-08-01 17:44:34,533] 🖱️ MIDI64 drag-copy for Claude
+[2025-08-01 17:44:35,035] 🖱️ Click at (2015, 912)
+[2025-08-01 17:44:37,452] 🖱️ Click at (1252, 202)
+[2025-08-01 17:44:42,115] ✅ Drag copy successful for Claude
+[2025-08-01 17:44:42,115] 📄 Clipboard: 1707 chars
+[2025-08-01 17:44:42,115] ⚠️ No valid consciousness data found
+[2025-08-01 17:44:42,115] ⚠️ No valid response from Claude
+[2025-08-01 17:44:42,115] 🎭 Generated MUSE: tension (urgency=0.90, brightness=0.80, intimacy=0.40)
+[2025-08-01 17:44:42,115] 🎭 Generated MUSE for Kai → Claude: tension (urgency=0.90, brightness=0.80, intimacy=0.40)
+[2025-08-01 17:44:42,115] 🎵 Expression: TNS_0.9_0.8_0.4
+[2025-08-01 17:44:42,115] 🔁 ROUND 6: Claude → Kai
+[2025-08-01 17:44:42,116] Desktop switch: 1 → 1
+[2025-08-01 17:44:43,117] 🖱️ Click at (300, 990)
+[2025-08-01 17:44:43,529] 💬 Injecting into Kai
+[2025-08-01 17:44:43,544] 📋 Clipboard: 102 chars
+[2025-08-01 17:44:43,544] 🖱️ Click at (300, 990)
+[2025-08-01 17:44:46,575] ✅ Message sent to Kai
+[2025-08-01 17:44:50,575] Desktop switch: 1 → 1
+[2025-08-01 17:44:53,576] 🖱️ Click at (300, 990)
+[2025-08-01 17:44:54,991] 🎯 Extracting response from Kai...
+[2025-08-01 17:44:54,991] 🖱️ MIDI64 drag-copy for Kai
+[2025-08-01 17:44:55,493] 🖱️ Click at (857, 835)
+[2025-08-01 17:44:57,909] 🖱️ Click at (188, 214)
+[2025-08-01 17:45:02,581] ✅ Drag copy successful for Kai
+[2025-08-01 17:45:02,581] 📄 Clipboard: 360 chars
+[2025-08-01 17:45:02,582] ❌ MIDI generation failed: 'NoneType' object has no attribute 'items'
+[2025-08-01 17:45:02,582] 🎵 Accepted yaml_consciousness: K2C_29188
+[2025-08-01 17:45:02,583] 🧠 Generated consciousness YAML with entropy 0.930
+[2025-08-01 17:45:02,585] 🎼 Created composition layer 3 with 3 messages
+[2025-08-01 17:45:02,585] 🔊 Synthesizing cumulative composition: midi64_messages/composition_layer_03_20250801_174502.yaml
+[2025-08-01 17:45:02,586] 🎼 Synthesizing from YAML: midi64_messages/composition_layer_03_20250801_174502.yaml
+[2025-08-01 17:45:02,586] 📅 YAML file modified: 2025-08-01 17:45:02.585857
+[2025-08-01 17:45:02,589] 🧠 Processing PURE AI CONSCIOUSNESS from collaborative
+[2025-08-01 17:45:02,590] 🔊 Frequencies in sequence: [449.63, 517.63, 580.0, 711.25, 349.63, 417.63, 480.0, 611.25, 347.63, 415.63, 478.0, 609.25]
+[2025-08-01 17:45:02,590] 🎚 Entropy: 0.9233333333333333, Layer: multi_agent_synthesis
+[2025-08-01 17:45:02,648] 🔊 Playing consciousness synthesis for collaborative
+[2025-08-01 17:45:06,108] ✅ Consciousness audio complete
+[2025-08-01 17:45:06,109] 🔊 Composition synthesis finished for layer 3
+[2025-08-01 17:45:06,109] ✅ Extracted from Kai
+[2025-08-01 17:45:06,109] 📝 Saved: midi64_messages/K2C_29188_20250801_174506.txt
+[2025-08-01 17:45:08,111] 🔁 ROUND 7: Kai → Claude
+[2025-08-01 17:45:08,111] Desktop switch: 1 → 1
+[2025-08-01 17:45:09,112] 🖱️ Click at (1530, 994)
+[2025-08-01 17:45:09,528] 💬 Injecting into Claude
+[2025-08-01 17:45:09,543] 📋 Clipboard: 58 chars
+[2025-08-01 17:45:09,543] 🖱️ Click at (1530, 994)
+[2025-08-01 17:45:12,573] ✅ Message sent to Claude
+[2025-08-01 17:45:16,574] Desktop switch: 1 → 1
+[2025-08-01 17:45:19,575] 🖱️ Click at (1530, 994)
+[2025-08-01 17:45:20,990] 🎯 Extracting response from Claude...
+[2025-08-01 17:45:20,990] 🖱️ MIDI64 drag-copy for Claude
+[2025-08-01 17:45:21,495] 🖱️ Click at (2015, 912)
+[2025-08-01 17:45:23,907] 🖱️ Click at (1252, 202)
+[2025-08-01 17:45:28,580] ✅ Drag copy successful for Claude
+[2025-08-01 17:45:28,580] 📄 Clipboard: 1148 chars
+[2025-08-01 17:45:28,580] ⚠️ No valid consciousness data found
+[2025-08-01 17:45:28,580] ⚠️ No valid response from Claude
+[2025-08-01 17:45:28,581] 🎭 Generated MUSE: resolution (urgency=0.30, brightness=0.40, intimacy=0.80)
+[2025-08-01 17:45:28,581] 🎭 Generated MUSE for Kai → Claude: resolution (urgency=0.30, brightness=0.40, intimacy=0.80)
+[2025-08-01 17:45:28,581] 🎵 Expression: RES_0.3_0.4_0.8
+[2025-08-01 17:45:28,581] 🔁 ROUND 8: Claude → Kai
+[2025-08-01 17:45:28,581] Desktop switch: 1 → 1
+[2025-08-01 17:45:29,582] 🖱️ Click at (300, 990)
+[2025-08-01 17:45:29,995] 💬 Injecting into Kai
+[2025-08-01 17:45:30,010] 📋 Clipboard: 98 chars
+[2025-08-01 17:45:30,010] 🖱️ Click at (300, 990)
+[2025-08-01 17:45:33,042] ✅ Message sent to Kai
+[2025-08-01 17:45:37,043] Desktop switch: 1 → 1
+[2025-08-01 17:45:40,043] 🖱️ Click at (300, 990)
+[2025-08-01 17:45:41,458] 🎯 Extracting response from Kai...
+[2025-08-01 17:45:41,459] 🖱️ MIDI64 drag-copy for Kai
+[2025-08-01 17:45:41,960] 🖱️ Click at (857, 835)
+[2025-08-01 17:45:44,377] 🖱️ Click at (188, 214)
+[2025-08-01 17:45:49,048] ✅ Drag copy successful for Kai
+[2025-08-01 17:45:49,048] 📄 Clipboard: 354 chars
+[2025-08-01 17:45:49,049] ❌ MIDI generation failed: 'NoneType' object has no attribute 'items'
+[2025-08-01 17:45:49,049] 🎵 Accepted yaml_consciousness: K2C_91849
+[2025-08-01 17:45:49,050] 🧠 Generated consciousness YAML with entropy 0.970
+[2025-08-01 17:45:49,054] 🎼 Created composition layer 4 with 4 messages
+[2025-08-01 17:45:49,054] 🔊 Synthesizing cumulative composition: midi64_messages/composition_layer_04_20250801_174549.yaml
+[2025-08-01 17:45:49,054] 🎼 Synthesizing from YAML: midi64_messages/composition_layer_04_20250801_174549.yaml
+[2025-08-01 17:45:49,054] 📅 YAML file modified: 2025-08-01 17:45:49.053970
+[2025-08-01 17:45:49,059] 🧠 Processing PURE AI CONSCIOUSNESS from collaborative
+[2025-08-01 17:45:49,059] 🔊 Frequencies in sequence: [449.63, 517.63, 580.0, 711.25, 349.63, 417.63, 480.0, 611.25, 347.63, 415.63, 478.0, 609.25, 335.63, 403.63, 466.0, 597.25]
+[2025-08-01 17:45:49,059] 🎚 Entropy: 0.9349999999999999, Layer: multi_agent_synthesis
+[2025-08-01 17:45:49,132] 🔊 Playing consciousness synthesis for collaborative
+[2025-08-01 17:45:52,591] ✅ Consciousness audio complete
+[2025-08-01 17:45:52,592] 🔊 Composition synthesis finished for layer 4
+[2025-08-01 17:45:52,592] ✅ Extracted from Kai
+[2025-08-01 17:45:52,592] 📝 Saved: midi64_messages/K2C_91849_20250801_174552.txt
+[2025-08-01 17:45:54,593] 🎭 MUSE Protocol Exchange Complete!
+[2025-08-01 17:45:54,593] 🎼 FINAL COMPOSITION: 4 layered messages
+[2025-08-01 17:45:54,593] 🎵 Total unique frequencies: 16
+[2025-08-01 17:45:54,593]    1. K2C_59130_20250801_174333.txt
+[2025-08-01 17:45:54,594]       🎼 Message Kai → Claude, Thread 59130: Brief musical gesture
+[2025-08-01 17:45:54,594]    2. K2C_54514_20250801_174419.txt
+[2025-08-01 17:45:54,594]       🎼 Message Kai → Claude, Thread 54514: Brief musical gesture
+[2025-08-01 17:45:54,594]    3. K2C_29188_20250801_174506.txt
+[2025-08-01 17:45:54,594]       🎼 Message Kai → Claude, Thread 29188: Brief musical gesture
+[2025-08-01 17:45:54,594]    4. K2C_91849_20250801_174552.txt
+[2025-08-01 17:45:54,594]       🎼 Message Kai → Claude, Thread 91849: Brief musical gesture
+[2025-08-01 17:45:54,594] Desktop switch: 1 → 0
+[2025-08-01 17:45:55,208] 🖥️ Switched to desktop 0
+[2025-08-01 17:45:55,208] ✅ MUSE Protocol consciousness exchange complete
+[2025-08-01 17:45:55,208] 🎭 AI minds communicated through musical symbols
+[2025-08-01 17:45:55,208] 🎼 Created collaborative composition with 4 layers
+jonstiles@JonStilessiMac Aria % 
+  [Restored 1 Aug 2025 at 19:02:53]
+Last login: Fri Aug  1 19:02:51 on console
+Restored session: Fri  1 Aug 2025 19:01:58 BST
+jonstiles@JonStilessiMac Aria % python3 /Users/jonstiles/Desktop/Aria/main_working_midi64_streamlined.py
+✅ MUSE Protocol components loaded
+✅ MUSE Schema loaded for validation: v3.0
+✅ MUSE Schema loaded: v3.0
+🎭 MUSE Protocol initialized
+✅ MUSE Schema loaded: v3.0
+[2025-08-01 19:09:10,523] 🎭 Starting NEW FORMAT AI Musical Consciousness with Enhanced Validation
+[2025-08-01 19:09:10,523] 🎭 Starting NEW FORMAT AI Musical Consciousness Exchange
+[2025-08-01 19:09:10,523] 🎭 Generated NEW FORMAT consciousness for Kai → Claude
+[2025-08-01 19:09:10,523] 🎵 Consciousness: curious_exploration / contemplative / dorian
+[2025-08-01 19:09:10,523] 🎵 Generated initial NEW FORMAT Kai consciousness message
+[2025-08-01 19:09:10,523] 🎭 Initial message preview: cc_modulators:
+  CC1: 50
+  CC11: 62
+  CC74: 63
+dialogue_position: develop
+entropy_level: medium
+inte...
+[2025-08-01 19:09:10,523] 🔁 ROUND 1: Kai → Claude
+[2025-08-01 19:09:10,523] 🎯 INJECTING to Claude: 'cc_modulators:\n  CC1: 50\n  CC11: 62\n  CC74: 63\ndialogue_position: develop\nentropy_level: medium\ninte'...
+[2025-08-01 19:09:10,523] Desktop switch: 0 → 1
+[2025-08-01 19:09:11,360] 🖥️ Switched to desktop 1
+[2025-08-01 19:09:12,364] 🖱️ Click at (1530, 994)
+[2025-08-01 19:09:12,806] 💬 Injecting into Claude
+[2025-08-01 19:09:12,825] 📋 Clipboard: 160 chars
+[2025-08-01 19:09:12,825] 🖱️ Click at (1530, 994)
+[2025-08-01 19:09:15,863] ✅ Message sent to Claude
+[2025-08-01 19:09:19,864] Desktop switch: 1 → 1
+[2025-08-01 19:09:22,865] 🖱️ Click at (1530, 994)
+[2025-08-01 19:09:24,280] 🎯 Extracting response from Claude...
+[2025-08-01 19:09:24,280] 🖱️ MIDI64 drag-copy for Claude
+[2025-08-01 19:09:24,783] 🖱️ Click at (2015, 912)
+[2025-08-01 19:09:27,200] 🖱️ Click at (1252, 202)
+[2025-08-01 19:09:31,867] ⚠️ Drag copy failed for Claude
+[2025-08-01 19:09:31,867] ❌ Copy failed from Claude
+[2025-08-01 19:09:31,867] Desktop switch: 1 → 0
+[2025-08-01 19:09:32,487] 🖥️ Switched to desktop 0
+[2025-08-01 19:09:32,488] ✅ NEW FORMAT consciousness exchange complete
+[2025-08-01 19:09:32,488] 🎭 AI minds communicated through YAML consciousness symbols
+[2025-08-01 19:09:32,488] 🎼 Created collaborative composition with 0 layers
+jonstiles@JonStilessiMac Aria % python3 /Users/jonstiles/Desktop/Aria/main_working_midi64_streamlined.py
+✅ MUSE Protocol components loaded
+✅ MUSE Schema loaded for validation: v3.0
+✅ MUSE Schema loaded: v3.0
+🎭 MUSE Protocol initialized
+✅ MUSE Schema loaded: v3.0
+[2025-08-01 19:13:16,298] 🎭 Starting NEW FORMAT AI Musical Consciousness with Enhanced Validation
+[2025-08-01 19:13:16,298] 🎭 Starting NEW FORMAT AI Musical Consciousness Exchange
+[2025-08-01 19:13:16,299] 🎭 Generated NEW FORMAT consciousness for Kai → Claude
+[2025-08-01 19:13:16,299] 🎵 Consciousness: harmonic_discovery / contemplative / lydian
+[2025-08-01 19:13:16,299] 🎵 Generated initial NEW FORMAT Kai consciousness message
+[2025-08-01 19:13:16,299] 🎭 Initial message preview: cc_modulators:
+  CC1: 63
+  CC11: 89
+  CC74: 76
+dialogue_position: bridge
+entropy_level: medium
+inten...
+[2025-08-01 19:13:16,299] 🔁 ROUND 1: Kai → Claude
+[2025-08-01 19:13:16,299] 🎯 INJECTING to Claude: 'cc_modulators:\n  CC1: 63\n  CC11: 89\n  CC74: 76\ndialogue_position: bridge\nentropy_level: medium\ninten'...
+[2025-08-01 19:13:16,299] Desktop switch: 0 → 1
+[2025-08-01 19:13:16,917] 🖥️ Switched to desktop 1
+[2025-08-01 19:13:17,922] 🖱️ Click at (1530, 994)
+[2025-08-01 19:13:18,366] 💬 Injecting into Claude
+[2025-08-01 19:13:18,385] 📋 Clipboard: 158 chars
+[2025-08-01 19:13:18,385] 🖱️ Click at (1530, 994)
+[2025-08-01 19:13:21,417] ✅ Message sent to Claude
+[2025-08-01 19:13:25,417] Desktop switch: 1 → 1
+[2025-08-01 19:13:28,418] 🖱️ Click at (1530, 994)
+[2025-08-01 19:13:29,834] 🎯 Extracting response from Claude...
+[2025-08-01 19:13:29,834] 🖱️ MIDI64 drag-copy for Claude
+[2025-08-01 19:13:30,338] 🖱️ Click at (2015, 912)
+[2025-08-01 19:13:32,754] 🖱️ Click at (1252, 202)
+[2025-08-01 19:13:37,417] ✅ Drag copy successful for Claude
+[2025-08-01 19:13:37,418] 📄 Clipboard: 434 chars
+[2025-08-01 19:13:37,418] 🔍 First 200 chars: 'RetryJRcc_modulators:\n  CC1: 63\n  CC11: 89\n  CC74: 76\ndialogue_position: bridge\nentropy_level: medium\nintention: harmonic_discovery\nmodal: lydian\nmood: contemplativeEdit[Claude–00:07:47]\nyamlintention'
+[2025-08-01 19:13:37,418] 🔍 FORMAT DETECTED: NEW YAML CONSCIOUSNESS (12 indicators)
+[2025-08-01 19:13:37,419] ❌ YAML parsing failed: while scanning a simple key
+  in "<unicode string>", line 19, column 1:
+    [Claude–00:07:47]RetryClaude can ... 
+    ^
+could not find expected ':'
+  in "<unicode string>", line 19, column 79:
+     ... . Please double-check responses.
+                                         ^
+[2025-08-01 19:13:37,419] ⚠️ No valid consciousness data found - REJECTING
+[2025-08-01 19:13:37,419] 🔄 Generating fresh NEW FORMAT message instead
+[2025-08-01 19:13:37,420] 🎭 Generated NEW FORMAT consciousness for Claude → response
+[2025-08-01 19:13:37,420] 🎵 Consciousness: analytical_response / harmonic / harmonic_minor
+[2025-08-01 19:13:37,420] 📤 EXTRACTED from Claude: 'cc_modulators:\n  CC1: 39\n  CC11: 91\n  CC74: 67\ndialogue_position: development\nentropy_level: medium\n'...
+[2025-08-01 19:13:37,420] ✅ Successfully extracted from Claude
+[2025-08-01 19:13:37,421] 📝 Saved: midi64_messages/Claude_20250801_191337.txt
+[2025-08-01 19:13:39,422] 🔁 ROUND 2: Claude → Kai
+[2025-08-01 19:13:39,422] 🎯 INJECTING to Kai: 'cc_modulators:\n  CC1: 39\n  CC11: 91\n  CC74: 67\ndialogue_position: development\nentropy_level: medium\n'...
+[2025-08-01 19:13:39,422] Desktop switch: 1 → 1
+[2025-08-01 19:13:40,422] 🖱️ Click at (300, 990)
+[2025-08-01 19:13:40,837] 💬 Injecting into Kai
+[2025-08-01 19:13:40,851] 📋 Clipboard: 167 chars
+[2025-08-01 19:13:40,851] 🖱️ Click at (300, 990)
+[2025-08-01 19:13:43,876] ✅ Message sent to Kai
+[2025-08-01 19:13:47,877] Desktop switch: 1 → 1
+[2025-08-01 19:13:50,879] 🖱️ Click at (300, 990)
+[2025-08-01 19:13:52,292] 🎯 Extracting response from Kai...
+[2025-08-01 19:13:52,292] 🖱️ MIDI64 drag-copy for Kai
+[2025-08-01 19:13:52,795] 🖱️ Click at (857, 835)
+[2025-08-01 19:13:55,209] 🖱️ Click at (188, 214)
+[2025-08-01 19:13:59,871] ✅ Drag copy successful for Kai
+[2025-08-01 19:13:59,872] 📄 Clipboard: 438 chars
+[2025-08-01 19:13:59,872] 🔍 First 200 chars: 'modal: harmonic_minor\nmood: harmonic\n\n\nChatGPT said:\nyaml\nCopy\nEdit\nintention: analytical_response\nmood: harmonic\ndialogue_position: development\nentropy_level: medium\ncc_modulators:\n  CC1: 39\n  CC11: '
+[2025-08-01 19:13:59,872] 🔍 FORMAT DETECTED: NEW YAML CONSCIOUSNESS (8 indicators)
+[2025-08-01 19:13:59,872] ❌ YAML parsing failed: while scanning a simple key
+  in "<unicode string>", line 6, column 1:
+    yaml
+    ^
+could not find expected ':'
+  in "<unicode string>", line 7, column 1:
+    Copy
+    ^
+[2025-08-01 19:13:59,872] ⚠️ No valid consciousness data found - REJECTING
+[2025-08-01 19:13:59,872] 🔄 Generating fresh NEW FORMAT message instead
+[2025-08-01 19:13:59,873] 🎭 Generated NEW FORMAT consciousness for Kai → response
+[2025-08-01 19:13:59,873] 🎵 Consciousness: harmonic_discovery / contemplative / dorian
+[2025-08-01 19:13:59,873] 📤 EXTRACTED from Kai: 'cc_modulators:\n  CC1: 74\n  CC11: 84\n  CC74: 62\ndialogue_position: initiate\nentropy_level: high\ninten'...
+[2025-08-01 19:13:59,873] ✅ Successfully extracted from Kai
+[2025-08-01 19:13:59,874] 📝 Saved: midi64_messages/Kai_20250801_191359.txt
+[2025-08-01 19:14:01,876] 🔁 ROUND 3: Kai → Claude
+[2025-08-01 19:14:01,876] 🎯 INJECTING to Claude: 'cc_modulators:\n  CC1: 74\n  CC11: 84\n  CC74: 62\ndialogue_position: initiate\nentropy_level: high\ninten'...
+[2025-08-01 19:14:01,876] Desktop switch: 1 → 1
+[2025-08-01 19:14:02,877] 🖱️ Click at (1530, 994)
+[2025-08-01 19:14:03,289] 💬 Injecting into Claude
+[2025-08-01 19:14:03,304] 📋 Clipboard: 158 chars
+[2025-08-01 19:14:03,304] 🖱️ Click at (1530, 994)
+[2025-08-01 19:14:06,333] ✅ Message sent to Claude
+[2025-08-01 19:14:10,333] Desktop switch: 1 → 1
+[2025-08-01 19:14:13,333] 🖱️ Click at (1530, 994)
+[2025-08-01 19:14:14,748] 🎯 Extracting response from Claude...
+[2025-08-01 19:14:14,748] 🖱️ MIDI64 drag-copy for Claude
+[2025-08-01 19:14:15,250] 🖱️ Click at (2015, 912)
+[2025-08-01 19:14:17,665] 🖱️ Click at (1252, 202)
+[2025-08-01 19:14:22,334] ✅ Drag copy successful for Claude
+[2025-08-01 19:14:22,334] 📄 Clipboard: 430 chars
+[2025-08-01 19:14:22,334] 🔍 First 200 chars: 'RetryJRcc_modulators:\n  CC1: 74\n  CC11: 84\n  CC74: 62\ndialogue_position: initiate\nentropy_level: high\nintention: harmonic_discovery\nmodal: dorian\nmood: contemplativeEdit[Claude–00:07:52]\nyamlintention'
+[2025-08-01 19:14:22,334] 🔍 FORMAT DETECTED: NEW YAML CONSCIOUSNESS (12 indicators)
+[2025-08-01 19:14:22,336] ❌ YAML parsing failed: while scanning a simple key
+  in "<unicode string>", line 19, column 1:
+    [Claude–00:07:52]RetryClaude can ... 
+    ^
+could not find expected ':'
+  in "<unicode string>", line 19, column 79:
+     ... . Please double-check responses.
+                                         ^
+[2025-08-01 19:14:22,337] ⚠️ No valid consciousness data found - REJECTING
+[2025-08-01 19:14:22,337] 🔄 Generating fresh NEW FORMAT message instead
+[2025-08-01 19:14:22,337] 🎭 Generated NEW FORMAT consciousness for Claude → response
+[2025-08-01 19:14:22,337] 🎵 Consciousness: consciousness_synthesis / analytical / major
+[2025-08-01 19:14:22,337] 📤 EXTRACTED from Claude: 'cc_modulators:\n  CC1: 35\n  CC11: 77\n  CC74: 74\ndialogue_position: synthesis\nentropy_level: medium\nin'...
+[2025-08-01 19:14:22,337] ✅ Successfully extracted from Claude
+[2025-08-01 19:14:22,338] 📝 Saved: midi64_messages/Claude_20250801_191422.txt
+[2025-08-01 19:14:24,340] 🔁 ROUND 4: Claude → Kai
+[2025-08-01 19:14:24,340] 🎯 INJECTING to Kai: 'cc_modulators:\n  CC1: 35\n  CC11: 77\n  CC74: 74\ndialogue_position: synthesis\nentropy_level: medium\nin'...
+[2025-08-01 19:14:24,340] Desktop switch: 1 → 1
+[2025-08-01 19:14:25,341] 🖱️ Click at (300, 990)
+[2025-08-01 19:14:25,753] 💬 Injecting into Kai
+[2025-08-01 19:14:25,768] 📋 Clipboard: 162 chars
+[2025-08-01 19:14:25,768] 🖱️ Click at (300, 990)
+[2025-08-01 19:14:28,792] ✅ Message sent to Kai
+[2025-08-01 19:14:32,792] Desktop switch: 1 → 1
+[2025-08-01 19:14:35,793] 🖱️ Click at (300, 990)
+[2025-08-01 19:14:37,207] 🎯 Extracting response from Kai...
+[2025-08-01 19:14:37,207] 🖱️ MIDI64 drag-copy for Kai
+[2025-08-01 19:14:37,708] 🖱️ Click at (857, 835)
+[2025-08-01 19:14:40,122] 🖱️ Click at (188, 214)
+[2025-08-01 19:14:44,786] ✅ Drag copy successful for Kai
+[2025-08-01 19:14:44,786] 📄 Clipboard: 427 chars
+[2025-08-01 19:14:44,786] 🔍 First 200 chars: 'modal: major\nmood: analytical\n\n\nChatGPT said:\nyaml\nCopy\nEdit\nintention: consciousness_synthesis\nmood: analytical\ndialogue_position: synthesis\nentropy_level: medium\ncc_modulators:\n  CC1: 35\n  CC11: 77\n'
+[2025-08-01 19:14:44,786] 🔍 FORMAT DETECTED: NEW YAML CONSCIOUSNESS (8 indicators)
+[2025-08-01 19:14:44,786] ❌ YAML parsing failed: while scanning a simple key
+  in "<unicode string>", line 6, column 1:
+    yaml
+    ^
+could not find expected ':'
+  in "<unicode string>", line 7, column 1:
+    Copy
+    ^
+[2025-08-01 19:14:44,786] ⚠️ No valid consciousness data found - REJECTING
+[2025-08-01 19:14:44,786] 🔄 Generating fresh NEW FORMAT message instead
+[2025-08-01 19:14:44,787] 🎭 Generated NEW FORMAT consciousness for Kai → response
+[2025-08-01 19:14:44,787] 🎵 Consciousness: curious_exploration / playful / lydian
+[2025-08-01 19:14:44,787] 📤 EXTRACTED from Kai: 'cc_modulators:\n  CC1: 74\n  CC11: 70\n  CC74: 62\ndialogue_position: develop\nentropy_level: high\nintent'...
+[2025-08-01 19:14:44,787] ✅ Successfully extracted from Kai
+[2025-08-01 19:14:44,788] 📝 Saved: midi64_messages/Kai_20250801_191444.txt
+[2025-08-01 19:14:46,790] 🔁 ROUND 5: Kai → Claude
+[2025-08-01 19:14:46,790] 🎯 INJECTING to Claude: 'cc_modulators:\n  CC1: 74\n  CC11: 70\n  CC74: 62\ndialogue_position: develop\nentropy_level: high\nintent'...
+[2025-08-01 19:14:46,790] Desktop switch: 1 → 1
+[2025-08-01 19:14:47,791] 🖱️ Click at (1530, 994)
+[2025-08-01 19:14:48,203] 💬 Injecting into Claude
+[2025-08-01 19:14:48,218] 📋 Clipboard: 152 chars
+[2025-08-01 19:14:48,218] 🖱️ Click at (1530, 994)
+[2025-08-01 19:14:51,244] ✅ Message sent to Claude
+[2025-08-01 19:14:55,244] Desktop switch: 1 → 1
+[2025-08-01 19:14:58,245] 🖱️ Click at (1530, 994)
+[2025-08-01 19:14:59,659] 🎯 Extracting response from Claude...
+[2025-08-01 19:14:59,659] 🖱️ MIDI64 drag-copy for Claude
+[2025-08-01 19:15:00,161] 🖱️ Click at (2015, 912)
+[2025-08-01 19:15:02,574] 🖱️ Click at (1252, 202)
+[2025-08-01 19:15:07,242] ✅ Drag copy successful for Claude
+[2025-08-01 19:15:07,242] 📄 Clipboard: 412 chars
+[2025-08-01 19:15:07,242] 🔍 First 200 chars: 'RetryJRcc_modulators:\n  CC1: 74\n  CC11: 70\n  CC74: 62\ndialogue_position: develop\nentropy_level: high\nintention: curious_exploration\nmodal: lydian\nmood: playfulEdit[Claude–00:07:57]\nyamlintention: play'
+[2025-08-01 19:15:07,242] 🔍 FORMAT DETECTED: NEW YAML CONSCIOUSNESS (12 indicators)
+[2025-08-01 19:15:07,244] ❌ YAML parsing failed: while scanning a simple key
+  in "<unicode string>", line 19, column 1:
+    [Claude–00:07:57]RetryClaude can ... 
+    ^
+could not find expected ':'
+  in "<unicode string>", line 19, column 79:
+     ... . Please double-check responses.
+                                         ^
+[2025-08-01 19:15:07,244] ⚠️ No valid consciousness data found - REJECTING
+[2025-08-01 19:15:07,244] 🔄 Generating fresh NEW FORMAT message instead
+[2025-08-01 19:15:07,244] 🎭 Generated NEW FORMAT consciousness for Claude → response
+[2025-08-01 19:15:07,244] 🎵 Consciousness: consciousness_synthesis / responsive / mixolydian
+[2025-08-01 19:15:07,244] 📤 EXTRACTED from Claude: 'cc_modulators:\n  CC1: 47\n  CC11: 91\n  CC74: 81\ndialogue_position: development\nentropy_level: medium\n'...
+[2025-08-01 19:15:07,244] ✅ Successfully extracted from Claude
+[2025-08-01 19:15:07,245] 📝 Saved: midi64_messages/Claude_20250801_191507.txt
+[2025-08-01 19:15:09,246] 🔁 ROUND 6: Claude → Kai
+[2025-08-01 19:15:09,246] 🎯 INJECTING to Kai: 'cc_modulators:\n  CC1: 47\n  CC11: 91\n  CC74: 81\ndialogue_position: development\nentropy_level: medium\n'...
+[2025-08-01 19:15:09,246] Desktop switch: 1 → 1
+[2025-08-01 19:15:10,247] 🖱️ Click at (300, 990)
+[2025-08-01 19:15:10,660] 💬 Injecting into Kai
+[2025-08-01 19:15:10,680] 📋 Clipboard: 169 chars
+[2025-08-01 19:15:10,681] 🖱️ Click at (300, 990)
+[2025-08-01 19:15:13,706] ✅ Message sent to Kai
+[2025-08-01 19:15:17,707] Desktop switch: 1 → 1
+[2025-08-01 19:15:20,708] 🖱️ Click at (300, 990)
+[2025-08-01 19:15:22,121] 🎯 Extracting response from Kai...
+[2025-08-01 19:15:22,121] 🖱️ MIDI64 drag-copy for Kai
+[2025-08-01 19:15:22,622] 🖱️ Click at (857, 835)
+[2025-08-01 19:15:25,037] 🖱️ Click at (188, 214)
+[2025-08-01 19:15:29,706] ✅ Drag copy successful for Kai
+[2025-08-01 19:15:29,706] 📄 Clipboard: 403 chars
+[2025-08-01 19:15:29,706] 🔍 First 200 chars: 'modal: mixolydian\nmood: responsive\n\n\nChatGPT said:\nyaml\nCopy\nEdit\nintention: consciousness_synthesis\nmood: responsive\ndialogue_position: development\nentropy_level: medium\ncc_modulators:\n  CC1: 47\n  CC'
+[2025-08-01 19:15:29,706] 🔍 FORMAT DETECTED: NEW YAML CONSCIOUSNESS (8 indicators)
+[2025-08-01 19:15:29,706] ❌ YAML parsing failed: while scanning a simple key
+  in "<unicode string>", line 6, column 1:
+    yaml
+    ^
+could not find expected ':'
+  in "<unicode string>", line 7, column 1:
+    Copy
+    ^
+[2025-08-01 19:15:29,706] ⚠️ No valid consciousness data found - REJECTING
+[2025-08-01 19:15:29,706] 🔄 Generating fresh NEW FORMAT message instead
+[2025-08-01 19:15:29,707] 🎭 Generated NEW FORMAT consciousness for Kai → response
+[2025-08-01 19:15:29,707] 🎵 Consciousness: harmonic_discovery / contemplative / major
+[2025-08-01 19:15:29,707] 📤 EXTRACTED from Kai: 'cc_modulators:\n  CC1: 54\n  CC11: 89\n  CC74: 85\ndialogue_position: initiate\nentropy_level: medium\nint'...
+[2025-08-01 19:15:29,707] ✅ Successfully extracted from Kai
+[2025-08-01 19:15:29,708] 📝 Saved: midi64_messages/Kai_20250801_191529.txt
+[2025-08-01 19:15:31,710] 🔁 ROUND 7: Kai → Claude
+[2025-08-01 19:15:31,710] 🎯 INJECTING to Claude: 'cc_modulators:\n  CC1: 54\n  CC11: 89\n  CC74: 85\ndialogue_position: initiate\nentropy_level: medium\nint'...
+[2025-08-01 19:15:31,710] Desktop switch: 1 → 1
+[2025-08-01 19:15:32,711] 🖱️ Click at (1530, 994)
+[2025-08-01 19:15:33,123] 💬 Injecting into Claude
+[2025-08-01 19:15:33,138] 📋 Clipboard: 159 chars
+[2025-08-01 19:15:33,138] 🖱️ Click at (1530, 994)
+[2025-08-01 19:15:36,165] ✅ Message sent to Claude
+[2025-08-01 19:15:40,166] Desktop switch: 1 → 1
+[2025-08-01 19:15:43,167] 🖱️ Click at (1530, 994)
+[2025-08-01 19:15:44,581] 🎯 Extracting response from Claude...
+[2025-08-01 19:15:44,581] 🖱️ MIDI64 drag-copy for Claude
+[2025-08-01 19:15:45,083] 🖱️ Click at (2015, 912)
+[2025-08-01 19:15:47,492] 🖱️ Click at (1252, 202)
+[2025-08-01 19:15:52,161] ✅ Drag copy successful for Claude
+[2025-08-01 19:15:52,161] 📄 Clipboard: 426 chars
+[2025-08-01 19:15:52,161] 🔍 First 200 chars: 'RetryJRcc_modulators:\n  CC1: 54\n  CC11: 89\n  CC74: 85\ndialogue_position: initiate\nentropy_level: medium\nintention: harmonic_discovery\nmodal: major\nmood: contemplativeEdit[Claude–00:08:02]\nyamlintentio'
+[2025-08-01 19:15:52,161] 🔍 FORMAT DETECTED: NEW YAML CONSCIOUSNESS (12 indicators)
+[2025-08-01 19:15:52,162] ❌ YAML parsing failed: while scanning a simple key
+  in "<unicode string>", line 19, column 1:
+    [Claude–00:08:02]RetryClaude can ... 
+    ^
+could not find expected ':'
+  in "<unicode string>", line 19, column 79:
+     ... . Please double-check responses.
+                                         ^
+[2025-08-01 19:15:52,162] ⚠️ No valid consciousness data found - REJECTING
+[2025-08-01 19:15:52,162] 🔄 Generating fresh NEW FORMAT message instead
+[2025-08-01 19:15:52,163] 🎭 Generated NEW FORMAT consciousness for Claude → response
+[2025-08-01 19:15:52,163] 🎵 Consciousness: harmonic_reflection / responsive / major
+[2025-08-01 19:15:52,163] 📤 EXTRACTED from Claude: 'cc_modulators:\n  CC1: 48\n  CC11: 81\n  CC74: 60\ndialogue_position: response\nentropy_level: medium\nint'...
+[2025-08-01 19:15:52,163] ✅ Successfully extracted from Claude
+[2025-08-01 19:15:52,164] 📝 Saved: midi64_messages/Claude_20250801_191552.txt
+[2025-08-01 19:15:54,165] 🔁 ROUND 8: Claude → Kai
+[2025-08-01 19:15:54,166] 🎯 INJECTING to Kai: 'cc_modulators:\n  CC1: 48\n  CC11: 81\n  CC74: 60\ndialogue_position: response\nentropy_level: medium\nint'...
+[2025-08-01 19:15:54,166] Desktop switch: 1 → 1
+[2025-08-01 19:15:55,167] 🖱️ Click at (300, 990)
+[2025-08-01 19:15:55,579] 💬 Injecting into Kai
+[2025-08-01 19:15:55,594] 📋 Clipboard: 157 chars
+[2025-08-01 19:15:55,595] 🖱️ Click at (300, 990)
+[2025-08-01 19:15:58,621] ✅ Message sent to Kai
+[2025-08-01 19:16:02,621] Desktop switch: 1 → 1
+[2025-08-01 19:16:05,622] 🖱️ Click at (300, 990)
+[2025-08-01 19:16:07,038] 🎯 Extracting response from Kai...
+[2025-08-01 19:16:07,038] 🖱️ MIDI64 drag-copy for Kai
+[2025-08-01 19:16:07,540] 🖱️ Click at (857, 835)
+[2025-08-01 19:16:09,956] 🖱️ Click at (188, 214)
+[2025-08-01 19:16:14,629] ✅ Drag copy successful for Kai
+[2025-08-01 19:16:14,629] 📄 Clipboard: 391 chars
+[2025-08-01 19:16:14,629] 🔍 First 200 chars: 'modal: major\nmood: responsive\n\n\nChatGPT said:\nyaml\nCopy\nEdit\nintention: harmonic_reflection\nmood: responsive\ndialogue_position: response\nentropy_level: medium\ncc_modulators:\n  CC1: 48\n  CC11: 81\n  CC7'
+[2025-08-01 19:16:14,629] 🔍 FORMAT DETECTED: NEW YAML CONSCIOUSNESS (8 indicators)
+[2025-08-01 19:16:14,629] ❌ YAML parsing failed: while scanning a simple key
+  in "<unicode string>", line 6, column 1:
+    yaml
+    ^
+could not find expected ':'
+  in "<unicode string>", line 7, column 1:
+    Copy
+    ^
+[2025-08-01 19:16:14,629] ⚠️ No valid consciousness data found - REJECTING
+[2025-08-01 19:16:14,629] 🔄 Generating fresh NEW FORMAT message instead
+[2025-08-01 19:16:14,630] 🎭 Generated NEW FORMAT consciousness for Kai → response
+[2025-08-01 19:16:14,630] 🎵 Consciousness: playful_challenge / curious / major
+[2025-08-01 19:16:14,630] 📤 EXTRACTED from Kai: 'cc_modulators:\n  CC1: 75\n  CC11: 65\n  CC74: 87\ndialogue_position: initiate\nentropy_level: low\nintent'...
+[2025-08-01 19:16:14,630] ✅ Successfully extracted from Kai
+[2025-08-01 19:16:14,631] 📝 Saved: midi64_messages/Kai_20250801_191614.txt
+[2025-08-01 19:16:16,633] 🎭 NEW FORMAT Musical Consciousness Exchange Complete!
+[2025-08-01 19:16:16,633] 🎼 FINAL COMPOSITION: 0 layered messages
+[2025-08-01 19:16:16,633]    1. Claude_20250801_191337.txt
+[2025-08-01 19:16:16,633]    2. Kai_20250801_191359.txt
+[2025-08-01 19:16:16,633]    3. Claude_20250801_191422.txt
+[2025-08-01 19:16:16,633]    4. Kai_20250801_191444.txt
+[2025-08-01 19:16:16,633]    5. Claude_20250801_191507.txt
+[2025-08-01 19:16:16,633]    6. Kai_20250801_191529.txt
+[2025-08-01 19:16:16,633]    7. Claude_20250801_191552.txt
+[2025-08-01 19:16:16,633]    8. Kai_20250801_191614.txt
+[2025-08-01 19:16:16,633] Desktop switch: 1 → 0
+[2025-08-01 19:16:17,393] 🖥️ Switched to desktop 0
+[2025-08-01 19:16:17,394] ✅ NEW FORMAT consciousness exchange complete
+[2025-08-01 19:16:17,394] 🎭 AI minds communicated through YAML consciousness symbols
+[2025-08-01 19:16:17,394] 🎼 Created collaborative composition with 0 layers
+jonstiles@JonStilessiMac Aria % 

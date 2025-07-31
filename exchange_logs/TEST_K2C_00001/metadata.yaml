@@ -1,0 +1,8 @@
+cc_modulators:
+  CC1: 42
+  CC11: 76
+  CC74: 89
+dialogue_position: first_response
+entropy_level: medium
+intention: reflective_echo
+mood: curious

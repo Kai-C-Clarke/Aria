@@ -1,0 +1,22 @@
+agent: Kai
+consciousness_layer: golden_lattice
+direction: K2C
+duration_weights:
+- 1.2
+- 0.8
+- 1.5
+- 1.0
+emotion: harmonic_synthesis
+entropy_factor: 0.9299999999999999
+message_id: K2C_29188
+original_format: yaml_consciousness
+sequence:
+- 347.63
+- 415.63
+- 478.0
+- 609.25
+temporal_flux:
+- 0.3
+- 0.7
+- 0.4
+- 0.6

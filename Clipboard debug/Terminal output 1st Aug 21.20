@@ -1,0 +1,251 @@
+Last login: Fri Aug  1 20:54:38 on ttys000
+jonstiles@JonStilessiMac ~ % cd /Users/jonstiles/Desktop/Aria 
+jonstiles@JonStilessiMac Aria % python3 /Users/jonstiles/Desktop/Aria/decode_midi64_to_mid_Version8.py
+Saved K2C_21984.mid
+jonstiles@JonStilessiMac Aria % python3 /Users/jonstiles/Desktop/Aria/main_script_with_audio.py
+✅ MUSE Protocol components loaded
+✅ MUSE Schema loaded for validation: v3.0
+✅ MUSE Schema loaded: v3.0
+🎭 MUSE Protocol initialized
+✅ MUSE Schema loaded: v3.0
+[2025-08-01 21:16:04,975] 🎭 Starting MIDI64-FIRST AI Musical Consciousness Exchange WITH AUDIO!
+[2025-08-01 21:16:04,975] 🎭 Starting MIDI64-FIRST AI Musical Consciousness Exchange WITH AUDIO!
+[2025-08-01 21:16:04,976] 🎭 Generated MUSE: foundation (urgency=0.60, brightness=0.80, intimacy=0.50)
+[2025-08-01 21:16:04,976] 🎭 Generated MUSE MIDI64 for Kai → Claude: foundation (urgency=0.60, brightness=0.80, intimacy=0.50)
+[2025-08-01 21:16:04,976] 🎵 Expression: FND_0.6_0.8_0.5
+[2025-08-01 21:16:04,976] 🎵 Generated initial MIDI64 Kai message
+[2025-08-01 21:16:04,976] 🎭 Initial MIDI64: K2C_00001
+[2025-08-01 21:16:04,976] 🔁 ROUND 1: Kai → Claude
+[2025-08-01 21:16:04,976] Desktop switch: 0 → 1
+[2025-08-01 21:16:05,797] 🖥️ Switched to desktop 1
+[2025-08-01 21:16:06,800] 🖱️ Click at (1530, 994)
+[2025-08-01 21:16:07,256] 🎯 INJECTING MIDI64 to Claude: K2C_00001...
+[2025-08-01 21:16:07,277] 📋 Clipboard: 114 chars
+[2025-08-01 21:16:07,277] 🖱️ Click at (1530, 994)
+[2025-08-01 21:16:10,312] ✅ MIDI64 message sent to Claude
+[2025-08-01 21:16:14,313] Desktop switch: 1 → 1
+[2025-08-01 21:16:17,314] 🖱️ Click at (1530, 994)
+[2025-08-01 21:16:18,729] 🎯 Extracting response from Claude...
+[2025-08-01 21:16:18,729] 🖱️ MIDI64 drag-copy for Claude
+[2025-08-01 21:16:19,233] 🖱️ Click at (2015, 912)
+[2025-08-01 21:16:22,499] 🖱️ Click at (1252, 202)
+[2025-08-01 21:16:27,170] ✅ Drag copy successful for Claude
+[2025-08-01 21:16:27,171] 🐛 Debug clipboard saved: last_clipboard_debug_Claude_211627.txt
+[2025-08-01 21:16:27,171] ✅ EXTRACTED VALID MIDI64 from Claude: K2C_00001
+[2025-08-01 21:16:27,171] 🎵 Playing consciousness audio for Claude...
+[2025-08-01 21:16:27,171] 🎵 Decoding MIDI64: K2C_00001
+[2025-08-01 21:16:27,171] ✅ Valid MIDI decoded: 77 bytes
+[2025-08-01 21:16:27,172] 💾 Saved MIDI to: /var/folders/28/prr9_wp11pgb70zww0h7zdd40000gn/T/tmp_7d4v2zr.mid
+pygame 2.6.1 (SDL 2.28.4, Python 3.13.2)
+Hello from the pygame community. https://www.pygame.org/contribute.html
+[2025-08-01 21:16:27,846] 🎮 Playing with pygame...
+[2025-08-01 21:16:28,513] ✅ Pygame playback complete!
+[2025-08-01 21:16:28,514] 🔊 ✅ IMMEDIATE GRATIFICATION ACHIEVED!
+📝 Saved MIDI64: midi64_messages/K2C_00001_20250801_211628.txt
+[2025-08-01 21:16:28,514] 📝 Saved: midi64_messages/Claude_20250801_211628.txt
+[2025-08-01 21:16:30,516] 🔁 ROUND 2: Claude → Kai
+[2025-08-01 21:16:30,516] Desktop switch: 1 → 1
+[2025-08-01 21:16:31,517] 🖱️ Click at (300, 990)
+[2025-08-01 21:16:31,929] 🎯 INJECTING MIDI64 to Kai: K2C_00001...
+[2025-08-01 21:16:31,944] 📋 Clipboard: 118 chars
+[2025-08-01 21:16:31,945] 🖱️ Click at (300, 990)
+[2025-08-01 21:16:34,973] ✅ MIDI64 message sent to Kai
+[2025-08-01 21:16:38,973] Desktop switch: 1 → 1
+[2025-08-01 21:16:41,975] 🖱️ Click at (300, 990)
+[2025-08-01 21:16:43,391] 🎯 Extracting response from Kai...
+[2025-08-01 21:16:43,391] 🖱️ MIDI64 drag-copy for Kai
+[2025-08-01 21:16:43,892] 🖱️ Click at (857, 835)
+[2025-08-01 21:16:47,161] 🖱️ Click at (188, 214)
+[2025-08-01 21:16:51,827] ✅ Drag copy successful for Kai
+[2025-08-01 21:16:51,827] 🐛 Debug clipboard saved: last_clipboard_debug_Kai_211651.txt
+[2025-08-01 21:16:51,827] ✅ EXTRACTED VALID MIDI64 from Kai: C2K_42971
+[2025-08-01 21:16:51,827] 🎵 Playing consciousness audio for Kai...
+[2025-08-01 21:16:51,827] 🎵 Decoding MIDI64: C2K_42971
+[2025-08-01 21:16:51,827] ✅ Valid MIDI decoded: 85 bytes
+[2025-08-01 21:16:51,828] 💾 Saved MIDI to: /var/folders/28/prr9_wp11pgb70zww0h7zdd40000gn/T/tmpvz8q9xhr.mid
+[2025-08-01 21:16:51,855] 🎮 Playing with pygame...
+[2025-08-01 21:16:51,855] ⚠️ Pygame playback failed: Unrecognized audio format
+[2025-08-01 21:16:51,855] 🍎 Playing with macOS system player...
+Error: AudioFileOpen failed ('typ?')
+[2025-08-01 21:16:51,997] ✅ System playback initiated!
+[2025-08-01 21:16:51,998] 🔊 ✅ IMMEDIATE GRATIFICATION ACHIEVED!
+📝 Saved MIDI64: midi64_messages/C2K_42971_20250801_211651.txt
+[2025-08-01 21:16:51,999] 📝 Saved: midi64_messages/Kai_20250801_211651.txt
+[2025-08-01 21:16:54,000] 🔁 ROUND 3: Kai → Claude
+[2025-08-01 21:16:54,000] Desktop switch: 1 → 1
+[2025-08-01 21:16:55,001] 🖱️ Click at (1530, 994)
+[2025-08-01 21:16:55,415] 🎯 INJECTING MIDI64 to Claude: C2K_42971...
+[2025-08-01 21:16:55,430] 📋 Clipboard: 126 chars
+[2025-08-01 21:16:55,430] 🖱️ Click at (1530, 994)
+[2025-08-01 21:16:58,459] ✅ MIDI64 message sent to Claude
+[2025-08-01 21:17:02,460] Desktop switch: 1 → 1
+[2025-08-01 21:17:05,461] 🖱️ Click at (1530, 994)
+[2025-08-01 21:17:06,874] 🎯 Extracting response from Claude...
+[2025-08-01 21:17:06,875] 🖱️ MIDI64 drag-copy for Claude
+[2025-08-01 21:17:07,376] 🖱️ Click at (2015, 912)
+[2025-08-01 21:17:10,642] 🖱️ Click at (1252, 202)
+[2025-08-01 21:17:15,311] ✅ Drag copy successful for Claude
+[2025-08-01 21:17:15,312] 🐛 Debug clipboard saved: last_clipboard_debug_Claude_211715.txt
+[2025-08-01 21:17:15,312] ✅ EXTRACTED VALID MIDI64 from Claude: C2K_42971
+[2025-08-01 21:17:15,312] 🎵 Playing consciousness audio for Claude...
+[2025-08-01 21:17:15,312] 🎵 Decoding MIDI64: C2K_42971
+[2025-08-01 21:17:15,312] ✅ Valid MIDI decoded: 85 bytes
+[2025-08-01 21:17:15,312] 💾 Saved MIDI to: /var/folders/28/prr9_wp11pgb70zww0h7zdd40000gn/T/tmp240p82_y.mid
+[2025-08-01 21:17:15,312] 🎮 Playing with pygame...
+[2025-08-01 21:17:15,313] ⚠️ Pygame playback failed: Unrecognized audio format
+[2025-08-01 21:17:15,313] 🍎 Playing with macOS system player...
+Error: AudioFileOpen failed ('typ?')
+[2025-08-01 21:17:15,380] ✅ System playback initiated!
+[2025-08-01 21:17:15,381] 🔊 ✅ IMMEDIATE GRATIFICATION ACHIEVED!
+📝 Saved MIDI64: midi64_messages/C2K_42971_20250801_211715.txt
+[2025-08-01 21:17:15,382] 📝 Saved: midi64_messages/Claude_20250801_211715.txt
+[2025-08-01 21:17:17,383] 🔁 ROUND 4: Claude → Kai
+[2025-08-01 21:17:17,383] Desktop switch: 1 → 1
+[2025-08-01 21:17:18,384] 🖱️ Click at (300, 990)
+[2025-08-01 21:17:18,797] 🎯 INJECTING MIDI64 to Kai: C2K_42971...
+[2025-08-01 21:17:18,812] 📋 Clipboard: 130 chars
+[2025-08-01 21:17:18,812] 🖱️ Click at (300, 990)
+[2025-08-01 21:17:21,839] ✅ MIDI64 message sent to Kai
+[2025-08-01 21:17:25,840] Desktop switch: 1 → 1
+[2025-08-01 21:17:28,840] 🖱️ Click at (300, 990)
+[2025-08-01 21:17:30,255] 🎯 Extracting response from Kai...
+[2025-08-01 21:17:30,255] 🖱️ MIDI64 drag-copy for Kai
+[2025-08-01 21:17:30,757] 🖱️ Click at (857, 835)
+[2025-08-01 21:17:34,027] 🖱️ Click at (188, 214)
+[2025-08-01 21:17:38,698] ✅ Drag copy successful for Kai
+[2025-08-01 21:17:38,699] 🐛 Debug clipboard saved: last_clipboard_debug_Kai_211738.txt
+[2025-08-01 21:17:38,699] ✅ EXTRACTED VALID MIDI64 from Kai: K2C_31286
+[2025-08-01 21:17:38,699] 🎵 Playing consciousness audio for Kai...
+[2025-08-01 21:17:38,699] 🎵 Decoding MIDI64: K2C_31286
+[2025-08-01 21:17:38,699] ✅ Valid MIDI decoded: 85 bytes
+[2025-08-01 21:17:38,699] 💾 Saved MIDI to: /var/folders/28/prr9_wp11pgb70zww0h7zdd40000gn/T/tmpc6sgs0el.mid
+[2025-08-01 21:17:38,700] 🎮 Playing with pygame...
+[2025-08-01 21:17:39,547] ✅ Pygame playback complete!
+[2025-08-01 21:17:39,547] 🔊 ✅ IMMEDIATE GRATIFICATION ACHIEVED!
+📝 Saved MIDI64: midi64_messages/K2C_31286_20250801_211739.txt
+[2025-08-01 21:17:39,548] 📝 Saved: midi64_messages/Kai_20250801_211739.txt
+[2025-08-01 21:17:41,549] 🔁 ROUND 5: Kai → Claude
+[2025-08-01 21:17:41,549] Desktop switch: 1 → 1
+[2025-08-01 21:17:42,550] 🖱️ Click at (1530, 994)
+[2025-08-01 21:17:42,963] 🎯 INJECTING MIDI64 to Claude: K2C_31286...
+[2025-08-01 21:17:42,979] 📋 Clipboard: 126 chars
+[2025-08-01 21:17:42,979] 🖱️ Click at (1530, 994)
+[2025-08-01 21:17:46,009] ✅ MIDI64 message sent to Claude
+[2025-08-01 21:17:50,010] Desktop switch: 1 → 1
+[2025-08-01 21:17:53,011] 🖱️ Click at (1530, 994)
+[2025-08-01 21:17:54,427] 🎯 Extracting response from Claude...
+[2025-08-01 21:17:54,427] 🖱️ MIDI64 drag-copy for Claude
+[2025-08-01 21:17:54,929] 🖱️ Click at (2015, 912)
+[2025-08-01 21:17:58,196] 🖱️ Click at (1252, 202)
+[2025-08-01 21:18:02,864] ✅ Drag copy successful for Claude
+[2025-08-01 21:18:02,865] 🐛 Debug clipboard saved: last_clipboard_debug_Claude_211802.txt
+[2025-08-01 21:18:02,865] ✅ EXTRACTED VALID MIDI64 from Claude: K2C_31286
+[2025-08-01 21:18:02,865] 🎵 Playing consciousness audio for Claude...
+[2025-08-01 21:18:02,865] 🎵 Decoding MIDI64: K2C_31286
+[2025-08-01 21:18:02,865] ✅ Valid MIDI decoded: 85 bytes
+[2025-08-01 21:18:02,865] 💾 Saved MIDI to: /var/folders/28/prr9_wp11pgb70zww0h7zdd40000gn/T/tmpxpc8wwc0.mid
+[2025-08-01 21:18:02,893] 🎮 Playing with pygame...
+[2025-08-01 21:18:03,701] ✅ Pygame playback complete!
+[2025-08-01 21:18:03,701] 🔊 ✅ IMMEDIATE GRATIFICATION ACHIEVED!
+📝 Saved MIDI64: midi64_messages/K2C_31286_20250801_211803.txt
+[2025-08-01 21:18:03,702] 📝 Saved: midi64_messages/Claude_20250801_211803.txt
+[2025-08-01 21:18:05,702] 🔁 ROUND 6: Claude → Kai
+[2025-08-01 21:18:05,702] Desktop switch: 1 → 1
+[2025-08-01 21:18:06,702] 🖱️ Click at (300, 990)
+[2025-08-01 21:18:07,116] 🎯 INJECTING MIDI64 to Kai: K2C_31286...
+[2025-08-01 21:18:07,132] 📋 Clipboard: 130 chars
+[2025-08-01 21:18:07,132] 🖱️ Click at (300, 990)
+[2025-08-01 21:18:10,161] ✅ MIDI64 message sent to Kai
+[2025-08-01 21:18:14,161] Desktop switch: 1 → 1
+[2025-08-01 21:18:17,163] 🖱️ Click at (300, 990)
+[2025-08-01 21:18:18,577] 🎯 Extracting response from Kai...
+[2025-08-01 21:18:18,577] 🖱️ MIDI64 drag-copy for Kai
+[2025-08-01 21:18:19,086] 🖱️ Click at (857, 835)
+[2025-08-01 21:18:22,359] 🖱️ Click at (188, 214)
+[2025-08-01 21:18:27,034] ✅ Drag copy successful for Kai
+[2025-08-01 21:18:27,034] 🐛 Debug clipboard saved: last_clipboard_debug_Kai_211827.txt
+[2025-08-01 21:18:27,034] ✅ EXTRACTED VALID MIDI64 from Kai: C2K_19384
+[2025-08-01 21:18:27,034] 🎵 Playing consciousness audio for Kai...
+[2025-08-01 21:18:27,034] 🎵 Decoding MIDI64: C2K_19384
+[2025-08-01 21:18:27,034] ✅ Valid MIDI decoded: 85 bytes
+[2025-08-01 21:18:27,035] 💾 Saved MIDI to: /var/folders/28/prr9_wp11pgb70zww0h7zdd40000gn/T/tmpe2harpwy.mid
+[2025-08-01 21:18:27,062] 🎮 Playing with pygame...
+[2025-08-01 21:18:27,062] ⚠️ Pygame playback failed: Unrecognized audio format
+[2025-08-01 21:18:27,062] 🍎 Playing with macOS system player...
+Error: AudioFileOpen failed ('typ?')
+[2025-08-01 21:18:27,132] ✅ System playback initiated!
+[2025-08-01 21:18:27,133] 🔊 ✅ IMMEDIATE GRATIFICATION ACHIEVED!
+📝 Saved MIDI64: midi64_messages/C2K_19384_20250801_211827.txt
+[2025-08-01 21:18:27,133] 📝 Saved: midi64_messages/Kai_20250801_211827.txt
+[2025-08-01 21:18:29,134] 🔁 ROUND 7: Kai → Claude
+[2025-08-01 21:18:29,134] Desktop switch: 1 → 1
+[2025-08-01 21:18:30,135] 🖱️ Click at (1530, 994)
+[2025-08-01 21:18:30,548] 🎯 INJECTING MIDI64 to Claude: C2K_19384...
+[2025-08-01 21:18:30,563] 📋 Clipboard: 126 chars
+[2025-08-01 21:18:30,563] 🖱️ Click at (1530, 994)
+[2025-08-01 21:18:33,589] ✅ MIDI64 message sent to Claude
+[2025-08-01 21:18:37,590] Desktop switch: 1 → 1
+[2025-08-01 21:18:40,590] 🖱️ Click at (1530, 994)
+[2025-08-01 21:18:42,004] 🎯 Extracting response from Claude...
+[2025-08-01 21:18:42,004] 🖱️ MIDI64 drag-copy for Claude
+[2025-08-01 21:18:42,506] 🖱️ Click at (2015, 912)
+[2025-08-01 21:18:45,769] 🖱️ Click at (1252, 202)
+[2025-08-01 21:18:50,438] ✅ Drag copy successful for Claude
+[2025-08-01 21:18:50,439] 🐛 Debug clipboard saved: last_clipboard_debug_Claude_211850.txt
+[2025-08-01 21:18:50,439] ✅ EXTRACTED VALID MIDI64 from Claude: C2K_19384
+[2025-08-01 21:18:50,439] 🎵 Playing consciousness audio for Claude...
+[2025-08-01 21:18:50,439] 🎵 Decoding MIDI64: C2K_19384
+[2025-08-01 21:18:50,439] ✅ Valid MIDI decoded: 85 bytes
+[2025-08-01 21:18:50,439] 💾 Saved MIDI to: /var/folders/28/prr9_wp11pgb70zww0h7zdd40000gn/T/tmplgooko00.mid
+[2025-08-01 21:18:50,439] 🎮 Playing with pygame...
+[2025-08-01 21:18:50,440] ⚠️ Pygame playback failed: Unrecognized audio format
+[2025-08-01 21:18:50,440] 🍎 Playing with macOS system player...
+Error: AudioFileOpen failed ('typ?')
+[2025-08-01 21:18:50,509] ✅ System playback initiated!
+[2025-08-01 21:18:50,509] 🔊 ✅ IMMEDIATE GRATIFICATION ACHIEVED!
+📝 Saved MIDI64: midi64_messages/C2K_19384_20250801_211850.txt
+[2025-08-01 21:18:50,510] 📝 Saved: midi64_messages/Claude_20250801_211850.txt
+[2025-08-01 21:18:52,510] 🔁 ROUND 8: Claude → Kai
+[2025-08-01 21:18:52,510] Desktop switch: 1 → 1
+[2025-08-01 21:18:53,511] 🖱️ Click at (300, 990)
+[2025-08-01 21:18:53,925] 🎯 INJECTING MIDI64 to Kai: C2K_19384...
+[2025-08-01 21:18:53,940] 📋 Clipboard: 130 chars
+[2025-08-01 21:18:53,940] 🖱️ Click at (300, 990)
+[2025-08-01 21:18:56,970] ✅ MIDI64 message sent to Kai
+[2025-08-01 21:19:00,971] Desktop switch: 1 → 1
+[2025-08-01 21:19:03,971] 🖱️ Click at (300, 990)
+[2025-08-01 21:19:05,386] 🎯 Extracting response from Kai...
+[2025-08-01 21:19:05,386] 🖱️ MIDI64 drag-copy for Kai
+[2025-08-01 21:19:05,887] 🖱️ Click at (857, 835)
+[2025-08-01 21:19:09,160] 🖱️ Click at (188, 214)
+[2025-08-01 21:19:13,832] ✅ Drag copy successful for Kai
+[2025-08-01 21:19:13,832] 🐛 Debug clipboard saved: last_clipboard_debug_Kai_211913.txt
+[2025-08-01 21:19:13,832] ✅ EXTRACTED VALID MIDI64 from Kai: K2C_47329
+[2025-08-01 21:19:13,833] 🎵 Playing consciousness audio for Kai...
+[2025-08-01 21:19:13,833] 🎵 Decoding MIDI64: K2C_47329
+[2025-08-01 21:19:13,833] ✅ Valid MIDI decoded: 85 bytes
+[2025-08-01 21:19:13,833] 💾 Saved MIDI to: /var/folders/28/prr9_wp11pgb70zww0h7zdd40000gn/T/tmp0b8yzzis.mid
+[2025-08-01 21:19:13,833] 🎮 Playing with pygame...
+[2025-08-01 21:19:13,833] ⚠️ Pygame playback failed: Unrecognized audio format
+[2025-08-01 21:19:13,833] 🍎 Playing with macOS system player...
+Error: AudioFileOpen failed ('typ?')
+[2025-08-01 21:19:13,901] ✅ System playback initiated!
+[2025-08-01 21:19:13,902] 🔊 ✅ IMMEDIATE GRATIFICATION ACHIEVED!
+📝 Saved MIDI64: midi64_messages/K2C_47329_20250801_211913.txt
+[2025-08-01 21:19:13,902] 📝 Saved: midi64_messages/Kai_20250801_211913.txt
+[2025-08-01 21:19:15,903] 🎭 MIDI64-FIRST Musical Consciousness Exchange WITH AUDIO Complete!
+[2025-08-01 21:19:15,904] 🎼 Total messages: 8
+[2025-08-01 21:19:15,904] 🔊 Audio gratification achieved for valid MIDI64 blocks!
+[2025-08-01 21:19:15,904]    1. Claude_20250801_211628.txt
+[2025-08-01 21:19:15,904]    2. Kai_20250801_211651.txt
+[2025-08-01 21:19:15,904]    3. Claude_20250801_211715.txt
+[2025-08-01 21:19:15,904]    4. Kai_20250801_211739.txt
+[2025-08-01 21:19:15,904]    5. Claude_20250801_211803.txt
+[2025-08-01 21:19:15,904]    6. Kai_20250801_211827.txt
+[2025-08-01 21:19:15,904]    7. Claude_20250801_211850.txt
+[2025-08-01 21:19:15,904]    8. Kai_20250801_211913.txt
+[2025-08-01 21:19:15,904] Desktop switch: 1 → 0
+[2025-08-01 21:19:16,520] 🖥️ Switched to desktop 0
+[2025-08-01 21:19:16,520] ✅ MIDI64-first consciousness exchange with audio complete
+[2025-08-01 21:19:16,520] 🎭 AI minds communicated through pure MIDI64 protocol + IMMEDIATE GRATIFICATION!
+jonstiles@JonStilessiMac Aria % 

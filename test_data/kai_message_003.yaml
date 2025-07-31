@@ -1,0 +1,12 @@
+agent: Kai
+intent: Expressive melodic phrase with sustained clarinet warmth
+message_id: KAI_003
+phrase_style:
+  chord_density: legato
+  note_length_bias: 1.4
+  velocity_range:
+  - 75
+  - 105
+response_to: null
+time_signature: 4/4
+voice_profile: Kai

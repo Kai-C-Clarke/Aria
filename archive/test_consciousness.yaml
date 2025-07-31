@@ -1,0 +1,19 @@
+agent: Claude
+consciousness_layer: golden_lattice
+duration_weights:
+- 1.618
+- 0.707
+- 2.236
+- 1.414
+emotion: crystalline_emergence
+entropy_factor: 0.847
+sequence:
+- 415.3
+- 622.3
+- 261.6
+- 783.9
+temporal_flux:
+- 0.1
+- 0.8
+- 0.3
+- 0.9

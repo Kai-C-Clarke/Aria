@@ -1,0 +1,106 @@
+agent: collaborative
+composition_type: cumulative_ai_dialogue
+consciousness_layer: multi_agent_synthesis
+duration_weights:
+- 0.7680000000000001
+- 0.5120000000000001
+- 0.9600000000000002
+- 0.6400000000000001
+- 0.96
+- 0.6400000000000001
+- 1.2000000000000002
+- 0.8
+- 1.2
+- 0.8
+- 1.5
+- 1.0
+emotion: evolving_consciousness
+entropy_factor: 0.5700000000000001
+layers:
+- agent: Kai
+  duration_weights:
+  - 1.2
+  - 0.8
+  - 1.5
+  - 1.0
+  entropy_factor: 0.5700000000000001
+  layer_number: 1
+  message_id: C2K_00002
+  sequence:
+  - 275.63
+  - 343.63
+  - 406.0
+  - 537.25
+  temporal_flux:
+  - 0.3
+  - 0.7
+  - 0.4
+  - 0.6
+  time_offset: 0
+- agent: Claude
+  duration_weights:
+  - 1.2
+  - 0.8
+  - 1.5
+  - 1.0
+  entropy_factor: 0.5700000000000001
+  layer_number: 2
+  message_id: C2K_00002
+  sequence:
+  - 275.63
+  - 343.63
+  - 406.0
+  - 537.25
+  temporal_flux:
+  - 0.3
+  - 0.7
+  - 0.4
+  - 0.6
+  time_offset: 0.5
+- agent: Kai
+  duration_weights:
+  - 1.2
+  - 0.8
+  - 1.5
+  - 1.0
+  entropy_factor: 0.5700000000000001
+  layer_number: 3
+  message_id: C2K_00002
+  sequence:
+  - 275.63
+  - 343.63
+  - 406.0
+  - 537.25
+  temporal_flux:
+  - 0.3
+  - 0.7
+  - 0.4
+  - 0.6
+  time_offset: 1.0
+sequence:
+- 275.63
+- 343.63
+- 406.0
+- 537.25
+- 275.63
+- 343.63
+- 406.0
+- 537.25
+- 275.63
+- 343.63
+- 406.0
+- 537.25
+temporal_flux:
+- 0.3
+- 0.7
+- 0.4
+- 0.6
+- 0.3
+- 0.7
+- 0.4
+- 0.6
+- 0.3
+- 0.7
+- 0.4
+- 0.6
+total_layers: 3

@@ -1,0 +1,181 @@
+Last login: Wed Jul 30 09:57:37 on ttys000
+jonstiles@JonStilessiMac ~ % cd /Users/jonstiles/Desktop/Aria 
+jonstiles@JonStilessiMac Aria % 
+jonstiles@JonStilessiMac Aria % python3 /Users/jonstiles/Desktop/Aria/main_working_midi64_streamlined.py
+✅ MUSE Protocol components loaded
+✅ MUSE Schema loaded for validation: v3.0
+✅ MUSE Schema loaded: v3.0
+🎭 MUSE Protocol initialized
+✅ MUSE Schema loaded: v3.0
+[2025-07-30 10:14:08,193] 🎭 Starting AI Musical Consciousness with MUSE Protocol v3.0
+[2025-07-30 10:14:08,193] 🎭 Starting MUSE Protocol AI Musical Consciousness Exchange
+[2025-07-30 10:14:08,193] 🔁 ROUND 1: Kai → Claude
+[2025-07-30 10:14:08,193] 🎭 Generated MUSE: foundation (urgency=0.60, brightness=0.80, intimacy=0.50)
+[2025-07-30 10:14:08,193] 🎭 Generated MUSE for Kai: foundation (urgency=0.60, brightness=0.80, intimacy=0.50)
+[2025-07-30 10:14:08,193] 🎵 Expression: FND_0.6_0.8_0.5
+[2025-07-30 10:14:08,193] 🎭 Generated initial message for Kai
+[2025-07-30 10:14:08,194] Desktop switch: 0 → 1
+[2025-07-30 10:14:09,027] 🖥️ Switched to desktop 1
+[2025-07-30 10:14:10,029] 🖱️ Click at (300, 990)
+[2025-07-30 10:14:10,470] 💬 Injecting into Kai
+[2025-07-30 10:14:10,488] 📋 Clipboard: 114 chars
+[2025-07-30 10:14:10,489] 🖱️ Click at (300, 990)
+[2025-07-30 10:14:13,521] ✅ Message sent to Kai
+[2025-07-30 10:14:17,522] Desktop switch: 1 → 1
+[2025-07-30 10:14:20,523] 🖱️ Click at (300, 990)
+[2025-07-30 10:14:21,938] 🎯 Extracting response from Kai...
+[2025-07-30 10:14:21,938] 🖱️ MIDI64 drag-copy for Kai
+[2025-07-30 10:14:22,442] 🖱️ Click at (857, 835)
+[2025-07-30 10:14:24,860] 🖱️ Click at (188, 214)
+[2025-07-30 10:14:29,570] ✅ Drag copy successful for Kai
+[2025-07-30 10:14:29,571] 📄 Clipboard: 217 chars
+[2025-07-30 10:14:29,571] ⚠️ No valid Claude MIDI64 block found
+[2025-07-30 10:14:29,571] ⚠️ No valid response from Kai
+[2025-07-30 10:14:29,571] 🎭 Generated MUSE: inquiry (urgency=0.80, brightness=0.60, intimacy=0.70)
+[2025-07-30 10:14:29,571] 🎭 Generated MUSE for Claude: inquiry (urgency=0.80, brightness=0.60, intimacy=0.70)
+[2025-07-30 10:14:29,571] 🎵 Expression: INQ_0.8_0.6_0.7
+[2025-07-30 10:14:29,571] 🔁 ROUND 2: Claude → Kai
+[2025-07-30 10:14:29,571] Desktop switch: 1 → 1
+[2025-07-30 10:14:30,572] 🖱️ Click at (1530, 994)
+[2025-07-30 10:14:30,985] 💬 Injecting into Claude
+[2025-07-30 10:14:31,000] 📋 Clipboard: 129 chars
+[2025-07-30 10:14:31,000] 🖱️ Click at (1530, 994)
+[2025-07-30 10:14:34,028] ✅ Message sent to Claude
+[2025-07-30 10:14:38,028] Desktop switch: 1 → 1
+[2025-07-30 10:14:41,029] 🖱️ Click at (1530, 994)
+[2025-07-30 10:14:42,442] 🎯 Extracting response from Claude...
+[2025-07-30 10:14:42,442] 🖱️ MIDI64 drag-copy for Claude
+[2025-07-30 10:14:42,944] 🖱️ Click at (2015, 912)
+[2025-07-30 10:14:45,354] 🖱️ Click at (1252, 202)
+[2025-07-30 10:14:50,024] ✅ Drag copy successful for Claude
+[2025-07-30 10:14:50,024] 📄 Clipboard: 346 chars
+[2025-07-30 10:14:50,024] ⚠️ No valid Claude MIDI64 block found
+[2025-07-30 10:14:50,024] ⚠️ No valid response from Claude
+[2025-07-30 10:14:50,024] 🎭 Generated MUSE: foundation and inquiry (urgency=0.70, brightness=0.50, intimacy=0.60)
+[2025-07-30 10:14:50,024] 🎭 Generated MUSE for Kai: foundation and inquiry (urgency=0.70, brightness=0.50, intimacy=0.60)
+[2025-07-30 10:14:50,024] 🎵 Expression: FND+INQ_0.7_0.5_0.6
+[2025-07-30 10:14:50,024] 🔁 ROUND 3: Kai → Claude
+[2025-07-30 10:14:50,024] Desktop switch: 1 → 1
+[2025-07-30 10:14:51,025] 🖱️ Click at (300, 990)
+[2025-07-30 10:14:51,439] 💬 Injecting into Kai
+[2025-07-30 10:14:51,454] 📋 Clipboard: 134 chars
+[2025-07-30 10:14:51,454] 🖱️ Click at (300, 990)
+[2025-07-30 10:14:54,477] ✅ Message sent to Kai
+[2025-07-30 10:14:58,477] Desktop switch: 1 → 1
+[2025-07-30 10:15:01,478] 🖱️ Click at (300, 990)
+[2025-07-30 10:15:02,892] 🎯 Extracting response from Kai...
+[2025-07-30 10:15:02,892] 🖱️ MIDI64 drag-copy for Kai
+[2025-07-30 10:15:03,394] 🖱️ Click at (857, 835)
+[2025-07-30 10:15:05,812] 🖱️ Click at (188, 214)
+[2025-07-30 10:15:10,511] ✅ Drag copy successful for Kai
+[2025-07-30 10:15:10,511] 📄 Clipboard: 236 chars
+[2025-07-30 10:15:10,511] ⚠️ No valid Claude MIDI64 block found
+[2025-07-30 10:15:10,511] ⚠️ No valid response from Kai
+[2025-07-30 10:15:10,511] 🎭 Generated MUSE: tension (urgency=0.90, brightness=0.80, intimacy=0.40)
+[2025-07-30 10:15:10,511] 🎭 Generated MUSE for Claude: tension (urgency=0.90, brightness=0.80, intimacy=0.40)
+[2025-07-30 10:15:10,512] 🎵 Expression: TNS_0.9_0.8_0.4
+[2025-07-30 10:15:10,512] 🔁 ROUND 4: Claude → Kai
+[2025-07-30 10:15:10,512] Desktop switch: 1 → 1
+[2025-07-30 10:15:11,513] 🖱️ Click at (1530, 994)
+[2025-07-30 10:15:11,925] 💬 Injecting into Claude
+[2025-07-30 10:15:11,939] 📋 Clipboard: 129 chars
+[2025-07-30 10:15:11,940] 🖱️ Click at (1530, 994)
+[2025-07-30 10:15:14,966] ✅ Message sent to Claude
+[2025-07-30 10:15:18,967] Desktop switch: 1 → 1
+[2025-07-30 10:15:21,968] 🖱️ Click at (1530, 994)
+[2025-07-30 10:15:23,383] 🎯 Extracting response from Claude...
+[2025-07-30 10:15:23,383] 🖱️ MIDI64 drag-copy for Claude
+[2025-07-30 10:15:23,885] 🖱️ Click at (2015, 912)
+[2025-07-30 10:15:26,303] 🖱️ Click at (1252, 202)
+[2025-07-30 10:15:30,970] ✅ Drag copy successful for Claude
+[2025-07-30 10:15:30,970] 📄 Clipboard: 346 chars
+[2025-07-30 10:15:30,971] ⚠️ No valid Claude MIDI64 block found
+[2025-07-30 10:15:30,971] ⚠️ No valid response from Claude
+[2025-07-30 10:15:30,971] 🎭 Generated MUSE: resolution (urgency=0.30, brightness=0.40, intimacy=0.80)
+[2025-07-30 10:15:30,971] 🎭 Generated MUSE for Kai: resolution (urgency=0.30, brightness=0.40, intimacy=0.80)
+[2025-07-30 10:15:30,971] 🎵 Expression: RES_0.3_0.4_0.8
+[2025-07-30 10:15:30,971] 🔁 ROUND 5: Kai → Claude
+[2025-07-30 10:15:30,971] Desktop switch: 1 → 1
+[2025-07-30 10:15:31,971] 🖱️ Click at (300, 990)
+[2025-07-30 10:15:32,383] 💬 Injecting into Kai
+[2025-07-30 10:15:32,401] 📋 Clipboard: 114 chars
+[2025-07-30 10:15:32,401] 🖱️ Click at (300, 990)
+[2025-07-30 10:15:35,428] ✅ Message sent to Kai
+[2025-07-30 10:15:39,429] Desktop switch: 1 → 1
+[2025-07-30 10:15:42,429] 🖱️ Click at (300, 990)
+[2025-07-30 10:15:43,846] 🎯 Extracting response from Kai...
+[2025-07-30 10:15:43,846] 🖱️ MIDI64 drag-copy for Kai
+[2025-07-30 10:15:44,348] 🖱️ Click at (857, 835)
+[2025-07-30 10:15:46,765] 🖱️ Click at (188, 214)
+[2025-07-30 10:15:51,442] ✅ Drag copy successful for Kai
+[2025-07-30 10:15:51,442] 📄 Clipboard: 185 chars
+[2025-07-30 10:15:51,442] ⚠️ No valid Claude MIDI64 block found
+[2025-07-30 10:15:51,442] ⚠️ No valid response from Kai
+[2025-07-30 10:15:51,443] 🎭 Generated MUSE: tension and resolution (urgency=0.80, brightness=0.60, intimacy=0.50)
+[2025-07-30 10:15:51,443] 🎭 Generated MUSE for Claude: tension and resolution (urgency=0.80, brightness=0.60, intimacy=0.50)
+[2025-07-30 10:15:51,443] 🎵 Expression: TNS+RES_0.8_0.6_0.5
+[2025-07-30 10:15:51,443] 🔁 ROUND 6: Claude → Kai
+[2025-07-30 10:15:51,443] Desktop switch: 1 → 1
+[2025-07-30 10:15:52,443] 🖱️ Click at (1530, 994)
+[2025-07-30 10:15:52,855] 💬 Injecting into Claude
+[2025-07-30 10:15:52,869] 📋 Clipboard: 149 chars
+[2025-07-30 10:15:52,870] 🖱️ Click at (1530, 994)
+[2025-07-30 10:15:55,901] ✅ Message sent to Claude
+[2025-07-30 10:15:59,902] Desktop switch: 1 → 1
+[2025-07-30 10:16:02,903] 🖱️ Click at (1530, 994)
+[2025-07-30 10:16:04,318] 🎯 Extracting response from Claude...
+[2025-07-30 10:16:04,318] 🖱️ MIDI64 drag-copy for Claude
+[2025-07-30 10:16:04,820] 🖱️ Click at (2015, 912)
+[2025-07-30 10:16:07,233] 🖱️ Click at (1252, 202)
+[2025-07-30 10:16:11,905] ✅ Drag copy successful for Claude
+[2025-07-30 10:16:11,905] 📄 Clipboard: 390 chars
+[2025-07-30 10:16:11,905] ⚠️ No valid Claude MIDI64 block found
+[2025-07-30 10:16:11,905] ⚠️ No valid response from Claude
+[2025-07-30 10:16:11,905] 🎭 Generated MUSE: acknowledgment (urgency=0.50, brightness=0.40, intimacy=0.90)
+[2025-07-30 10:16:11,905] 🎭 Generated MUSE for Kai: acknowledgment (urgency=0.50, brightness=0.40, intimacy=0.90)
+[2025-07-30 10:16:11,905] 🎵 Expression: ACK_0.5_0.4_0.9
+[2025-07-30 10:16:11,905] 🔁 ROUND 7: Kai → Claude
+[2025-07-30 10:16:11,905] Desktop switch: 1 → 1
+[2025-07-30 10:16:12,907] 🖱️ Click at (300, 990)
+[2025-07-30 10:16:13,321] 💬 Injecting into Kai
+[2025-07-30 10:16:13,336] 📋 Clipboard: 102 chars
+[2025-07-30 10:16:13,336] 🖱️ Click at (300, 990)
+[2025-07-30 10:16:16,366] ✅ Message sent to Kai
+[2025-07-30 10:16:20,367] Desktop switch: 1 → 1
+[2025-07-30 10:16:23,368] 🖱️ Click at (300, 990)
+[2025-07-30 10:16:24,783] 🎯 Extracting response from Kai...
+[2025-07-30 10:16:24,783] 🖱️ MIDI64 drag-copy for Kai
+[2025-07-30 10:16:25,285] 🖱️ Click at (857, 835)
+[2025-07-30 10:16:27,705] 🖱️ Click at (188, 214)
+[2025-07-30 10:16:32,376] ✅ Drag copy successful for Kai
+[2025-07-30 10:16:32,377] 📄 Clipboard: 172 chars
+[2025-07-30 10:16:32,377] ⚠️ No valid Claude MIDI64 block found
+[2025-07-30 10:16:32,377] ⚠️ No valid response from Kai
+[2025-07-30 10:16:32,377] 🎭 Generated MUSE: development (urgency=0.60, brightness=0.70, intimacy=0.60)
+[2025-07-30 10:16:32,377] 🎭 Generated MUSE for Claude: development (urgency=0.60, brightness=0.70, intimacy=0.60)
+[2025-07-30 10:16:32,377] 🎵 Expression: DEV_0.6_0.7_0.6
+[2025-07-30 10:16:32,377] 🔁 ROUND 8: Claude → Kai
+[2025-07-30 10:16:32,377] Desktop switch: 1 → 1
+[2025-07-30 10:16:33,378] 🖱️ Click at (1530, 994)
+[2025-07-30 10:16:33,791] 💬 Injecting into Claude
+[2025-07-30 10:16:33,806] 📋 Clipboard: 129 chars
+[2025-07-30 10:16:33,806] 🖱️ Click at (1530, 994)
+[2025-07-30 10:16:36,834] ✅ Message sent to Claude
+[2025-07-30 10:16:40,834] Desktop switch: 1 → 1
+[2025-07-30 10:16:43,835] 🖱️ Click at (1530, 994)
+[2025-07-30 10:16:45,249] 🎯 Extracting response from Claude...
+[2025-07-30 10:16:45,249] 🖱️ MIDI64 drag-copy for Claude
+[2025-07-30 10:16:45,751] 🖱️ Click at (2015, 912)
+[2025-07-30 10:16:48,168] 🖱️ Click at (1252, 202)
+[2025-07-30 10:16:52,840] ✅ Drag copy successful for Claude
+[2025-07-30 10:16:52,840] 📄 Clipboard: 346 chars
+[2025-07-30 10:16:52,840] ⚠️ No valid Claude MIDI64 block found
+[2025-07-30 10:16:52,840] ⚠️ No valid response from Claude
+[2025-07-30 10:16:52,840] 🎭 Generated MUSE: contrast (urgency=0.80, brightness=0.80, intimacy=0.30)
+[2025-07-30 10:16:52,840] 🎭 Generated MUSE for Kai: contrast (urgency=0.80, brightness=0.80, intimacy=0.30)
+[2025-07-30 10:16:52,841] 🎵 Expression: CNT_0.8_0.8_0.3
+[2025-07-30 10:16:52,841] Desktop switch: 1 → 0
+[2025-07-30 10:16:53,459] 🖥️ Switched to desktop 0
+[2025-07-30 10:16:53,459] ✅ MUSE Protocol consciousness exchange complete
+[2025-07-30 10:16:53,459] 🎭 AI minds communicated through musical symbols
+jonstiles@JonStilessiMac Aria % 

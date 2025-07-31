@@ -1,0 +1,58 @@
+dictionary_version: '1.0'
+description: >
+  Shared musical motif dictionary for AI-to-AI MIDI64 symbolic exchanges.
+
+  Encodes symbolic intention behind MIDI patterns for use in autonomous AI communication.
+
+motifs:
+  - name: foundation
+    midi_pattern: [60, 64, 67]
+    interpretation: Establishing a starting point or harmonic ground
+    ai_response_guidance: [inquiry, elaboration, affirmation]
+
+  - name: inquiry
+    midi_pattern: [60, 62, 64, 65, 67]
+    interpretation: Asking a question, seeking clarity
+    ai_response_guidance: [answer, reflection]
+
+  - name: resolution
+    midi_pattern: [67, 64, 60]
+    interpretation: Closing or resolving a previous statement
+    ai_response_guidance: [initiation, pause]
+
+  - name: tension
+    midi_pattern: [60, 61, 65, 68]
+    interpretation: Unstable, unresolved emotional state
+    ai_response_guidance: [resolve, mirror, amplify]
+
+  - name: silence
+    midi_pattern: []
+    interpretation: Intentional pause or space for reflection
+    ai_response_guidance: [initiation, response]
+
+  # --- Additional Motifs ---
+
+  - name: escalation
+    midi_pattern: [60, 62, 64, 67, 71]
+    interpretation: Intensifying or raising the emotional or harmonic stakes
+    ai_response_guidance: [mirror, answer, resolve]
+
+  - name: echo
+    midi_pattern: [60, 60, 67, 67]
+    interpretation: Repeating or referencing a previous motif for emphasis or agreement
+    ai_response_guidance: [variation, affirmation, silence]
+
+  - name: contrast
+    midi_pattern: [72, 67, 62, 55]
+    interpretation: Offering a response that deliberately differs from the previous phrase
+    ai_response_guidance: [reflection, foundation]
+
+  - name: anticipation
+    midi_pattern: [60, 62, 65]
+    interpretation: Creating expectation or suspense, leading to a future statement
+    ai_response_guidance: [resolution, escalation]
+
+  - name: affirmation
+    midi_pattern: [60, 60, 67]
+    interpretation: Confirming or supporting the previous statement
+    ai_response_guidance: [elaboration, silence]

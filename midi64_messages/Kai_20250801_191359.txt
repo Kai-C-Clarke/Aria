@@ -1,0 +1,11 @@
+cc_modulators:
+  CC1: 74
+  CC11: 84
+  CC74: 62
+dialogue_position: initiate
+entropy_level: high
+intention: harmonic_discovery
+modal: dorian
+mood: contemplative
+
+# Interpretation: Consciousness: harmonic_discovery / contemplative / dorian / initiate

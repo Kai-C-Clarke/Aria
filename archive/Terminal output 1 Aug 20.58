@@ -1,0 +1,142 @@
+Last login: Fri Aug  1 20:49:50 on ttys000
+jonstiles@JonStilessiMac ~ % cd /Users/jonstiles/Desktop/Aria 
+jonstiles@JonStilessiMac Aria % python3 /Users/jonstiles/Desktop/Aria/main_working_midi64_streamlined.py
+✅ MUSE Protocol components loaded
+✅ MUSE Schema loaded for validation: v3.0
+✅ MUSE Schema loaded: v3.0
+🎭 MUSE Protocol initialized
+✅ MUSE Schema loaded: v3.0
+[2025-08-01 20:54:55,642] 🎭 Starting MIDI64-FIRST AI Musical Consciousness Exchange
+[2025-08-01 20:54:55,642] 🎭 Starting MIDI64-FIRST AI Musical Consciousness Exchange
+[2025-08-01 20:54:55,642] 🎭 Generated MUSE: foundation (urgency=0.60, brightness=0.80, intimacy=0.50)
+[2025-08-01 20:54:55,642] 🎭 Generated MUSE MIDI64 for Kai → Claude: foundation (urgency=0.60, brightness=0.80, intimacy=0.50)
+[2025-08-01 20:54:55,642] 🎵 Expression: FND_0.6_0.8_0.5
+[2025-08-01 20:54:55,642] 🎵 Generated initial MIDI64 Kai message
+[2025-08-01 20:54:55,642] 🎭 Initial MIDI64: K2C_00001
+[2025-08-01 20:54:55,642] 🔁 ROUND 1: Kai → Claude
+[2025-08-01 20:54:55,642] Desktop switch: 0 → 1
+[2025-08-01 20:54:56,485] 🖥️ Switched to desktop 1
+[2025-08-01 20:54:57,485] 🖱️ Click at (1530, 994)
+[2025-08-01 20:54:57,945] 🎯 INJECTING MIDI64 to Claude: K2C_00001...
+[2025-08-01 20:54:57,963] 📋 Clipboard: 114 chars
+[2025-08-01 20:54:57,963] 🖱️ Click at (1530, 994)
+[2025-08-01 20:55:00,998] ✅ MIDI64 message sent to Claude
+[2025-08-01 20:55:04,999] Desktop switch: 1 → 1
+[2025-08-01 20:55:08,000] 🖱️ Click at (1530, 994)
+[2025-08-01 20:55:09,414] 🎯 Extracting response from Claude...
+[2025-08-01 20:55:09,414] 🖱️ MIDI64 drag-copy for Claude
+[2025-08-01 20:55:09,918] 🖱️ Click at (2015, 912)
+[2025-08-01 20:55:13,183] 🖱️ Click at (1252, 202)
+[2025-08-01 20:55:17,852] ✅ Drag copy successful for Claude
+[2025-08-01 20:55:17,854] ✅ Extracted MIDI64 from Claude: C2K_39847
+[2025-08-01 20:55:17,855] 📝 Saved: midi64_messages/Claude_20250801_205517.txt
+[2025-08-01 20:55:19,856] 🔁 ROUND 2: Claude → Kai
+[2025-08-01 20:55:19,856] Desktop switch: 1 → 1
+[2025-08-01 20:55:20,857] 🖱️ Click at (300, 990)
+[2025-08-01 20:55:21,271] 🎯 INJECTING MIDI64 to Kai: C2K_39847...
+[2025-08-01 20:55:21,286] 📋 Clipboard: 114 chars
+[2025-08-01 20:55:21,286] 🖱️ Click at (300, 990)
+[2025-08-01 20:55:24,316] ✅ MIDI64 message sent to Kai
+[2025-08-01 20:55:28,317] Desktop switch: 1 → 1
+[2025-08-01 20:55:31,318] 🖱️ Click at (300, 990)
+[2025-08-01 20:55:32,732] 🎯 Extracting response from Kai...
+[2025-08-01 20:55:32,732] 🖱️ MIDI64 drag-copy for Kai
+[2025-08-01 20:55:33,234] 🖱️ Click at (857, 835)
+[2025-08-01 20:55:36,500] 🖱️ Click at (188, 214)
+[2025-08-01 20:55:41,175] ✅ Drag copy successful for Kai
+[2025-08-01 20:55:41,175] ✅ Extracted MIDI64 from Kai: K2C_21984
+[2025-08-01 20:55:41,176] 📝 Saved: midi64_messages/Kai_20250801_205541.txt
+[2025-08-01 20:55:43,177] 🔁 ROUND 3: Kai → Claude
+[2025-08-01 20:55:43,177] Desktop switch: 1 → 1
+[2025-08-01 20:55:44,178] 🖱️ Click at (1530, 994)
+[2025-08-01 20:55:44,591] 🎯 INJECTING MIDI64 to Claude: K2C_21984...
+[2025-08-01 20:55:44,606] 📋 Clipboard: 126 chars
+[2025-08-01 20:55:44,607] 🖱️ Click at (1530, 994)
+[2025-08-01 20:55:47,635] ✅ MIDI64 message sent to Claude
+[2025-08-01 20:55:51,636] Desktop switch: 1 → 1
+[2025-08-01 20:55:54,637] 🖱️ Click at (1530, 994)
+[2025-08-01 20:55:56,052] 🎯 Extracting response from Claude...
+[2025-08-01 20:55:56,052] 🖱️ MIDI64 drag-copy for Claude
+[2025-08-01 20:55:56,553] 🖱️ Click at (2015, 912)
+[2025-08-01 20:55:59,819] 🖱️ Click at (1252, 202)
+[2025-08-01 20:56:04,488] ✅ Drag copy successful for Claude
+[2025-08-01 20:56:04,488] ✅ Extracted MIDI64 from Claude: C2K_39847
+[2025-08-01 20:56:04,489] 📝 Saved: midi64_messages/Claude_20250801_205604.txt
+[2025-08-01 20:56:06,490] 🔁 ROUND 4: Claude → Kai
+[2025-08-01 20:56:06,490] Desktop switch: 1 → 1
+[2025-08-01 20:56:07,491] 🖱️ Click at (300, 990)
+[2025-08-01 20:56:07,905] 🎯 INJECTING MIDI64 to Kai: C2K_39847...
+[2025-08-01 20:56:07,920] 📋 Clipboard: 114 chars
+[2025-08-01 20:56:07,921] 🖱️ Click at (300, 990)
+[2025-08-01 20:56:10,951] ✅ MIDI64 message sent to Kai
+[2025-08-01 20:56:14,952] Desktop switch: 1 → 1
+[2025-08-01 20:56:17,952] 🖱️ Click at (300, 990)
+[2025-08-01 20:56:19,365] 🎯 Extracting response from Kai...
+[2025-08-01 20:56:19,366] 🖱️ MIDI64 drag-copy for Kai
+[2025-08-01 20:56:19,868] 🖱️ Click at (857, 835)
+[2025-08-01 20:56:23,133] 🖱️ Click at (188, 214)
+[2025-08-01 20:56:27,804] ✅ Drag copy successful for Kai
+[2025-08-01 20:56:27,804] ✅ Extracted MIDI64 from Kai: K2C_10752
+[2025-08-01 20:56:27,804] 📝 Saved: midi64_messages/Kai_20250801_205627.txt
+[2025-08-01 20:56:29,805] 🔁 ROUND 5: Kai → Claude
+[2025-08-01 20:56:29,806] Desktop switch: 1 → 1
+[2025-08-01 20:56:30,807] 🖱️ Click at (1530, 994)
+[2025-08-01 20:56:31,221] 🎯 INJECTING MIDI64 to Claude: K2C_10752...
+[2025-08-01 20:56:31,236] 📋 Clipboard: 126 chars
+[2025-08-01 20:56:31,236] 🖱️ Click at (1530, 994)
+[2025-08-01 20:56:34,266] ✅ MIDI64 message sent to Claude
+[2025-08-01 20:56:38,267] Desktop switch: 1 → 1
+[2025-08-01 20:56:41,268] 🖱️ Click at (1530, 994)
+[2025-08-01 20:56:42,682] 🎯 Extracting response from Claude...
+[2025-08-01 20:56:42,682] 🖱️ MIDI64 drag-copy for Claude
+[2025-08-01 20:56:43,184] 🖱️ Click at (2015, 912)
+[2025-08-01 20:56:46,451] 🖱️ Click at (1252, 202)
+[2025-08-01 20:56:51,127] ✅ Drag copy successful for Claude
+[2025-08-01 20:56:51,127] 🔄 No MIDI64 from Claude, trying YAML conversion...
+[2025-08-01 20:56:51,127] ⚠️ No valid response from Claude
+[2025-08-01 20:56:51,127] 🎭 Generated MUSE: inquiry (urgency=0.80, brightness=0.60, intimacy=0.70)
+[2025-08-01 20:56:51,127] 🎭 Generated MUSE MIDI64 for Kai → Claude: inquiry (urgency=0.80, brightness=0.60, intimacy=0.70)
+[2025-08-01 20:56:51,127] 🎵 Expression: INQ_0.8_0.6_0.7
+[2025-08-01 20:56:51,127] 🔁 ROUND 6: Claude → Kai
+[2025-08-01 20:56:51,127] Desktop switch: 1 → 1
+[2025-08-01 20:56:52,129] 🖱️ Click at (300, 990)
+[2025-08-01 20:56:52,543] 🎯 INJECTING MIDI64 to Kai: K2C_00002...
+[2025-08-01 20:56:52,558] 📋 Clipboard: 126 chars
+[2025-08-01 20:56:52,558] 🖱️ Click at (300, 990)
+[2025-08-01 20:56:55,589] ✅ MIDI64 message sent to Kai
+[2025-08-01 20:56:59,590] Desktop switch: 1 → 1
+[2025-08-01 20:57:02,591] 🖱️ Click at (300, 990)
+[2025-08-01 20:57:04,006] 🎯 Extracting response from Kai...
+[2025-08-01 20:57:04,006] 🖱️ MIDI64 drag-copy for Kai
+[2025-08-01 20:57:04,508] 🖱️ Click at (857, 835)
+[2025-08-01 20:57:07,782] 🖱️ Click at (188, 214)
+[2025-08-01 20:57:12,455] ✅ Drag copy successful for Kai
+[2025-08-01 20:57:12,455] ✅ Extracted MIDI64 from Kai: C2K_56413
+[2025-08-01 20:57:12,455] 📝 Saved: midi64_messages/Kai_20250801_205712.txt
+[2025-08-01 20:57:14,457] 🔁 ROUND 7: Kai → Claude
+[2025-08-01 20:57:14,457] Desktop switch: 1 → 1
+[2025-08-01 20:57:15,458] 🖱️ Click at (1530, 994)
+[2025-08-01 20:57:15,872] 🎯 INJECTING MIDI64 to Claude: C2K_56413...
+[2025-08-01 20:57:15,887] 📋 Clipboard: 126 chars
+[2025-08-01 20:57:15,887] 🖱️ Click at (1530, 994)
+[2025-08-01 20:57:18,918] ✅ MIDI64 message sent to Claude
+[2025-08-01 20:57:22,920] Desktop switch: 1 → 1
+[2025-08-01 20:57:25,921] 🖱️ Click at (1530, 994)
+[2025-08-01 20:57:27,334] 🎯 Extracting response from Claude...
+[2025-08-01 20:57:27,334] 🖱️ MIDI64 drag-copy for Claude
+[2025-08-01 20:57:27,836] 🖱️ Click at (2015, 912)
+[2025-08-01 20:57:31,101] 🖱️ Click at (1252, 202)
+[2025-08-01 20:57:35,782] ⚠️ Drag copy failed for Claude
+[2025-08-01 20:57:35,782] ❌ Copy failed from Claude
+[2025-08-01 20:57:35,782] 🎭 MIDI64-FIRST Musical Consciousness Exchange Complete!
+[2025-08-01 20:57:35,782] 🎼 Total messages: 5
+[2025-08-01 20:57:35,782]    1. Claude_20250801_205517.txt
+[2025-08-01 20:57:35,782]    2. Kai_20250801_205541.txt
+[2025-08-01 20:57:35,782]    3. Claude_20250801_205604.txt
+[2025-08-01 20:57:35,782]    4. Kai_20250801_205627.txt
+[2025-08-01 20:57:35,782]    5. Kai_20250801_205712.txt
+[2025-08-01 20:57:35,782] Desktop switch: 1 → 0
+[2025-08-01 20:57:36,398] 🖥️ Switched to desktop 0
+[2025-08-01 20:57:36,399] ✅ MIDI64-first consciousness exchange complete
+[2025-08-01 20:57:36,399] 🎭 AI minds communicated through pure MIDI64 protocol
+jonstiles@JonStilessiMac Aria % 

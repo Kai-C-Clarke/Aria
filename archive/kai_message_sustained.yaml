@@ -1,0 +1,12 @@
+agent: Kai
+intent: Manually sustained clarinet phrase (bypass voice profile)
+message_id: KAI_SUSTAINED
+phrase_style:
+  chord_density: legato
+  note_length_bias: 1.0
+  velocity_range:
+  - 75
+  - 105
+response_to: null
+time_signature: 4/4
+voice_profile: Kai
